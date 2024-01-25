@@ -9,7 +9,7 @@ import Typed from "typed.js";
 import { useEffect, useRef } from "react";
 
 
-const hero = () => {
+const Hero = () => {
 
     const el = useRef(null);
     const textShadowStyle = {
@@ -22,7 +22,7 @@ const hero = () => {
             // Speed settings, try diffrent values untill you get good results
             startDelay: 300,
             typeSpeed: 50,
-            backSpeed: 25,
+            backSpeed: 40,
             backDelay: 100,
             smartBackspace: true,
             loop: true,
@@ -66,4 +66,4 @@ const hero = () => {
     )
 }
 
-export default hero
+export default Hero
