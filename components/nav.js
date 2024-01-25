@@ -20,19 +20,19 @@ const nav = () => {
         variants={slideInFromTop}
       >
         <div className="flex justify-between">
-          <a href="#" className="text-white text-xl p-10" style={textShadowStyle}>
+          <a href="#" className="text-white text-xl p-10">
             Home
           </a>
-          <a href="#" className="text-white p-10 text-xl" style={textShadowStyle}>
+          <a href="#" className="text-white p-10 text-xl" >
             Contact
           </a>
-          <a href="#" className="text-green-500 text-3xl font-bold p-10" >
+          <a href="#" className="text-white text-2xl font-bold p-10" >
             Logo
           </a>
-          <a href="#" className="text-white p-10 text-xl" style={textShadowStyle}>
+          <a href="#" className="text-white p-10 text-xl" >
             Testimonials
           </a>
-          <a href="#" className="text-white p-10 text-xl" style={textShadowStyle}>
+          <a href="#" className="text-white p-10 text-xl" >
             About
           </a>
         </div>
