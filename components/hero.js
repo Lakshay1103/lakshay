@@ -51,23 +51,23 @@ const Hero = () => {
                 <Arrleft />
 
                 <motion.div
-                    className='flex justify-center align-center mt-20'
+                    className='flex justify-center align-center mt-24'
                     initial={{ opacity: 0, y: -20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.5, duration: 0.5, ease: "easeIn" }}
                 >
-                    <span ref={el} className='text-7xl text-white' style={textShadowStyle}></span>
+                    <span ref={el} className='text-6xl text-white' style={textShadowStyle}></span>
 
                 </motion.div>
 
                 <Arrright />
             </div>
 
-            <motion.div
+            {/* <motion.div
                 className='flex justify-center align-center mt-10'
                 initial="hidden"
                 animate="visible"
-            >
+            > */}
 
                 {/* <motion.h1 className='text-[40px] text-white'
                     variants={slideInFromBottom}
@@ -76,7 +76,7 @@ const Hero = () => {
 
                 </motion.h1> */}
 
-            </motion.div>
+            {/* </motion.div> */}
 
 
         </>
