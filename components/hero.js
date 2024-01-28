@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { motion } from "framer-motion"
-import { slideInFromTop, slideInFromLeft, slideInFromRight } from '../utils/motion'
+import { slideInFromTop, slideInFromLeft, slideInFromRight, slideInFromBottom } from '../utils/motion'
 import Arrleft from './arrleft'
 import Arrright from './arrright'
 import Typed from "typed.js";
@@ -14,7 +14,7 @@ const Hero = () => {
     const el = useRef(null);
     const textShadowStyle = {
         textShadow: '0 0 4px rgba(255, 255, 255, 1)',
-      };
+    };
 
     useEffect(() => {
         const typed = new Typed(el.current, {
@@ -62,6 +62,23 @@ const Hero = () => {
 
                 <Arrright />
             </div>
+
+            <motion.div
+                className='flex justify-center align-center mt-10'
+                initial="hidden"
+                animate="visible"
+            >
+
+                {/* <motion.h1 className='text-[40px] text-white'
+                    variants={slideInFromBottom}
+                >
+                    Unleash The Power of Marketing for
+
+                </motion.h1> */}
+
+            </motion.div>
+
+
         </>
     )
 }
