@@ -26,8 +26,8 @@ const nav = () => {
           <a href="#" className="text-white p-10 text-xl" >
             Contact
           </a>
-          <a href="#" className="text-white text-2xl font-bold p-10" >
-            Logo
+          <a href="#" className="text-white text-[25px] p-10 ">
+            LAKSHAY GOEL
           </a>
           <a href="#" className="text-white p-10 text-xl" >
             Testimonials
