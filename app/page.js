@@ -3,6 +3,7 @@ import Nav from "../components/nav";
 //import Hero from "../components/hero";
 import Logos from "../components/logos";
 import HeroNew from "../components/heroNew";
+import Steps from "../components/steps";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       {/* <Hero /> */}  
       <HeroNew />
       <Logos />
+      <Steps />
     </div>
 
   );
