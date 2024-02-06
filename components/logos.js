@@ -70,7 +70,7 @@ const Logos = () => {
                 transition={{ delay: 0.5, duration: 0.5, ease: "easeIn" }}
             >
 
-                <div className="w-3/4 bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400 text-white p-5">
+                <div className="w-3/4 bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400 text-white p-5 rounded-2xl">
                     <p className="text-[50px] text-center leading-[50px]">
                         Helping you become a BRAND via Content, Branding & Community Building.
                     </p>
