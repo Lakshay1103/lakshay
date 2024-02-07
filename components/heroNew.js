@@ -16,16 +16,36 @@ const heroNew = () => {
 
             <div className='flex flex-col items-center justify-center h-[500px]'>
 
-                <div className='text-white text-[58px] text-center font-extrabold'>Unleash The Power Of Marketing</div>
-                <div className='text-white text-[51px] text-center font-extrabold -mt-5'>For personal brands, creators</div>
+                <div className='text-white text-[48px] text-center font-extrabold'>Unleash The Power Of Marketing For</div>
+                {/* <div className='text-white text-[51px] text-center font-extrabold -mt-5'>For personal brands, creators</div> */}
+                <div className="text-rotate-wrap mt-5">
+                    <div
+                        style={{
+                            transform: "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
+                            opacity: 1,
+                            transformStyle: "preserve-3d",
+                            // marginTop:"60px;"
+                        }}
+                        className="text-rotate"
+                    >
+                        <div className="rotate-text">Personal Brands</div>
+                        <div className="rotate-text">Creators</div>
+                        <div className="rotate-text">Coaches</div>
+                        <div className="rotate-text">Founders</div>
+                        <div className="rotate-text">Agency Owners</div>
+                        <div className="rotate-text">Consultants</div>
+                    </div>
+                </div>
 
-                <div className='text-white text-2xl text-center font-normal w-2/3 mt-4'>Elevate your brand with our dynamic strategies in
+                <div className='text-white text-2xl text-center font-normal w-2/3 mt-4'>Elevate your brand with our dynamic strategies in<br />
                     <span className='font-bold'> Instagram marketing, A2Z YouTube management, and Tested Email Funnels.</span>
                 </div>
 
                 <button className="mt-6 bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400 text-white rounded-full p-2 px-10 shadow-md border-2 border-white bg-opacity-50 text-center">
                     EMBRACE THE EXTRAORDINARY
                 </button>
+
+                
 
             </div>
             
