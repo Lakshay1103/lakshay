@@ -204,14 +204,26 @@ div.marquee>a>img {
     opacity: 0;
 }
 
+.panel div {
+    opacity: 0;
+}
+
+.panel.active div {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+    
+}
+
+
 .panel.active {
     flex: 5;
 }
 
-.panel.active h3 {
+.panel.active h3{
     opacity: 1;
     transition: opacity 0.3s ease-in 0.4s;
 }
+
 
 @media (max-width: 480px) {
     .container {
