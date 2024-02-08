@@ -187,6 +187,7 @@ div.marquee>a>img {
     background-repeat: no-repeat;
     height: 80vh;
     border-radius: 50px;
+    border: 1px solid #fff;
     color: #fff;
     cursor: pointer;
     flex: 0.5;
@@ -208,10 +209,18 @@ div.marquee>a>img {
     opacity: 0;
 }
 
+.panel video{
+    opacity: 0;
+}
+
 .panel.active div {
     opacity: 1;
     transition: opacity 0.3s ease-in 0.4s;
-    
+}
+
+.panel.active video{
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
 }
 
 

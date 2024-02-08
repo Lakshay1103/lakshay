@@ -1,10 +1,7 @@
 "use client";
-
-import React, { useState, useEffect } from 'react';
-import ReactPlayer from 'react-player';
+import React, { useEffect } from 'react';
 
 const Cards = () => {
-
     useEffect(() => {
         const panels = document.querySelectorAll('.panel');
 
@@ -45,16 +42,20 @@ const Cards = () => {
                         </p>
                     </div>
                 </div>
-                <div className="panel" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1572276596237-5db2c3e16c5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')" }}>
+                <div className="panel" >
+                    <video className='video h-full w-full pb-10 px-10' loop controls>
+                        <source src="/videoplayback.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
                     <h3 className='panel-heading'>Anuj Kumar</h3>
                 </div>
-                <div className="panel" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80')" }}>
-                    <h3 className='panel-heading' >Sneha Arvind</h3>
-                </div>
-                <div className="panel" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80')" }}>
-                    <h3 className='panel-heading' >Sneha Arvind</h3>
-                </div>
+
+
                 <div className="panel">
+                    <video className='video h-full w-full pb-10 px-10' loop controls>
+                        <source src="/videoplayback.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
                     <h3 className='panel-heading'>Sneha Arvind</h3>
                 </div>
             </div>
