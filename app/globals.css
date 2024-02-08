@@ -72,16 +72,20 @@ div.marquee>a>img {
     }
 }
 
+/* TEXT ROTATE SECTION */
+
 
 .text-rotate-wrap {
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     visibility: inherit;
-    font-size: 16px; /* Adjust this to your base font size */
+    font-size: 16px;
+    /* Adjust this to your base font size */
     line-height: 1.5;
     text-align: center;
     box-sizing: border-box;
-    height: 60px; /* Adjust as needed */
+    height: 60px;
+    /* Adjust as needed */
     justify-content: center;
     align-items: flex-start;
     margin-bottom: 28px;
@@ -93,11 +97,13 @@ div.marquee>a>img {
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     visibility: inherit;
-    font-size: 16px; /* Adjust this to your base font size */
+    font-size: 16px;
+    /* Adjust this to your base font size */
     line-height: 1.5;
     text-align: center;
     box-sizing: border-box;
-    transform: translate3d(0px, -240px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); /* Adjust translateY value */
+    transform: translate3d(0px, -240px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    /* Adjust translateY value */
     opacity: 1;
     transform-style: preserve-3d;
 }
@@ -108,14 +114,16 @@ div.marquee>a>img {
     visibility: inherit;
     text-align: center;
     box-sizing: border-box;
-    min-height: 60px; /* Adjust as needed */
+    min-height: 60px;
+    /* Adjust as needed */
     color: #fff;
     justify-content: center;
     align-items: center;
     font-weight: 700;
     line-height: 1.2;
     display: flex;
-    font-size: 80px; /* Adjust as needed */
+    font-size: 80px;
+    /* Adjust as needed */
 }
 
 .text-rotate {
@@ -123,23 +131,95 @@ div.marquee>a>img {
 }
 
 @keyframes rotateAnimation {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateY(0);
     }
+
     14.285% {
-        transform: translateY(-120px); /* Adjust translateY value */
+        transform: translateY(-120px);
+        /* Adjust translateY value */
     }
+
     28.571% {
-        transform: translateY(-240px); /* Adjust translateY value */
+        transform: translateY(-240px);
+        /* Adjust translateY value */
     }
+
     42.856% {
-        transform: translateY(-360px); /* Adjust translateY value */
+        transform: translateY(-360px);
+        /* Adjust translateY value */
     }
+
     57.142% {
-        transform: translateY(-480px); /* Adjust translateY value */
+        transform: translateY(-480px);
+        /* Adjust translateY value */
     }
+
     71.428% {
-        transform: translateY(-600px); /* Adjust translateY value */
+        transform: translateY(-600px);
+        /* Adjust translateY value */
     }
-    
+
+}
+
+
+/* TESTIMONIAL CARDS SECTION */
+
+.cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 90vw;
+}
+
+.panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    -webkit-transition: all 700ms ease-in;
+}
+
+.panel h3 {
+    font-size: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+}
+
+.panel.active {
+    flex: 5;
+}
+
+.panel.active h3 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100vw;
+    }
+
+    .panel:nth-of-type(4),
+    .panel:nth-of-type(5) {
+        display: none;
+    }
 }

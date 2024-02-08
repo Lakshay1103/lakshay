@@ -4,6 +4,7 @@ import Nav from "../components/nav";
 import Logos from "../components/logos";
 import HeroNew from "../components/heroNew";
 import Steps from "../components/steps";
+import Cards from "../components/cards";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <HeroNew />
       <Logos />
       <Steps />
+      <Cards />
     </div>
 
   );
