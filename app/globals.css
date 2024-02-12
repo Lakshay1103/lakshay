@@ -171,21 +171,20 @@ div.marquee>a>img {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
     overflow: hidden;
-    margin: 0;
+    margin-top: 50px;
 }
 
 .container {
     display: flex;
-    width: 90vw;
+    width: 80vw;
 }
 
 .panel {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 90vh;
     border-radius: 50px;
     border: 1px solid #fff;
     color: #fff;
@@ -196,20 +195,25 @@ div.marquee>a>img {
     -webkit-transition: all 700ms ease-in;
 }
 
-.panel h3 {
+.avatar {
     font-size: 24px;
     position: absolute;
     bottom: 20px;
     left: 20px;
     margin: 0;
-    opacity: 0;
+    opacity: 1; /* Ensure the avatar image is always visible */
+}
+
+.panel.active .avatar h3 {
+    opacity: 1; /* Make h3 visible when panel is active */
+    transition: opacity 0.3s ease-in 0.4s;
 }
 
 .panel div {
     opacity: 0;
 }
 
-.panel video{
+.panel video {
     opacity: 0;
 }
 
@@ -218,20 +222,21 @@ div.marquee>a>img {
     transition: opacity 0.3s ease-in 0.4s;
 }
 
-.panel.active video{
+.panel.active video {
     opacity: 1;
     transition: opacity 0.3s ease-in 0.4s;
 }
-
 
 .panel.active {
     flex: 5;
 }
 
-.panel.active h3{
+.panel.active h3 {
     opacity: 1;
     transition: opacity 0.3s ease-in 0.4s;
 }
+
+
 
 
 @media (max-width: 480px) {
