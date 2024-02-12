@@ -50,10 +50,7 @@ const Cards = () => {
 
                 <div id="Anuj" className={`panel ${activePanel === 'Anuj' ? 'active' : ''}`} onClick={() => setActivePanel('Anuj')}>
                     {activePanel === 'Anuj' && (
-                        <video className='video h-full w-full p-10' autoPlay>
-                            <source src="/testimonials/anuj.mov" type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
+                        <iframe className="h-full w-full p-10 pb-20" src="https://www.youtube.com/embed/u31qwQUeGuM?si=TAixO8olDBGV1Xzk" title="Testimonials" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; allowfullscreen;" rel="0"></iframe>
                     )}
                     <div className="avatar flex items-center">
                         <img src="/testimonials/anuj.jpg" alt="Anuj" className='w-[50px] h-[50px] rounded-full mr-2' />
@@ -63,10 +60,7 @@ const Cards = () => {
 
                 <div id="Sneha" className={`panel ${activePanel === 'Sneha' ? 'active' : ''}`} onClick={() => setActivePanel('Sneha')}>
                     {activePanel === 'Sneha' && (
-                        <video className='video h-full w-full p-10' autoPlay>
-                            <source src="testimonials/sneha.mp4" type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
+                        <iframe className="h-full w-full p-10 pb-20" src="https://www.youtube-nocookie.com/embed/-FiWMouPpWM?si=4UrvMXvLMdMQv4Hi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     )}
                     <div className="avatar flex items-center">
                         <img src="/testimonials/sneha1.jpg" alt="Anuj" className='w-[50px] rounded-full mr-2' />
