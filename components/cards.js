@@ -50,7 +50,13 @@ const Cards = () => {
 
                 <div id="Anuj" className={`panel ${activePanel === 'Anuj' ? 'active' : ''}`} onClick={() => setActivePanel('Anuj')}>
                     {activePanel === 'Anuj' && (
-                        <iframe className="h-full w-full p-10 pb-20" src="https://www.youtube.com/embed/u31qwQUeGuM?si=TAixO8olDBGV1Xzk" title="Testimonials" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; allowfullscreen;" rel="0"></iframe>
+                        <iframe className="h-full w-full p-10 pb-20"
+                            src="https://www.youtube.com/embed/J9yD5UF629E?si=bce4DchHJf4aXang?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
+                            title="Plant a word"
+                            frameborder="0"
+                            allowfullscreen>
+
+                        </iframe>
                     )}
                     <div className="avatar flex items-center">
                         <img src="/testimonials/anuj.jpg" alt="Anuj" className='w-[50px] h-[50px] rounded-full mr-2' />
@@ -60,16 +66,19 @@ const Cards = () => {
 
                 <div id="Sneha" className={`panel ${activePanel === 'Sneha' ? 'active' : ''}`} onClick={() => setActivePanel('Sneha')}>
                     {activePanel === 'Sneha' && (
-                        <iframe className="h-full w-full p-10 pb-20" src="https://www.youtube-nocookie.com/embed/-FiWMouPpWM?si=4UrvMXvLMdMQv4Hi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe className="h-full w-full p-10 pb-20"
+                            src="https://www.youtube.com/embed/NXiBCsGdHHo?si=UVK7SsIDaGHXnSRY?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
+                            title="Plant a word"
+                            frameborder="0"
+                            allowfullscreen>
+
+                        </iframe>
                     )}
                     <div className="avatar flex items-center">
-                        <img src="/testimonials/sneha1.jpg" alt="Anuj" className='w-[50px] rounded-full mr-2' />
+                        <img src="/testimonials/sneha.jpg" alt="Anuj" className='w-[50px] rounded-full mr-2' />
                         <h3 className='panel-heading'>Sneha Arvind</h3>
                     </div>
                 </div>
-
-
-
 
             </div>
         </div>
