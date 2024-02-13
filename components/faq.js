@@ -7,7 +7,7 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
 export default function AccordionExpandIcon() {
     return (
-        <div className='flex flex-col justify-center items-center mt-20 rounded-lg'>
+        <div className='flex flex-col justify-center items-center mt-20'>
 
             <div className='text-center'>
             <h1 className='text-white text-[48px] font-bold m-0 p-0'>FAQs</h1>
@@ -16,16 +16,16 @@ export default function AccordionExpandIcon() {
 
             <div className='w-3/4 mt-10'>
                 <Accordion
-                    className='bg-gradient-to-r from-black to-gray-900 mb-5 rounded-lg'
-                    style={{ border: '2px solid #BAB2B2' }}
+                    className='bg-gradient-to-r from-black to-gray-900 mb-4'
                 >
                     <AccordionSummary
                         className=' rounded-lg p-3'
+                        style={{ border: '2px solid #BAB2B2' }}
                         expandIcon={<ArrowDropDownIcon style={{ color: 'white' }} />}
                         aria-controls="panel1-content"
                         id="panel1-header"
                     >
-                        <Typography className='font-bold text-white'>How can I determine if I am the right fit for you?</Typography>
+                        <Typography className='text-white'>How can I determine if I am the right fit for you?</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                         <Typography className='text-white'>
@@ -39,16 +39,16 @@ export default function AccordionExpandIcon() {
 
 
                 <Accordion
-                    className='bg-gradient-to-r from-black to-gray-900 text-white mb-5 rounded-lg'
-                    style={{ border: '2px solid #BAB2B2' }}
+                    className='bg-gradient-to-r from-black to-gray-900 mb-4'
                 >
                     <AccordionSummary
                         className=' rounded-lg p-3'
+                        style={{ border: '2px solid #BAB2B2' }}
                         expandIcon={<ArrowDropDownIcon style={{ color: 'white' }} />}
                         aria-controls="panel2-content"
                         id="panel2-header"
                     >
-                        <Typography className='font-bold text-white'>What sets apart my marketing strategies?</Typography>
+                        <Typography className='text-white'>What sets apart my marketing strategies?</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                         <Typography className='text-white'>
@@ -59,16 +59,16 @@ export default function AccordionExpandIcon() {
                 </Accordion>
 
                 <Accordion
-                    className='bg-gradient-to-r from-black to-gray-900 text-white mb-5 rounded-lg'
-                    style={{ border: '2px solid #BAB2B2' }}
+                    className='bg-gradient-to-r from-black to-gray-900  mb-4'
                 >
                     <AccordionSummary
                         className=' rounded-lg p-3'
+                        style={{ border: '2px solid #BAB2B2' }}
                         expandIcon={<ArrowDropDownIcon style={{ color: 'white' }} />}
                         aria-controls="panel2-content"
                         id="panel2-header"
                     >
-                        <Typography className='font-bold text-white'>What sets me apart?</Typography>
+                        <Typography className='text-white'>What sets me apart?</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                         <Typography className='text-white'>
@@ -80,16 +80,16 @@ export default function AccordionExpandIcon() {
                 </Accordion>
 
                 <Accordion
-                    className='bg-gradient-to-r from-black to-gray-900 text-white mb-5 rounded-lg'
-                    style={{ border: '2px solid #BAB2B2' }}
+                    className='bg-gradient-to-r from-black to-gray-900 mb-4'
                 >
                     <AccordionSummary
                         className=' rounded-lg p-3'
+                        style={{ border: '2px solid #BAB2B2' }}
                         expandIcon={<ArrowDropDownIcon style={{ color: 'white' }} />}
                         aria-controls="panel2-content"
                         id="panel2-header"
                     >
-                        <Typography className='font-bold text-white'>Is there a guarantee for my growth?</Typography>
+                        <Typography className='text-white'>Is there a guarantee for my growth?</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                         <Typography className='text-white'>
