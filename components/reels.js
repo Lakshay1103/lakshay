@@ -1,3 +1,4 @@
+
 import React from 'react'
 
 const reels = () => {
@@ -13,7 +14,7 @@ const reels = () => {
                 <div className="reels-container flex justify-between items-center w-11/12 p-6 ">
 
 
-                    <div className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-4 border-blue-600 border-blue-500 border-blue-400">
+                    <div className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-4 border-blue-600">
 
 
                         <div className='w-[300px] text-white font-normal flex items-center'>
@@ -38,7 +39,7 @@ const reels = () => {
 
                     </div>
 
-                    <div className="reel mt-20 flex flex-col justify-center items-center bg-[#252323] border-gradient border-4 border-blue-600 border-blue-500 border-blue-400">
+                    <div className="reel mt-20 flex flex-col justify-center items-center bg-[#252323] border-gradient border-4 border-blue-600">
 
 
                         <div className='w-[300px] text-white font-normal flex items-center'>
@@ -63,7 +64,7 @@ const reels = () => {
 
                     </div>
 
-                    <div className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-4 border-blue-600 border-blue-500 border-blue-400">
+                    <div className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-4 border-blue-600">
 
 
                         <div className='w-[300px] text-white font-normal flex items-center'>
@@ -104,7 +105,7 @@ const reels = () => {
                 <div className="reels-container flex justify-between items-center w-11/12 p-6 ">
 
 
-                    <div className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-4 border-blue-600 border-blue-500 border-blue-400">
+                    <div className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-4 border-blue-600">
 
 
                         <div className='w-[300px] text-white font-normal flex items-center mt-2'>
@@ -129,7 +130,7 @@ const reels = () => {
 
                     </div>
 
-                    <div className="reel mt-20 flex flex-col justify-center items-center bg-[#252323] border-gradient border-4 border-blue-600 border-blue-500 border-blue-400">
+                    <div className="reel mt-20 flex flex-col justify-center items-center bg-[#252323] border-gradient border-4 border-blue-600">
 
 
                         <div className='w-[300px] text-white font-normal flex items-center'>
@@ -154,7 +155,7 @@ const reels = () => {
 
                     </div>
 
-                    <div className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-4 border-blue-600 border-blue-500 border-blue-400">
+                    <div className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-4 border-blue-600">
 
 
                         <div className='w-[300px] mt-2 text-white font-normal flex items-center'>
@@ -200,7 +201,7 @@ const reels = () => {
                 <div className="reels-container flex justify-between items-center w-11/12 p-6 ">
 
 
-                    <div className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-4 border-blue-600 border-blue-500 border-blue-400">
+                    <div className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-4 border-blue-600">
 
 
                         <div className='w-[300px] text-white font-normal flex items-center mt-2'>
@@ -225,7 +226,7 @@ const reels = () => {
 
                     </div>
 
-                    <div className="reel mt-20 flex flex-col justify-center items-center bg-[#252323] border-gradient border-4 border-blue-600 border-blue-500 border-blue-400">
+                    <div className="reel mt-20 flex flex-col justify-center items-center bg-[#252323] border-gradient border-4 border-blue-600">
 
 
                         <div className='w-[300px] text-white font-normal flex items-center'>
@@ -250,7 +251,7 @@ const reels = () => {
 
                     </div>
 
-                    <div className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-4 border-blue-600 border-blue-500 border-blue-400">
+                    <div className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-4 border-blue-600">
 
 
                         <div className='w-[300px] mt-2 text-white font-normal flex items-center'>

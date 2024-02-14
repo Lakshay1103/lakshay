@@ -63,7 +63,7 @@ const Logos = () => {
 
             </motion.div>
 
-            <motion.div
+            {/* <motion.div
                 className='flex justify-center align-center mt-20'
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -77,7 +77,7 @@ const Logos = () => {
                 </div>
 
 
-            </motion.div>
+            </motion.div> */}
 
         </>
 
