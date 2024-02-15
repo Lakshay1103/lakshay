@@ -2,18 +2,11 @@ import React from 'react'
 
 const about = () => {
     return (
-        <div>
-
+        <div className='flex justify-center items-center mt-20'>    
             <iframe
-                title="Notion Page"
-                src="https://v2-embednotion.com/Hey-there-aecaac8f92114f1da34c77b40c497f5b"
-                width="80%"
-                height="600px"
-                frameborder="0"
-                allowfullscreen
+                src="https://3oqogyyeekg2mo.embednotionpage.com/About-Me-08db9a121a9f42ab97ee4d6362f9cd0b?no-scroll=true"
+                className="w-[80%] h-[1000px] border-4 border-[#32CD32] rounded-xl p-0"
             ></iframe>
-
-
         </div>
     )
 }
