@@ -16,11 +16,11 @@ const steps = () => {
         >
 
             <div className=' text-white text-[52px] text-center font-normal mt-24'>Our
-                <span className='text-[#32CD32]'>3-Step System</span> for Seamless <br /> Social Media Growth
+                <span className='text-[#32CD32]'> 3-Step System</span> for Seamless <br /> Social Media Growth
             </div>
 
             <div className='text-white text-xl text-center font-light'>
-                Unlock the potential of your social media journey with our <br /> proven system!
+                Unlock the potential of your social media <br /> journey with our proven system!
             </div>
 
             <div className='flex justify-between items-center w-3/5 mt-14 '>
