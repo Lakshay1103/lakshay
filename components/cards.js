@@ -24,7 +24,7 @@ const Cards = () => {
     }, []);
 
     return (
-        <div className='cards-container'>
+        <div id='testimonials' className='cards-container'>
             <div className="container">
                 <div
                     id="first"
