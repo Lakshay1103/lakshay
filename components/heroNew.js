@@ -8,7 +8,7 @@ const heroNew = () => {
     return (
 
         <motion.div
-            className="bg-cover bg-center h-[500px]" style={{ backgroundImage: "linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('/hero-bg.jpg')" }}
+            className="bg-cover bg-center h-[500px] mt-20" style={{ backgroundImage: "linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('/hero-bg.jpg')" }}
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.5, ease: "easeIn" }}
@@ -41,7 +41,7 @@ const heroNew = () => {
                     <span className='font-bold'> Instagram marketing, A2Z YouTube management, and Tested Email Funnels.</span>
                 </div>
 
-                <button className="mt-6 bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400 text-white rounded-full p-2 px-10 shadow-md border-2 border-white bg-opacity-50 text-center">
+                <button className="mt-6 bg-gradient-to-r from-transparent via-blue-700 via-blue-600 via-blue-500 to-blue-400 text-white text-lg rounded-full py-2 px-10 shadow-md border-2 border-white bg-opacity-50 text-center">
                     EMBRACE THE EXTRAORDINARY
                 </button>
 

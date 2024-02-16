@@ -14,20 +14,22 @@ const Nav = () => {
     <div className='fixed top-0 left-0 bg-transparent z-50 flex flex-col justify-center items-center w-full mt-2'>
       <motion.div initial='hidden' animate='visible' className='flex flex-row items-center justify-center'>
         <motion.nav className='flex justify-between items-center bg-black rounded-full' variants={slideInFromTop}>
-          <div className='flex justify-between items-center px-1 py-2'>
-            <Link to='home' smooth={true} duration={500} className='text-white text-xl p-2 mx-10'>
+          <div className='flex justify-between items-center py-2'>
+            <Link to='home' smooth={true} duration={500} className='text-white text-xl p-2 mr-10 ml-2' style={{ cursor: 'pointer' }}>
               Home
             </Link>
-            <Link to='about' smooth={true} duration={500} className='text-white text-xl p-2 mx-10'>
-              About
-            </Link>
-            <Link to='lg' smooth={true} duration={500} className='text-white text-3xl mx-10'>
-              LG
-            </Link>
-            <Link to='testimonials' smooth={true} duration={500} className='text-white text-xl p-2 mx-10'>
+
+            <Link to='testimonials' smooth={true} duration={500} className='text-white text-xl p-2 mx-10' style={{ cursor: 'pointer' }}>
               Testimonials
             </Link>
-            <a href='https://cal.com/lakshaygoel/work-with-me' target='_blank' className='text-white text-xl px-3 py-2 mx-10 bg-[#32CD32] rounded-full'>
+            <Link to='lg' smooth={true} duration={500} className='text-white text-4xl mx-10' style={{ cursor: 'pointer' }}>
+              LG
+            </Link>
+            <Link to='about' smooth={true} duration={500} className='text-white text-xl p-2 mx-10' style={{ cursor: 'pointer' }}>
+              About
+            </Link>
+
+            <a href='https://cal.com/lakshaygoel/work-with-me' target='_blank' className='text-white text-xl px-3 py-2 ml-10 mr-2 bg-[#32CD32] rounded-full' style={{ cursor: 'pointer' }}>
               Contact
             </a>
           </div>

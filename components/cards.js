@@ -25,7 +25,7 @@ const Cards = () => {
 
     return (
         <div id='testimonials' className='cards-container'>
-            <div className="container">
+            <div className="container-testimonials">
                 <div
                     id="first"
                     className={`panel flex justify-center items-center ${activePanel === 'first' ? 'active' : ''
@@ -51,11 +51,10 @@ const Cards = () => {
                 <div id="Anuj" className={`panel ${activePanel === 'Anuj' ? 'active' : ''}`} onClick={() => setActivePanel('Anuj')}>
                     {activePanel === 'Anuj' && (
                         <iframe className="h-full w-full p-10 pb-20"
-                            src="https://www.youtube.com/embed/J9yD5UF629E?si=bce4DchHJf4aXang?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
+                            src="https://www.youtube.com/embed/J9yD5UF629E?si=bce4DchHJf4aXang?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=1&disablekb=1"
                             title="Plant a word"
                             frameborder="0"
                             allowfullscreen>
-
                         </iframe>
                     )}
                     <div className="avatar flex items-center">
@@ -67,11 +66,10 @@ const Cards = () => {
                 <div id="Sneha" className={`panel ${activePanel === 'Sneha' ? 'active' : ''}`} onClick={() => setActivePanel('Sneha')}>
                     {activePanel === 'Sneha' && (
                         <iframe className="h-full w-full p-10 pb-20"
-                            src="https://www.youtube.com/embed/NXiBCsGdHHo?si=UVK7SsIDaGHXnSRY?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
+                            src="https://www.youtube.com/embed/NXiBCsGdHHo?si=UVK7SsIDaGHXnSRY?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=1&disablekb=1"
                             title="Plant a word"
                             frameborder="0"
                             allowfullscreen>
-
                         </iframe>
                     )}
                     <div className="avatar flex items-center">
