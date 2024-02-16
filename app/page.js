@@ -9,6 +9,7 @@ import Reels from "../components/reels";
 import FAQ from "../components/faq";
 import Footer from "../components/footer";
 import About from "../components/about";
+import Carousel from "components/carousel";
 
 export default function Home() {
   return (
@@ -20,7 +21,8 @@ export default function Home() {
       <About />
       <Steps />
       <Cards />
-      <Reels />
+      {/* <Reels /> */}
+      <Carousel />
       <FAQ />
       <Footer />
     </div>
