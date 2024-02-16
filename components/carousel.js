@@ -250,11 +250,13 @@ const Carousel = () => {
 
             </div>
 
-            <div style={{ display: 'flex', justifyContent: 'space-between', }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                 <div className='flex justify-center items-center'>
                     <button onClick={handlePrevSlide} className='text-white text-5xl'><FaChevronLeft /></button>
                 </div>
-                {slides[currentSlide]}
+                <div className='flex justify-between w-[95%]'>
+                    {slides[currentSlide]}
+                </div>
                 <div className='flex justify-center items-center'>
                     <button onClick={handleNextSlide} className='text-white text-5xl'><FaChevronRight /></button>
                 </div>

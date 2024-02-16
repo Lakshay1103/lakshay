@@ -201,11 +201,13 @@ div.marquee>a>img {
     bottom: 20px;
     left: 20px;
     margin: 0;
-    opacity: 1; /* Ensure the avatar image is always visible */
+    opacity: 1;
+    /* Ensure the avatar image is always visible */
 }
 
 .panel.active .avatar h3 {
-    opacity: 1; /* Make h3 visible when panel is active */
+    opacity: 1;
+    /* Make h3 visible when panel is active */
     transition: opacity 0.3s ease-in 0.4s;
 }
 
@@ -249,3 +251,4 @@ div.marquee>a>img {
         display: none;
     }
 }
+
