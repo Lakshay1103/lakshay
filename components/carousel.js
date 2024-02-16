@@ -18,7 +18,7 @@ const Carousel = () => {
 
     const slides = [
         [
-            <div className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
+            <div key="slide1" className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
 
 
                 <div className='w-[300px] text-white font-normal flex items-center'>
@@ -40,7 +40,7 @@ const Carousel = () => {
 
             </div>,
 
-            <div className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
+            <div key="slide1" className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
 
 
                 <div className='w-[300px] text-white font-normal flex items-center'>
@@ -64,7 +64,7 @@ const Carousel = () => {
 
             </div>,
 
-            <div className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 border-blue-600 rounded-lg">
+            <div key="slide1" className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 border-blue-600 rounded-lg">
 
 
                 <div className='w-[300px] text-white font-normal flex items-center'>
@@ -88,7 +88,7 @@ const Carousel = () => {
             </div>,
         ],
         [
-            <div className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
+            <div key="slide2" className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
 
 
                 <div className='w-[300px] text-white font-normal flex items-center'>
@@ -118,7 +118,7 @@ const Carousel = () => {
             </div>,
 
 
-            <div className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
+            <div key="slide2" className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
 
 
                 <div className='w-[300px] text-white font-normal flex items-center'>
@@ -143,7 +143,7 @@ const Carousel = () => {
             </div>,
 
 
-            <div className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
+            <div key="slide2" className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
 
 
                 <div className='w-[300px] text-white font-normal flex items-center'>
@@ -168,7 +168,7 @@ const Carousel = () => {
             </div>,
         ],
         [
-            <div className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
+            <div key="slide3" className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
 
 
                 <div className='w-[300px] text-white font-normal flex items-center'>
@@ -192,7 +192,7 @@ const Carousel = () => {
             </div>,
 
 
-            <div className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
+            <div key="slide3" className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
 
 
                 <div className='w-[300px] text-white font-normal flex items-center'>
@@ -217,7 +217,7 @@ const Carousel = () => {
             </div>,
 
 
-            <div className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
+            <div key="slide3" className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
 
 
                 <div className='w-[300px] text-white font-normal flex items-center'>
