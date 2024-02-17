@@ -23,34 +23,34 @@ const Logos = () => {
                         <div className="default-content-container flex items-center">
                             <div className="default-content-container-inner marquee-wrapper relative overflow-hidden inline-block">
                                 <div className="marquee" style={{ animationDuration: '57s' }}>
-                                    <a target="_blank"><img src="/logo/1.png" title="" className="marqueelogo" style={{ width: 'auto', maxWidth: 'none' }} /></a>
-                                    <a target="_blank"><img src="/logo/2.png" title="" className="marqueelogo" style={{ width: 'auto', maxWidth: 'none' }} /></a>
-                                    <a target="_blank"><img src="/logo/3.png" title="" className="marqueelogo" style={{ width: 'auto', maxWidth: 'none' }} /></a>
-                                    <a target="_blank"><img src="/logo/4.png" title="" className="marqueelogo" style={{ width: 'auto', maxWidth: 'none' }} /></a>
-                                    <a target="_blank"><img src="/logo/5.png" title="" className="marqueelogo" style={{ width: 'auto', maxWidth: 'none' }} /></a>
-                                    <a target="_blank"><img src="/logo/6.png" title="" className="marqueelogo" style={{ width: 'auto', maxWidth: 'none' }} /></a>
-                                    <a target="_blank"><img src="/logo/7.png" title="" className="marqueelogo" style={{ width: 'auto', maxWidth: 'none' }} /></a>
-                                    <a target="_blank"><img src="/logo/9.png" title="" className="marqueelogo" style={{ width: 'auto', maxWidth: 'none' }} /></a>
-                                    <a target="_blank"><img src="/logo/10.png" title="" className="marqueelogo" style={{ width: 'auto', maxWidth: 'none' }} /></a>
-                                    <a target="_blank"><img src="/logo/11.png" title="" className="marqueelogo" style={{ width: 'auto', maxWidth: 'none' }} /></a>
-                                    <a target="_blank"><img src="/logo/12.png" title="" className="marqueelogo" style={{ width: 'auto', maxWidth: 'none' }} /></a>
-                                    <a target="_blank"><img src="/logo/13.png" title="" className="marqueelogo" style={{ width: 'auto', maxWidth: 'none' }} /></a>
+                                    <a target="_blank"><img src="/logo/1.png" title="" className="marqueelogo rounded-full" style={{ width: 'auto', maxWidth: 'none' }} /></a>
+                                    <a target="_blank"><img src="/logo/2.png" title="" className="marqueelogo rounded-full" style={{ width: 'auto', maxWidth: 'none' }} /></a>
+                                    <a target="_blank"><img src="/logo/3.png" title="" className="marqueelogo rounded-full" style={{ width: 'auto', maxWidth: 'none' }} /></a>
+                                    <a target="_blank"><img src="/logo/4.png" title="" className="marqueelogo rounded-full" style={{ width: 'auto', maxWidth: 'none' }} /></a>
+                                    <a target="_blank"><img src="/logo/5.png" title="" className="marqueelogo rounded-full" style={{ width: 'auto', maxWidth: 'none' }} /></a>
+                                    <a target="_blank"><img src="/logo/6.png" title="" className="marqueelogo rounded-full" style={{ width: 'auto', maxWidth: 'none' }} /></a>
+                                    <a target="_blank"><img src="/logo/7.png" title="" className="marqueelogo rounded-full" style={{ width: 'auto', maxWidth: 'none' }} /></a>
+                                    <a target="_blank"><img src="/logo/9.png" title="" className="marqueelogo rounded-full" style={{ width: 'auto', maxWidth: 'none' }} /></a>
+                                    <a target="_blank"><img src="/logo/10.png" title="" className="marqueelogo rounded-full" style={{ width: 'auto', maxWidth: 'none' }} /></a>
+                                    <a target="_blank"><img src="/logo/11.png" title="" className="marqueelogo rounded-full" style={{ width: 'auto', maxWidth: 'none' }} /></a>
+                                    <a target="_blank"><img src="/logo/12.png" title="" className="marqueelogo rounded-full" style={{ width: 'auto', maxWidth: 'none' }} /></a>
+                                    <a target="_blank"><img src="/logo/13.png" title="" className="marqueelogo rounded-full" style={{ width: 'auto', maxWidth: 'none' }} /></a>
 
                                 </div>
                                 <div className="marquee" style={{ animationDuration: '57s' }}>
 
-                                    <a target="_blank"><img src="/logo/1.png" title="" className="marqueelogo" style={{ width: 'auto', maxWidth: 'none' }} /></a>
-                                    <a target="_blank"><img src="/logo/2.png" title="" className="marqueelogo" style={{ width: 'auto', maxWidth: 'none' }} /></a>
-                                    <a target="_blank"><img src="/logo/3.png" title="" className="marqueelogo" style={{ width: 'auto', maxWidth: 'none' }} /></a>
-                                    <a target="_blank"><img src="/logo/4.png" title="" className="marqueelogo" style={{ width: 'auto', maxWidth: 'none' }} /></a>
-                                    <a target="_blank"><img src="/logo/5.png" title="" className="marqueelogo" style={{ width: 'auto', maxWidth: 'none' }} /></a>
-                                    <a target="_blank"><img src="/logo/6.png" title="" className="marqueelogo" style={{ width: 'auto', maxWidth: 'none' }} /></a>
-                                    <a target="_blank"><img src="/logo/7.png" title="" className="marqueelogo" style={{ width: 'auto', maxWidth: 'none' }} /></a>
-                                    <a target="_blank"><img src="/logo/9.png" title="" className="marqueelogo" style={{ width: 'auto', maxWidth: 'none' }} /></a>
-                                    <a target="_blank"><img src="/logo/10.png" title="" className="marqueelogo" style={{ width: 'auto', maxWidth: 'none' }} /></a>
-                                    <a target="_blank"><img src="/logo/11.png" title="" className="marqueelogo" style={{ width: 'auto', maxWidth: 'none' }} /></a>
-                                    <a target="_blank"><img src="/logo/12.png" title="" className="marqueelogo" style={{ width: 'auto', maxWidth: 'none' }} /></a>
-                                    <a target="_blank"><img src="/logo/13.png" title="" className="marqueelogo" style={{ width: 'auto', maxWidth: 'none' }} /></a>
+                                    <a target="_blank"><img src="/logo/1.png" title="" className="marqueelogo rounded-full" style={{ width: 'auto', maxWidth: 'none' }} /></a>
+                                    <a target="_blank"><img src="/logo/2.png" title="" className="marqueelogo rounded-full" style={{ width: 'auto', maxWidth: 'none' }} /></a>
+                                    <a target="_blank"><img src="/logo/3.png" title="" className="marqueelogo rounded-full" style={{ width: 'auto', maxWidth: 'none' }} /></a>
+                                    <a target="_blank"><img src="/logo/4.png" title="" className="marqueelogo rounded-full" style={{ width: 'auto', maxWidth: 'none' }} /></a>
+                                    <a target="_blank"><img src="/logo/5.png" title="" className="marqueelogo rounded-full" style={{ width: 'auto', maxWidth: 'none' }} /></a>
+                                    <a target="_blank"><img src="/logo/6.png" title="" className="marqueelogo rounded-full" style={{ width: 'auto', maxWidth: 'none' }} /></a>
+                                    <a target="_blank"><img src="/logo/7.png" title="" className="marqueelogo rounded-full" style={{ width: 'auto', maxWidth: 'none' }} /></a>
+                                    <a target="_blank"><img src="/logo/9.png" title="" className="marqueelogo rounded-full" style={{ width: 'auto', maxWidth: 'none' }} /></a>
+                                    <a target="_blank"><img src="/logo/10.png" title="" className="marqueelogo rounded-full" style={{ width: 'auto', maxWidth: 'none' }} /></a>
+                                    <a target="_blank"><img src="/logo/11.png" title="" className="marqueelogo rounded-full" style={{ width: 'auto', maxWidth: 'none' }} /></a>
+                                    <a target="_blank"><img src="/logo/12.png" title="" className="marqueelogo rounded-full" style={{ width: 'auto', maxWidth: 'none' }} /></a>
+                                    <a target="_blank"><img src="/logo/13.png" title="" className="marqueelogo rounded-full" style={{ width: 'auto', maxWidth: 'none' }} /></a>
 
 
                                 </div>
