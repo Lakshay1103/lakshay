@@ -44,7 +44,7 @@ const About = () => {
                 >
 
                     <h2 className='font-bold'>ABOUT ME</h2>
-                    <h1 className="text-[#32CD32] text-[48px] font-bold">Hello. I'm Lakshay Goel.</h1>
+                    <h1 className="text-[#32CD32] text-[48px] font-bold">Hello. I&apos;m Lakshay Goel.</h1>
                     <p className='font-bold  text-xl'>Entrepreneur, Creator, and Social Media Marketer</p>
                     <p className='mt-5 text-lg'>I help people build powerful and impactful personal brands on Instagram and YouTube via Content,
                         Branding & Community Building. With a passion for building powerful personal brands,
@@ -52,13 +52,13 @@ const About = () => {
                     </p>
 
                     <div className='border-l-4 border-black mt-4 px-4'>
-                        <p className='text-lg ' >"Your brand is what people say about you when you are not in a room."<br />
+                        <p className='text-lg ' >&quot;Your brand is what people say about you when you are not in a room.&quot;<br />
                             <span className='font-bold'>- Jeff Bezos</span>
                         </p>
                     </div>
 
                     <div className='bg-[#0000ff] text-white rounded-full px-5 py-2 mt-5 w-32 flex justify-center items-center hover:text-[#0000ff] hover:bg-white border-2 border-[#0000ff]'>
-                        <a href='https://cal.com/lakshaygoel/work-with-me'>LET'S TALK</a>
+                        <a href='https://cal.com/lakshaygoel/work-with-me'>LET&apos;S TALK</a>
                     </div>
 
 
