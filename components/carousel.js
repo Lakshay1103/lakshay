@@ -221,7 +221,7 @@ const Carousel = () => {
 
 
                 <div className='w-[300px] text-white font-normal flex items-center'>
-                    <img className="w-[70px] h-[70px] rounded-full" src="/testimonials/sneha.jpg"></img>
+                    <img className="w-[70px] h-[70px] rounded-full" src="/testimonials/FLJ.png"></img>
                     <div className='p-4'>
                         <h1 className='font-extrabold'> Fashion Law Journal</h1>
                         <p className='text-normal leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“Perfect video editing and content.“</p>
@@ -233,7 +233,7 @@ const Carousel = () => {
                 <iframe width="350" height="450"
                     className='p-6'
                     src="https://www.youtube.com/embed/ZiflBujWPhA?si=9WB7aURk2sL1rB8X?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
-                    title="Sneha"
+                    title="FLJ"
                     frameborder="0"
                     allowfullscreen>
                 </iframe>
