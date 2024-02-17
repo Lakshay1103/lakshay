@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
 
-const footer = () => {
+const Footer = () => {
     useEffect(() => {
         Aos.init({ duration: 1000 });
     }, []);
@@ -79,4 +79,4 @@ const footer = () => {
     )
 }
 
-export default footer
+export default Footer

@@ -6,7 +6,7 @@ import { slideInFromTop, slideInFromLeft, slideInFromBottom, slideInFromRight } 
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
-const heroNew = () => {
+const HeroNew = () => {
 
     React.useEffect(() => {
         Aos.init({ duration: 1000 });
@@ -69,4 +69,4 @@ const heroNew = () => {
     )
 }
 
-export default heroNew
+export default HeroNew

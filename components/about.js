@@ -1,12 +1,12 @@
 "use client";
 
-import React, { useEffect } from 'react'
+import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa6";
 
 
-const about = () => {
+const About = () => {
     useEffect(() => {
         Aos.init({ duration: 1000 });
     }, []);
@@ -69,4 +69,4 @@ const about = () => {
     )
 }
 
-export default about
+export default About

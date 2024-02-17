@@ -7,7 +7,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 
-const steps = () => {
+const Steps = () => {
     useEffect(() => {
         Aos.init({ duration: 1000 });
     }, []);
@@ -137,4 +137,4 @@ const steps = () => {
     )
 }
 
-export default steps
+export default Steps
