@@ -1,18 +1,24 @@
+"use client";
 
-import * as React from 'react';
+import { React, useEffect } from 'react';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 export default function AccordionExpandIcon() {
+    useEffect(() => {
+        Aos.init({ duration: 1000 });
+    }, []);
     return (
         <div className='flex flex-col justify-center items-center mt-20'>
 
             <div className='text-center'>
-            <h1 className='text-white text-[48px] font-bold m-0 p-0'>FAQs</h1>
-            <p className='text-white text-sm m-0 p-0'>Your burning questions answered!</p>
+                <h1 className='text-white text-[48px] font-bold m-0 p-0'>FAQs</h1>
+                <p className='text-white text-sm m-0 p-0'>Your burning questions answered!</p>
             </div>
 
             <div className='w-3/4 mt-10'>
@@ -25,6 +31,8 @@ export default function AccordionExpandIcon() {
                         expandIcon={<ArrowDropDownIcon style={{ color: 'white' }} />}
                         aria-controls="panel1-content"
                         id="panel1-header"
+                        data-aos='fade-up'
+                        data-aos-duration="1000"
                     >
                         <Typography className='text-white'>How can I determine if I am the right fit for you?</Typography>
                     </AccordionSummary>
@@ -48,6 +56,8 @@ export default function AccordionExpandIcon() {
                         expandIcon={<ArrowDropDownIcon style={{ color: 'white' }} />}
                         aria-controls="panel2-content"
                         id="panel2-header"
+                        data-aos='fade-up'
+                        data-aos-duration="1200"
                     >
                         <Typography className='text-white'>What sets apart my marketing strategies?</Typography>
                     </AccordionSummary>
@@ -68,6 +78,8 @@ export default function AccordionExpandIcon() {
                         expandIcon={<ArrowDropDownIcon style={{ color: 'white' }} />}
                         aria-controls="panel2-content"
                         id="panel2-header"
+                        data-aos='fade-up'
+                        data-aos-duration="1500"
                     >
                         <Typography className='text-white'>What sets me apart?</Typography>
                     </AccordionSummary>
@@ -89,6 +101,8 @@ export default function AccordionExpandIcon() {
                         expandIcon={<ArrowDropDownIcon style={{ color: 'white' }} />}
                         aria-controls="panel2-content"
                         id="panel2-header"
+                        data-aos='fade-up'
+                        data-aos-duration="1800"
                     >
                         <Typography className='text-white'>Is there a guarantee for my growth?</Typography>
                     </AccordionSummary>

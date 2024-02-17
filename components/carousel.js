@@ -1,11 +1,18 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { FaChevronRight } from "react-icons/fa6";
 import { FaChevronLeft } from "react-icons/fa6";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Carousel = () => {
+
+    useEffect(() => {
+        Aos.init({ duration: 1000 });
+    }, []);
+
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const handlePrevSlide = () => {
@@ -18,7 +25,7 @@ const Carousel = () => {
 
     const slides = [
         [
-            <div key="slide1" className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
+            <div key="slide1" id='reels' className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
 
 
                 <div className='w-[300px] text-white font-normal flex items-center'>
@@ -243,7 +250,11 @@ const Carousel = () => {
     ];
 
     return (
-        <div style={{ width: '95%', margin: '0 auto', marginTop: '20px' }} >
+        <div
+            style={{ width: '95%', margin: '0 auto', marginTop: '20px' }}
+            data-aos='fade-up'
+            data-aos-duration="1500"
+        >
 
             <div className='flex justify-center items-center mt-20 mb-10'>
                 <h1 className='text-white text-[48px] font-bold'>Snippets of <span className='text-[#32CD32] text-[48px] font-bold'>Satisfaction</span></h1>
@@ -251,13 +262,19 @@ const Carousel = () => {
             </div>
 
             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                <div className='flex justify-center items-center'>
+                <div className='flex justify-center items-center'
+                    data-aos='fade-right'
+                    data-aos-duration="1000"
+                >
                     <button onClick={handlePrevSlide} className='text-white text-5xl'><FaChevronLeft /></button>
                 </div>
                 <div className='flex justify-between w-[95%]'>
                     {slides[currentSlide]}
                 </div>
-                <div className='flex justify-center items-center'>
+                <div className='flex justify-center items-center'
+                    data-aos='fade-left'
+                    data-aos-duration="1000"
+                >
                     <button onClick={handleNextSlide} className='text-white text-5xl'><FaChevronRight /></button>
                 </div>
             </div>

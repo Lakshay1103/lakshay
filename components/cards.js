@@ -1,8 +1,15 @@
 "use client";
 
 import React, { useEffect, useState } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 
 const Cards = () => {
+    useEffect(() => {
+        Aos.init({ duration: 1000 });
+    }, []);
+
     const [activePanel, setActivePanel] = useState('first');
 
     useEffect(() => {
@@ -25,7 +32,11 @@ const Cards = () => {
 
     return (
         <div id='testimonials' className='cards-container'>
-            <div className="container-testimonials">
+            <div
+                className="container-testimonials"
+                data-aos='fade-right'
+                data-aos-duration="1500"
+            >
                 <div
                     id="first"
                     className={`panel flex justify-center items-center ${activePanel === 'first' ? 'active' : ''

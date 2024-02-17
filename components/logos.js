@@ -1,17 +1,24 @@
 "use client";
 
-import React from 'react'
+import React, { useEffect } from 'react'
 import { motion } from "framer-motion"
 import { slideInFromTop, slideInFromLeft, slideInFromRight, slideInFromBottom } from '../utils/motion'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Logos = () => {
+    useEffect(() => {
+        Aos.init({ duration: 1000 });
+    }, []);
+
     return (
         <>
             <motion.div
                 className='flex justify-center align-center mt-10'
                 initial="hidden"
                 animate="visible"
+                data-aos="fade-up"  data-aos-duration="1000"
             >
                 <motion.section
                     className="logoMarqueeSection"

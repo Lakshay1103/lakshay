@@ -1,21 +1,30 @@
 "use client";
 
-import React from 'react'
+import { React, useEffect } from 'react'
 import { motion } from "framer-motion"
 import { slideInFromTop, slideInFromLeft, slideInFromBottom, slideInFromRight } from '../utils/motion'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 
 const steps = () => {
+    useEffect(() => {
+        Aos.init({ duration: 1000 });
+    }, []);
+
     return (
-        <motion.div
+        <div
             className='flex flex-col bg-cover bg-center h-screen justify-center items-center'
             style={{ backgroundImage: "linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('/bg-svg-1.png')" }}
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5, duration: 0.5, ease: "easeIn" }}
+
         >
 
-            <div className=' text-white text-[52px] text-center font-normal mt-24'>Our
+            <div
+                className=' text-white text-[52px] text-center font-normal mt-24'
+                data-aos='fade-up'
+                data-aos-duration="1000"
+            >
+                Our
                 <span className='text-[#32CD32]'> 3-Step System</span> for Seamless <br /> Social Media Growth
             </div>
 
@@ -23,9 +32,14 @@ const steps = () => {
                 Unlock the potential of your social media <br /> journey with our proven system!
             </div>
 
-            <div className='flex justify-between items-center w-3/5 mt-14 '>
+            <div
+                className='flex justify-between items-center w-3/5 mt-14 '
+                data-aos='fade-right'
+                data-aos-duration="1000"
+            >
 
                 <svg
+
                     className='w-[150px] h-[150px] rounded-full  bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400'
                     width="145" height="133" viewBox="0 0 145 133" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <mask id="mask0_303_54" maskUnits="userSpaceOnUse" x="36" y="33" width="73" height="67">
@@ -45,6 +59,8 @@ const steps = () => {
 
                 <img className='w-20 h-20' src='/arrow-right.png'></img>
                 <svg
+                    data-aos='fade-right'
+                    data-aos-duration="1200"
                     className='w-[150px] h-[150px] rounded-full  bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400'
 
                     width="147" height="149" viewBox="0 0 147 149" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -82,6 +98,8 @@ const steps = () => {
 
 
                 <svg
+                    data-aos='fade-right'
+                    data-aos-duration="1500"
                     className='w-[150px] h-[150px] rounded-full  bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400'
 
                     width="164" height="161" viewBox="0 0 164 161" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -115,7 +133,7 @@ const steps = () => {
 
             </div>
 
-        </motion.div >
+        </div >
     )
 }
 
