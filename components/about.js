@@ -32,9 +32,9 @@ const About = () => {
                     data-aos='fade-right'
                     data-aos-duration="1200"
                 >
-                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white m-4'><FaInstagram /></a>
-                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white m-4'><FaLinkedin /></a>
-                    <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className='text-4xl text-white m-4'><FaYoutube /></a>
+                    <a href="https://www.instagram.com/lakshaygoellll/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white m-4'><FaInstagram /></a>
+                    <a href="https://www.linkedin.com/in/lakshaygoellll/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white m-4'><FaLinkedin /></a>
+                    <a href="https://www.youtube.com/channel/UCDvg7NV5ikI0KxikCWdmX9A" target="_blank" rel="noopener noreferrer" className='text-4xl text-white m-4'><FaYoutube /></a>
 
                 </div>
 
@@ -57,7 +57,7 @@ const About = () => {
                         </p>
                     </div>
 
-                    <div className='bg-[#0000ff] text-white rounded-full px-5 py-2 mt-5 w-32 flex justify-center items-center hover:text-[#0000ff] hover:bg-white border-2 border-[#0000ff]'>
+                    <div className='bg-[#0000ff] text-white rounded-full px-5 py-2 mt-5 w-36 flex justify-center items-center hover:text-[#0000ff] hover:bg-white border-2 border-[#0000ff]'>
                         <a href='https://cal.com/lakshaygoel/work-with-me'>LET&apos;S TALK</a>
                     </div>
 

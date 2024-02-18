@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { FaInstagram } from "react-icons/fa6";
 
 
 const Cards = () => {
@@ -68,6 +69,9 @@ const Cards = () => {
                             allowfullscreen>
                         </iframe>
                     )}
+
+                    <img src="/testimonials/anuj.jpg" alt="Anuj" className='w-[50px] h-[50px] rounded-full m-4' />
+                    
                     <div className="avatar flex items-center">
                         <img src="/testimonials/anuj.jpg" alt="Anuj" className='w-[50px] h-[50px] rounded-full mr-2' />
                         <h3 className='panel-heading'>Anuj Kumar</h3>
@@ -83,6 +87,10 @@ const Cards = () => {
                             allowfullscreen>
                         </iframe>
                     )}
+
+                    <img src="/testimonials/sneha.jpg" alt="Anuj" className='w-[50px] h-[50px] rounded-full m-4' />
+
+
                     <div className="avatar flex items-center">
                         <img src="/testimonials/sneha.jpg" alt="Anuj" className='w-[50px] rounded-full mr-2' />
                         <h3 className='panel-heading'>Sneha Arvind</h3>

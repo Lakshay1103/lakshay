@@ -48,9 +48,9 @@ const Footer = () => {
 
                         {/* Social Icons */}
                         <div className='flex justify-between items-center w-40 mt-5 '>
-                            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className='text-3xl'><FaInstagram /></a>
-                            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className='text-3xl'><FaLinkedin /></a>
-                            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className='text-4xl'><FaYoutube /></a>
+                            <a href="https://www.instagram.com/lakshaygoellll/" target="_blank" rel="noopener noreferrer" className='text-3xl'><FaInstagram /></a>
+                            <a href="https://www.linkedin.com/in/lakshaygoellll/" target="_blank" rel="noopener noreferrer" className='text-3xl'><FaLinkedin /></a>
+                            <a href="https://www.youtube.com/channel/UCDvg7NV5ikI0KxikCWdmX9A" target="_blank" rel="noopener noreferrer" className='text-4xl'><FaYoutube /></a>
 
                         </div>
                     </div>
