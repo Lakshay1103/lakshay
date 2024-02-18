@@ -51,11 +51,11 @@ const Cards = () => {
                     <div className="first-slide text-black flex flex-col justify-centre items-start w-3/4">
                         <h2 className="font-bold">TESTIMONIALS</h2>
                         <h1 className="text-black text-[48px] text-center font-bold">Real People,</h1>
-                        <h1 className="text-[#32CD32] text-[48px] font-bold">Real Feedback!</h1>
+                        <h1 className="text-[#32CD32] text-[48px] font-bold -mt-4">Real Feedback!</h1>
                         <p className="text-xl">
-                            Hear What My Clients Have to Say! <br />
-                            Our clients share their success stories and showcase how our services have transformed their online presence.<br />
-                            Let their testimony inspire you to take that next step!
+                            <span className='font-bold'>Hear What My Clients Have to Say! </span><br /><br />
+                            Our clients share their success stories and showcase how our services have transformed their online presence.<br /><br />
+                            <span className='underline bg-blue-700 text-white rounded-lg p-3'>Let their testimony inspire you to take that next step!</span>
                         </p>
                     </div>
                 </div>

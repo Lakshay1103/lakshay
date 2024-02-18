@@ -30,6 +30,52 @@ export default function AccordionExpandIcon() {
                 data-aos='fade-right'
                 data-aos-duration="1500"
             >
+
+                <Accordion
+                    className='bg-gradient-to-r from-black to-gray-900  mb-4'
+                >
+                    <AccordionSummary
+                        className=' rounded-lg p-3'
+                        style={{ border: '2px solid #BAB2B2' }}
+                        expandIcon={<ArrowDropDownIcon style={{ color: 'white' }} />}
+                        aria-controls="panel2-content"
+                        id="panel2-header"
+                    >
+                        <Typography className='text-white'>What is our USP?</Typography>
+                    </AccordionSummary>
+                    <AccordionDetails>
+                        <Typography className='text-white'>
+                            - I create customized dashboards for each client to meet their specific needs<br />
+                            - I work with a limited number of clients to ensure personalized attention<br />
+                            - I use royalty-free elements to protect your accounts from any copyrights
+                        </Typography>
+                    </AccordionDetails>
+                </Accordion>
+
+
+
+
+
+                <Accordion
+                    className='bg-gradient-to-r from-black to-gray-900 mb-4'
+                >
+                    <AccordionSummary
+                        className=' rounded-lg p-3'
+                        style={{ border: '2px solid #BAB2B2' }}
+                        expandIcon={<ArrowDropDownIcon style={{ color: 'white' }} />}
+                        aria-controls="panel2-content"
+                        id="panel2-header"
+                    >
+                        <Typography className='text-white'>What sets apart my marketing strategies?</Typography>
+                    </AccordionSummary>
+                    <AccordionDetails>
+                        <Typography className='text-white'>
+                            My team utilizes the latest trends and data-driven
+                            insights to ensure that your content stands out in the competitive Instagram landscape.
+                        </Typography>
+                    </AccordionDetails>
+                </Accordion>
+
                 <Accordion
                     className='bg-gradient-to-r from-black to-gray-900 mb-4'
 
@@ -55,46 +101,6 @@ export default function AccordionExpandIcon() {
                 </Accordion>
 
 
-                <Accordion
-                    className='bg-gradient-to-r from-black to-gray-900 mb-4'
-                >
-                    <AccordionSummary
-                        className=' rounded-lg p-3'
-                        style={{ border: '2px solid #BAB2B2' }}
-                        expandIcon={<ArrowDropDownIcon style={{ color: 'white' }} />}
-                        aria-controls="panel2-content"
-                        id="panel2-header"
-                    >
-                        <Typography className='text-white'>What sets apart my marketing strategies?</Typography>
-                    </AccordionSummary>
-                    <AccordionDetails>
-                        <Typography className='text-white'>
-                            My team utilizes the latest trends and data-driven
-                            insights to ensure that your content stands out in the competitive Instagram landscape.
-                        </Typography>
-                    </AccordionDetails>
-                </Accordion>
-
-                <Accordion
-                    className='bg-gradient-to-r from-black to-gray-900  mb-4'
-                >
-                    <AccordionSummary
-                        className=' rounded-lg p-3'
-                        style={{ border: '2px solid #BAB2B2' }}
-                        expandIcon={<ArrowDropDownIcon style={{ color: 'white' }} />}
-                        aria-controls="panel2-content"
-                        id="panel2-header"
-                    >
-                        <Typography className='text-white'>What sets me apart?</Typography>
-                    </AccordionSummary>
-                    <AccordionDetails>
-                        <Typography className='text-white'>
-                            - I create customized dashboards for each client to meet their specific needs<br />
-                            - I work with a limited number of clients to ensure personalized attention<br />
-                            - I use royalty-free elements to protect your accounts from any copyrights
-                        </Typography>
-                    </AccordionDetails>
-                </Accordion>
 
                 <Accordion
                     className='bg-gradient-to-r from-black to-gray-900 mb-4'

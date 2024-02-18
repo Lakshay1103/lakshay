@@ -37,10 +37,10 @@ const HeroNew = () => {
                         className="text-rotate"
                     >
                         <div className="rotate-text">Personal Brands</div>
-                        <div className="rotate-text">Creators</div>
-                        <div className="rotate-text">Coaches</div>
                         <div className="rotate-text">Founders</div>
+                        <div className="rotate-text">Creators</div>
                         <div className="rotate-text">Agency Owners</div>
+                        <div className="rotate-text">Coaches</div>
                         <div className="rotate-text">Consultants</div>
                     </div>
                 </div>
