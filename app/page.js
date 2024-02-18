@@ -1,15 +1,16 @@
 import React from "react";
-import Nav from "../components/Nav";
+import Nav from "../components/nav";
 import Hero from "../components/hero";
-import Logos from "../components/Logos";
-import About from "../components/About";
-import Steps from "../components/Steps";
+import HeroNew from "../components/heroNew";
+import Logos from "../components/logos";
+import About from "../components/about";
+import Steps from "../components/steps";
 import Cards from "../components/cards";
-import Reels from "../components/Reels";
-import FAQ from "../components/Faq";
-import Footer from "../components/Footer";
-import Carousel from "../components/Carousel";
-import HeroNew from "../components/HeroNew";
+import Reels from "../components/reels";
+import Carousel from "../components/carousel";
+import FAQ from "../components/faq";
+import Footer from "../components/footer";
+
 
 export default function Home() {
   return (
