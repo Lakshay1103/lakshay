@@ -223,7 +223,7 @@ const Carousel = () => {
 
                         <div className='flex flex-col p-2'>
                             <h1 className='font-extrabold'>Spicy Sangria Events</h1>
-                            {/* <p className='text-sm'>Founder - Mind Matters by Vaitika</p> */}
+                            <p className='text-sm'>Event Management Company</p>
 
                         </div>
                     </div>
@@ -289,8 +289,7 @@ const Carousel = () => {
 
                         <div className='flex flex-col p-2'>
                             <h1 className='font-extrabold'>Fashion Law Journal</h1>
-
-
+                            <p className='text-sm'>Leading Provider for the Fashion Law Industry</p>
                         </div>
                     </div>
 
