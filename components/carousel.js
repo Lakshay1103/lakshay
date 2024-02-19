@@ -27,8 +27,8 @@ const Carousel = () => {
         [
             <div key="slide1" id='reels' className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
 
-                <div>
-                    <div className='w-[300px] text-white font-normal flex flex-col items-start'>
+                <div className='border-2 border-[#32CD32] text-white rounded-lg mt-2'>
+                    <div className='w-[300px]  font-normal flex flex-col items-start'>
 
                         <div className='p-2 flex justify-start items-start'>
                             <img className="w-16 rounded-full" src="/testimonials/Shaan.jpg"></img>
@@ -41,7 +41,7 @@ const Carousel = () => {
 
                     </div>
                     <div className='flex justify-center items-center w-[300px]'>
-                        <p className='text-normal leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“Our community is loving the new content. Lovely work.“</p>
+                        <p className='text-normal px-2 py-1 italic'>“Our community is loving the new content. Lovely work.“</p>
                     </div>
                 </div>
                 <div >
