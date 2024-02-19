@@ -37,9 +37,10 @@ const Carousel = () => {
                             <p className='text-sm'>Founder - Networking Now India </p>
                         </div>
                     </div>
-                    <div>
-                        <p className='text-normal leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“Our community is loving the new content. Lovely work.“</p>
-                    </div>
+
+                </div>
+                <div className='flex justify-center items-center w-[300px]'>
+                    <p className='text-normal leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“Our community is loving the new content. Lovely work.“</p>
                 </div>
 
                 <div>
@@ -67,9 +68,10 @@ const Carousel = () => {
                             <p className='text-sm'>Founder - Arvinda by Sneha</p>
                         </div>
                     </div>
-                    <div>
-                        <p className='text-normal leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“I have seen tremendous patience, eye for detail and growth in his work.“</p>
-                    </div>
+
+                </div>
+                <div className='flex justify-center items-center w-[300px]'>
+                    <p className='text-normal leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“I have seen tremendous patience, eye for detail and growth in his work.“</p>
                 </div>
 
                 <div>
@@ -97,9 +99,10 @@ const Carousel = () => {
                             <p className='text-sm'>Founder - The Daily Lawyer</p>
                         </div>
                     </div>
-                    <div>
-                        <p className='text-[14px] leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“Lakshay is extremely organised and meticulous, using digital tools for seamless communication.“</p>
-                    </div>
+
+                </div>
+                <div className='flex justify-center items-center w-[300px]'>
+                    <p className='text-[14px] leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“Lakshay is extremely organised and meticulous, using digital tools for seamless communication.“</p>
                 </div>
 
                 <div>
@@ -127,9 +130,11 @@ const Carousel = () => {
                             <p className='text-sm'>Founder - Public and Policy Media</p>
                         </div>
                     </div>
-                    <div>
-                        <p className='text-normal leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“Lakshay and his team know what type of content our audience enjoys. They are great at their work.“</p>
-                    </div>
+
+                </div>
+
+                <div className='flex justify-center items-center w-[300px]'>
+                    <p className='text-normal leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“Lakshay and his team know what type of content our audience enjoys. They are great at their work.“</p>
                 </div>
 
 
@@ -162,9 +167,11 @@ const Carousel = () => {
                             <p className='text-sm'>Relationship & Intimacy Coaching</p>
                         </div>
                     </div>
-                    <div>
-                        <p className='text-normal leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“Super work. The new content is awesome.“</p>
-                    </div>
+
+                </div>
+
+                <div className='flex justify-center items-center w-[300px]'>
+                    <p className='text-normal leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“Super work. The new content is awesome.“</p>
                 </div>
 
 
@@ -195,11 +202,11 @@ const Carousel = () => {
 
                         </div>
                     </div>
-                    <div>
-                        <p className='text-sm leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“My friends keep on commenting and telling me that they just love the content. Thanks a lot.“</p>
-                    </div>
-                </div>
 
+                </div>
+                <div className='flex justify-center items-center w-[300px]'>
+                    <p className='text-sm leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“My friends keep on commenting and telling me that they just love the content. Thanks a lot.“</p>
+                </div>
 
                 <div>
                     <iframe width="350" height="450"
@@ -227,11 +234,11 @@ const Carousel = () => {
 
                         </div>
                     </div>
-                    <div>
-                        <p className='text-normal leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“Lovely work. People are loving the videos.“</p>
-                    </div>
-                </div>
 
+                </div>
+                <div className='flex justify-center items-center w-[300px]'>
+                    <p className='text-normal leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“Lovely work. People are loving the videos.“</p>
+                </div>
 
                 <div>
                     <iframe width="350" height="450"
@@ -260,11 +267,12 @@ const Carousel = () => {
 
                         </div>
                     </div>
-                    <div>
-                        <p className='text-sm leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“We are getting good responses from our audience. Everybody is enjoying the content.“</p>
-                    </div>
+
                 </div>
 
+                <div className='flex justify-center items-center w-[300px]'>
+                    <p className='text-sm leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“We are getting good responses from our audience. Everybody is enjoying the content.“</p>
+                </div>
 
                 <div>
                     <iframe width="350" height="450"
@@ -293,20 +301,21 @@ const Carousel = () => {
                         </div>
                     </div>
 
-                </div>
-                <div className='flex justify-center items-center'>
+                </div> 
+                <div className='flex justify-center items-center w-[300px]'>
                     <p className='text-normal leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“Perfect video editing and content.“</p>
                 </div>
 
+                <div>
 
-
-                <iframe width="350" height="450"
-                    className='p-6'
-                    src="https://www.youtube.com/embed/ZiflBujWPhA?si=9WB7aURk2sL1rB8X?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
-                    title="FLJ"
-                    frameborder="0"
-                    allowfullscreen>
-                </iframe>
+                    <iframe width="350" height="450"
+                        className='p-6'
+                        src="https://www.youtube.com/embed/ZiflBujWPhA?si=9WB7aURk2sL1rB8X?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
+                        title="FLJ"
+                        frameborder="0"
+                        allowfullscreen>
+                    </iframe>
+                </div>
 
             </div>,
         ],
