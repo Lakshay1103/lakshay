@@ -13,7 +13,10 @@ const Nav = () => {
   return (
     <div className='fixed top-0 left-0 bg-transparent z-50 flex flex-col justify-center items-center w-full mt-2'>
       <motion.div initial='hidden' animate='visible' className='flex flex-row items-center justify-center'>
-        <motion.nav className='flex justify-between items-center bg-black rounded-full' variants={slideInFromTop}>
+        <motion.nav 
+        className='flex justify-between items-center rounded-full' 
+        variants={slideInFromTop}
+        style={{background: 'linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8))'}}>
           <div className='flex justify-between items-center py-2'>
             <Link to='home' smooth={true} duration={500} className='text-white text-xl p-2 mr-10 ml-2' style={{ cursor: 'pointer' }}>
               Home
