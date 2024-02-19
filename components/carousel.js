@@ -25,25 +25,26 @@ const Carousel = () => {
 
     const slides = [
         [
-            <div key="slide1" id='reels' className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
-
-                <div className='w-[300px] text-white font-normal flex flex-col items-start'>
-
-                    <div className='p-2 flex justify-start items-start'>
-                        <img className="w-16 rounded-full" src="/testimonials/Shaan.jpg"></img>
-
-                        <div className='flex flex-col p-2'>
-                            <h1 className='font-extrabold'>Shaan Khanna</h1>
-                            <p className='text-sm'>Founder - Networking Now India </p>
-                        </div>
-                    </div>
-
-                </div>
-                <div className='flex justify-center items-center w-[300px]'>
-                    <p className='text-normal leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“Our community is loving the new content. Lovely work.“</p>
-                </div>
+            <div key="slide1" id='reels' className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
 
                 <div>
+                    <div className='w-[300px] text-white font-normal flex flex-col items-start'>
+
+                        <div className='p-2 flex justify-start items-start'>
+                            <img className="w-16 rounded-full" src="/testimonials/Shaan.jpg"></img>
+
+                            <div className='flex flex-col p-2'>
+                                <h1 className='font-extrabold'>Shaan Khanna</h1>
+                                <p className='text-sm'>Founder - Networking Now India </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div className='flex justify-center items-center w-[300px]'>
+                        <p className='text-normal leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“Our community is loving the new content. Lovely work.“</p>
+                    </div>
+                </div>
+                <div >
                     <iframe width="350" height="450"
                         className='p-6'
                         src="https://www.youtube.com/embed/8jmHCJmK2JA?si=o5tGcbZoxKvY3O1G?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
@@ -55,7 +56,7 @@ const Carousel = () => {
 
             </div>,
 
-            <div key="slide2" className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
+            <div key="slide2" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
 
 
                 <div className='w-[300px] text-white font-normal flex flex-col items-start'>
@@ -86,7 +87,7 @@ const Carousel = () => {
 
             </div>,
 
-            <div key="slide3" className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 border-blue-600 rounded-lg">
+            <div key="slide3" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 border-blue-600 rounded-lg">
 
 
                 <div className='w-[300px] text-white font-normal flex flex-col items-start'>
@@ -118,7 +119,7 @@ const Carousel = () => {
             </div>,
         ],
         [
-            <div key="slide4" className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
+            <div key="slide4" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
 
                 <div className='w-[300px] text-white font-normal flex flex-col items-start'>
 
@@ -153,7 +154,7 @@ const Carousel = () => {
             </div>,
 
 
-            <div key="slide5" className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
+            <div key="slide5" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
 
 
                 <div className='w-[300px] text-white font-normal flex flex-col justify-center items-start'>
@@ -188,7 +189,7 @@ const Carousel = () => {
             </div>,
 
 
-            <div key="slide6" className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
+            <div key="slide6" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
 
 
                 <div className='w-[300px] text-white font-normal flex flex-col items-start'>
@@ -221,7 +222,7 @@ const Carousel = () => {
             </div>,
         ],
         [
-            <div key="slide7" className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
+            <div key="slide7" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
 
                 <div className='w-[300px] text-white font-normal flex flex-col items-start'>
 
@@ -253,7 +254,7 @@ const Carousel = () => {
             </div>,
 
 
-            <div key="slide8" className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
+            <div key="slide8" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
 
 
                 <div className='w-[300px] text-white font-normal flex flex-col items-start'>
@@ -287,7 +288,7 @@ const Carousel = () => {
             </div>,
 
 
-            <div key="slide9" className="reel flex flex-col justify-center items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
+            <div key="slide9" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
 
 
                 <div className='w-[300px] text-white font-normal flex flex-col items-start'>
@@ -301,7 +302,7 @@ const Carousel = () => {
                         </div>
                     </div>
 
-                </div> 
+                </div>
                 <div className='flex justify-center items-center w-[300px]'>
                     <p className='text-normal leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“Perfect video editing and content.“</p>
                 </div>
