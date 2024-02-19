@@ -60,7 +60,7 @@ const Carousel = () => {
                 <div className='w-[300px] text-white font-normal flex flex-col items-start'>
 
                     <div className='p-2 flex justify-start items-start'>
-                        <img className="w-16 rounded-full" src="/testimonials/Sneha.jpg"></img>
+                        <img className="w-16 rounded-full" src="/testimonials/sneha.jpg"></img>
 
                         <div className='flex flex-col p-2'>
                             <h1 className='font-extrabold'>Sneha</h1>
