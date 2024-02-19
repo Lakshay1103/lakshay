@@ -41,7 +41,7 @@ const Carousel = () => {
 
                     </div>
                     <div className='flex justify-center items-center w-[300px]'>
-                        <p className='text-normal px-2 py-1 italic'>“Our community is loving the new content. Lovely work.“</p>
+                        <p className='text-normal px-2 py-1 italic leading-5'>“Our community is loving the new content. Lovely work.“</p>
                     </div>
                 </div>
                 <div >
