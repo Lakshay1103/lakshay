@@ -20,6 +20,7 @@ const HeroNew = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.5, ease: "easeIn" }}
             data-aos="fade-up"  data-aos-duration="1000"
+            id='home'
         >
 
             <div className='flex flex-col items-center justify-center h-[500px]'>
@@ -51,7 +52,7 @@ const HeroNew = () => {
 
                 <button
                     className="mt-6 bg-gradient-to-r from-transparent via-blue-700 via-blue-600 via-blue-500 to-blue-400 text-white text-lg rounded-full py-2 px-10 shadow-md border-2 border-white bg-opacity-50 text-center"
-                    data-aos="fade-down"  data-aos-duration="2000"
+                    data-aos="fade-down"  data-aos-duration="1000"
                     onClick={() => {
                         const reelsElement = document.getElementById('reels');
                         reelsElement.scrollIntoView({ behavior: 'smooth' });
