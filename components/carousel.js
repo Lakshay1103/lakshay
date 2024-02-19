@@ -58,21 +58,22 @@ const Carousel = () => {
 
             <div key="slide2" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
 
+                <div className='border-2 border-[#32CD32] text-white rounded-lg mt-2'>
+                    <div className='w-[300px] text-white font-normal flex flex-col items-start'>
 
-                <div className='w-[300px] text-white font-normal flex flex-col items-start'>
+                        <div className='p-2 flex justify-start items-start'>
+                            <img className="w-16 rounded-full" src="/testimonials/sneha.jpg"></img>
 
-                    <div className='p-2 flex justify-start items-start'>
-                        <img className="w-16 rounded-full" src="/testimonials/sneha.jpg"></img>
-
-                        <div className='flex flex-col p-2'>
-                            <h1 className='font-extrabold'>Sneha</h1>
-                            <p className='text-sm'>Founder - Arvinda by Sneha</p>
+                            <div className='flex flex-col p-2'>
+                                <h1 className='font-extrabold'>Sneha</h1>
+                                <p className='text-sm'>Founder - Arvinda by Sneha</p>
+                            </div>
                         </div>
-                    </div>
 
-                </div>
-                <div className='flex justify-center items-center w-[300px]'>
-                    <p className='text-normal leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“I have seen tremendous patience, eye for detail and growth in his work.“</p>
+                    </div>
+                    <div className='flex justify-center items-center w-[300px]'>
+                        <p className='text-normal leading-5 px-2 py-1 italic '>“I have seen tremendous patience, eye for detail and growth in his work.“</p>
+                    </div>
                 </div>
 
                 <div>
@@ -89,21 +90,23 @@ const Carousel = () => {
 
             <div key="slide3" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 border-blue-600 rounded-lg">
 
+                <div className='border-2 border-[#32CD32] text-white rounded-lg mt-2'>
 
-                <div className='w-[300px] text-white font-normal flex flex-col items-start'>
+                    <div className='w-[300px] text-white font-normal flex flex-col items-start'>
 
-                    <div className='p-2 flex justify-start items-start'>
-                        <img className="w-16 rounded-full" src="/testimonials/dailylawyer.jpg"></img>
+                        <div className='p-2 flex justify-start items-start'>
+                            <img className="w-16 rounded-full" src="/testimonials/dailylawyer.jpg"></img>
 
-                        <div className='flex flex-col p-2'>
-                            <h1 className='font-extrabold'>Jenna V Krishnan</h1>
-                            <p className='text-sm'>Founder - The Daily Lawyer</p>
+                            <div className='flex flex-col p-2'>
+                                <h1 className='font-extrabold'>Jenna V Krishnan</h1>
+                                <p className='text-sm'>Founder - The Daily Lawyer</p>
+                            </div>
                         </div>
-                    </div>
 
-                </div>
-                <div className='flex justify-center items-center w-[300px]'>
-                    <p className='text-[14px] leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“Lakshay is extremely organised and meticulous, using digital tools for seamless communication.“</p>
+                    </div>
+                    <div className='flex justify-center items-center w-[300px]'>
+                        <p className='text-[14px] leading-5 px-2 py-1 italic'>“Lakshay is extremely organised and meticulous, using digital tools for seamless communication.“</p>
+                    </div>
                 </div>
 
                 <div>
@@ -121,23 +124,24 @@ const Carousel = () => {
         [
             <div key="slide4" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
 
-                <div className='w-[300px] text-white font-normal flex flex-col items-start'>
+                <div className='border-2 border-[#32CD32] text-white rounded-lg mt-2'>
+                    <div className='w-[300px] text-white font-normal flex flex-col items-start'>
 
-                    <div className='p-2 flex justify-start items-start'>
-                        <img className="w-16 rounded-full" src="/testimonials/anuj.jpg"></img>
+                        <div className='p-2 flex justify-start items-start'>
+                            <img className="w-16 rounded-full" src="/testimonials/anuj.jpg"></img>
 
-                        <div className='flex flex-col p-2'>
-                            <h1 className='font-extrabold'>Anuj Kumar</h1>
-                            <p className='text-sm'>Founder - Public and Policy Media</p>
+                            <div className='flex flex-col p-2'>
+                                <h1 className='font-extrabold'>Anuj Kumar</h1>
+                                <p className='text-sm'>Founder - Public and Policy Media</p>
+                            </div>
                         </div>
+
                     </div>
 
+                    <div className='flex justify-center items-center w-[300px]'>
+                        <p className='text-normal leading-5 px-2 py-1 italic'>“Lakshay and his team know what type of content our audience enjoys. They are great at their work.“</p>
+                    </div>
                 </div>
-
-                <div className='flex justify-center items-center w-[300px]'>
-                    <p className='text-normal leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“Lakshay and his team know what type of content our audience enjoys. They are great at their work.“</p>
-                </div>
-
 
                 <div>
 
@@ -156,23 +160,26 @@ const Carousel = () => {
 
             <div key="slide5" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
 
+                <div className='border-2 border-[#32CD32] text-white rounded-lg mt-2'>
 
-                <div className='w-[300px] text-white font-normal flex flex-col justify-center items-start'>
+                    <div className='w-[300px] text-white font-normal flex flex-col justify-center items-start'>
 
-                    <div className='p-2 flex justify-start items-center'>
-                        <img className="w-16 rounded-full" src="/testimonials/mindfulsome.jpg"></img>
+                        <div className='p-2 flex justify-start items-center'>
+                            <img className="w-16 rounded-full" src="/testimonials/mindfulsome.jpg"></img>
 
-                        <div className='flex flex-col p-2 w-[300px]'>
-                            <h1 className='font-extrabold'>Preiksha Jain</h1>
-                            <p className='text-sm'>Founder - Mindfulsome</p>
-                            <p className='text-sm'>Relationship & Intimacy Coaching</p>
+                            <div className='flex flex-col p-2 w-[300px]'>
+                                <h1 className='font-extrabold'>Preiksha Jain</h1>
+                                <p className='text-sm'>Founder - Mindfulsome</p>
+                                <p className='text-sm'>Relationship & Intimacy Coaching</p>
+                            </div>
                         </div>
+
                     </div>
 
-                </div>
+                    <div className='flex justify-center items-center w-[300px]'>
+                        <p className='text-normal leading-5 px-2 py-1 italic'>“Super work. The new content is awesome.“</p>
+                    </div>
 
-                <div className='flex justify-center items-center w-[300px]'>
-                    <p className='text-normal leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“Super work. The new content is awesome.“</p>
                 </div>
 
 
@@ -191,22 +198,24 @@ const Carousel = () => {
 
             <div key="slide6" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
 
+                <div className='border-2 border-[#32CD32] text-white rounded-lg mt-2'>
 
-                <div className='w-[300px] text-white font-normal flex flex-col items-start'>
+                    <div className='w-[300px] text-white font-normal flex flex-col items-start'>
 
-                    <div className='p-4 flex justify-start items-start'>
-                        <img className="w-16 rounded-full" src="/testimonials/mindmatters.jpg"></img>
+                        <div className='p-4 flex justify-start items-start'>
+                            <img className="w-16 rounded-full" src="/testimonials/mindmatters.jpg"></img>
 
-                        <div className='flex flex-col p-2 w-[300px]'>
-                            <h1 className='font-extrabold'>Vaitika Advani</h1>
-                            <p className='text-sm'>Founder - Mind Matters by Vaitika</p>
+                            <div className='flex flex-col p-2 w-[300px]'>
+                                <h1 className='font-extrabold'>Vaitika Advani</h1>
+                                <p className='text-sm'>Founder - Mind Matters by Vaitika</p>
 
+                            </div>
                         </div>
-                    </div>
 
-                </div>
-                <div className='flex justify-center items-center w-[300px]'>
-                    <p className='text-sm leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“My friends keep on commenting and telling me that they just love the content. Thanks a lot.“</p>
+                    </div>
+                    <div className='flex justify-center items-center w-[300px]'>
+                        <p className='text-sm leading-5 px-2 py-1 italic'>“My friends keep on commenting and telling me that they just love the content. Thanks a lot.“</p>
+                    </div>
                 </div>
 
                 <div>
@@ -223,22 +232,23 @@ const Carousel = () => {
         ],
         [
             <div key="slide7" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
+                <div className='border-2 border-[#32CD32] text-white rounded-lg mt-2'>
+                    <div className='w-[300px] text-white font-normal flex flex-col items-start'>
 
-                <div className='w-[300px] text-white font-normal flex flex-col items-start'>
+                        <div className='p-4 flex justify-start items-center'>
+                            <img className="w-16 rounded-full" src="/testimonials/spicy.png"></img>
 
-                    <div className='p-4 flex justify-start items-center'>
-                        <img className="w-16 rounded-full" src="/testimonials/spicy.png"></img>
+                            <div className='flex flex-col p-2'>
+                                <h1 className='font-extrabold'>Spicy Sangria Events</h1>
+                                <p className='text-sm'>Event Management Company</p>
 
-                        <div className='flex flex-col p-2'>
-                            <h1 className='font-extrabold'>Spicy Sangria Events</h1>
-                            <p className='text-sm'>Event Management Company</p>
-
+                            </div>
                         </div>
-                    </div>
 
-                </div>
-                <div className='flex justify-center items-center w-[300px]'>
-                    <p className='text-normal leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“Lovely work. People are loving the videos.“</p>
+                    </div>
+                    <div className='flex justify-center items-center w-[300px]'>
+                        <p className='text-normal leading-5 px-2 py-1 italic'>“Lovely work. People are loving the videos.“</p>
+                    </div>
                 </div>
 
                 <div>
@@ -256,23 +266,26 @@ const Carousel = () => {
 
             <div key="slide8" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
 
+                <div className='border-2 border-[#32CD32] text-white rounded-lg mt-2'>
 
-                <div className='w-[300px] text-white font-normal flex flex-col items-start'>
+                    <div className='w-[300px] text-white font-normal flex flex-col items-start'>
 
-                    <div className='p-4 flex justify-start items-center'>
-                        <img className="w-16 rounded-full" src="/testimonials/plant.png"></img>
+                        <div className='p-4 flex justify-start items-center'>
+                            <img className="w-16 rounded-full" src="/testimonials/plant.png"></img>
 
-                        <div className='flex flex-col p-2 w-[300px]'>
-                            <h1 className='font-extrabold'>Plant A Word</h1>
-                            <p className='text-sm'>A Unique Language Learning School</p>
+                            <div className='flex flex-col p-2 w-[300px]'>
+                                <h1 className='font-extrabold'>Plant A Word</h1>
+                                <p className='text-sm'>A Unique Language Learning School</p>
 
+                            </div>
                         </div>
+
                     </div>
 
-                </div>
+                    <div className='flex justify-center items-center w-[300px]'>
+                        <p className='text-sm leading-5 px-2 py-1 italic'>“We are getting good responses from our audience. Everybody is enjoying the content.“</p>
+                    </div>
 
-                <div className='flex justify-center items-center w-[300px]'>
-                    <p className='text-sm leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“We are getting good responses from our audience. Everybody is enjoying the content.“</p>
                 </div>
 
                 <div>
@@ -290,21 +303,24 @@ const Carousel = () => {
 
             <div key="slide9" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
 
+                <div className='border-2 border-[#32CD32] text-white rounded-lg mt-2'>
 
-                <div className='w-[300px] text-white font-normal flex flex-col items-start'>
+                    <div className='w-[300px] text-white font-normal flex flex-col items-start'>
 
-                    <div className='p-4 flex justify-start items-center'>
-                        <img className="w-16 rounded-full" src="/testimonials/FLJ.png"></img>
+                        <div className='p-4 flex justify-start items-center'>
+                            <img className="w-16 rounded-full" src="/testimonials/FLJ.png"></img>
 
-                        <div className='flex flex-col p-2'>
-                            <h1 className='font-extrabold'>Fashion Law Journal</h1>
-                            <p className='text-sm'>Leading Provider for the Fashion Law Industry</p>
+                            <div className='flex flex-col p-2'>
+                                <h1 className='font-extrabold'>Fashion Law Journal</h1>
+                                <p className='text-sm'>Leading Provider for the Fashion Law Industry</p>
+                            </div>
                         </div>
+
+                    </div>
+                    <div className='flex justify-center items-center w-[300px]'>
+                        <p className='text-normal leading-5 px-2 py-1 italic'>“Perfect video editing and content.“</p>
                     </div>
 
-                </div>
-                <div className='flex justify-center items-center w-[300px]'>
-                    <p className='text-normal leading-5 px-2 py-1 border-2 border-[#32CD32] bg-white text-black rounded-lg'>“Perfect video editing and content.“</p>
                 </div>
 
                 <div>
