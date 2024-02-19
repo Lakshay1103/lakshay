@@ -5,6 +5,9 @@
 body {
     background-color: #000;
     overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
 }
 
 /* LOGO MARQUEE SECTION */
@@ -14,7 +17,7 @@ body {
     margin: 0 auto;
 }
 
-.container{
+.container {
     width: 94vw;
 }
 
@@ -255,4 +258,3 @@ div.marquee>a>img {
         display: none;
     }
 }
-
