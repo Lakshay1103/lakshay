@@ -70,8 +70,10 @@ const Cards = () => {
                         </iframe>
                     )}
 
-                    <img src="/testimonials/anuj.jpg" alt="Anuj" className='w-[50px] h-[50px] rounded-full m-4' />
-                    
+                    <span className='flex justify-center items-center'>
+                        <img src="/testimonials/anuj.jpg" alt="Anuj" className='w-[50px] h-[50px] rounded-full m-4' />
+                    </span>
+
                     <div className="avatar flex items-center">
                         <img src="/testimonials/anuj.jpg" alt="Anuj" className='w-[50px] h-[50px] rounded-full mr-2' />
                         <h3 className='panel-heading'>Anuj Kumar</h3>
@@ -87,9 +89,9 @@ const Cards = () => {
                             allowfullscreen>
                         </iframe>
                     )}
-
-                    <img src="/testimonials/sneha.jpg" alt="Anuj" className='w-[50px] h-[50px] rounded-full m-4' />
-
+                    <span className='flex justify-center items-center'>
+                        <img src="/testimonials/sneha.jpg" alt="Anuj" className='w-[50px] h-[50px] rounded-full m-4' />
+                    </span>
 
                     <div className="avatar flex items-center">
                         <img src="/testimonials/sneha.jpg" alt="Anuj" className='w-[50px] rounded-full mr-2' />
