@@ -6,7 +6,7 @@ import Logos from "../components/logos";
 import About from "../components/about";
 import Steps from "../components/steps";
 import Cards from "../components/cards";
-import Reels from "../components/reels";
+// import Reels from "../components/reels";
 import Carousel from "../components/carousel";
 import FAQ from "../components/faq";
 import Footer from "../components/footer";

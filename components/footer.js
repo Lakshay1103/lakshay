@@ -16,7 +16,10 @@ const Footer = () => {
         <div className='mt-20 flex flex-col justify-center items-center'>
 
             <div
-                className='w-3/4 rounded-lg p-20 flex flex-col justify-center items-center bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400'
+                className='w-3/4 rounded-lg p-20 flex flex-col justify-center items-center'
+                style={{
+                    backgroundImage: "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),url('/CTAbg.png')",
+                }}
                 data-aos='fade-up'
                 data-aos-duration="1000"
             >
@@ -25,7 +28,7 @@ const Footer = () => {
 
                 <h1 className='text-white text-[48px] font-bold text-center leading-[50px]'>To Build Something <br />Worthwhile?</h1>
 
-                <button class="bg-white text-[#32CD32] border border-[#32CD32] rounded-lg p-4 px-5 mt-5 hover:text-white hover:bg-[#32CD32]"
+                <button class="bg-[#32CD32] text-white border border-white rounded-lg p-4 px-5 mt-5 hover:text-[#32CD32] hover:bg-white transition duration-300 ease-in-out"
                     onClick={() => window.open('https://cal.com/lakshaygoel/work-with-me', '_blank')}>
                     GET STARTED
                 </button>
