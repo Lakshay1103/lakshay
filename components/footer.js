@@ -5,6 +5,8 @@ import { FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa6";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import { FaSquarePhone } from "react-icons/fa6";
+
 
 
 const Footer = () => {
@@ -30,7 +32,7 @@ const Footer = () => {
 
                 <button class="bg-[#32CD32] text-white font-bold border border-white rounded-lg p-4 px-5 mt-5 hover:text-[#32CD32] hover:bg-white transition duration-300 ease-in-out"
                     onClick={() => window.open('https://cal.com/lakshaygoel/work-with-me', '_blank')}>
-                    GET STARTED
+                    <FaSquarePhone /> GET STARTED
                 </button>
             </div>
 
@@ -44,15 +46,15 @@ const Footer = () => {
                 <div className='w-8/12 flex justify-center items-center mt-10'>
                     <div className='w-1/2 flex flex-col justify-center items-start'>
                         {/* Logo */}
-                        <img src="/Logo_blue.svg" alt="Logo" className='w-40 p-5' />
+                        <img src="/Logo_whiteblue.svg" alt="Logo" className='w-64' />
 
                         <p className='text-lg text-bold text-white'>letsgolakshay@gmail.com</p>
 
                         {/* Social Icons */}
                         <div className='flex justify-between items-center w-40 mt-5 '>
-                            <a href="https://www.instagram.com/lakshaygoellll/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white'><FaInstagram /></a>
-                            <a href="https://www.linkedin.com/in/lakshaygoellll/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white'><FaLinkedin /></a>
-                            <a href="https://www.youtube.com/channel/UCDvg7NV5ikI0KxikCWdmX9A" target="_blank" rel="noopener noreferrer" className='text-4xl text-white'><FaYoutube /></a>
+                            <a href="https://www.instagram.com/lakshaygoellll/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white hover:text-[#32CD32]'><FaInstagram /></a>
+                            <a href="https://www.linkedin.com/in/lakshaygoellll/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white hover:text-[#32CD32]'><FaLinkedin /></a>
+                            <a href="https://www.youtube.com/channel/UCDvg7NV5ikI0KxikCWdmX9A" target="_blank" rel="noopener noreferrer" className='text-4xl text-white hover:text-[#32CD32]'><FaYoutube /></a>
 
                         </div>
                     </div>
