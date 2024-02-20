@@ -26,7 +26,8 @@ const Nav = () => {
               Testimonials
             </Link>
             <Link to='lg' smooth={true} duration={500} className='text-white text-4xl mx-10' style={{ cursor: 'pointer' }}>
-              LG
+            <img src="/Logo_white.svg" alt="Image" />  
+
             </Link>
             <Link to='about' smooth={true} duration={500} className='text-white text-xl p-2 mx-10' style={{ cursor: 'pointer' }}>
               About

@@ -44,7 +44,7 @@ const Footer = () => {
                 <div className='w-8/12 flex justify-center items-center mt-10'>
                     <div className='w-1/2 flex flex-col justify-center items-start'>
                         {/* Logo */}
-                        <img src="vercel.svg" alt="Logo" className='w-40 bg-white p-5' />
+                        <img src="/Logo_blue.svg" alt="Logo" className='w-40 p-5' />
 
                         <p className='text-lg text-bold text-white'>letsgolakshay@gmail.com</p>
 
