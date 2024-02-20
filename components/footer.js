@@ -5,8 +5,6 @@ import { FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa6";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-import { FaSquarePhone } from "react-icons/fa6";
-
 
 
 const Footer = () => {
@@ -32,7 +30,7 @@ const Footer = () => {
 
                 <button class="bg-[#32CD32] text-white font-bold border border-white rounded-lg p-4 px-5 mt-5 hover:text-[#32CD32] hover:bg-white transition duration-300 ease-in-out"
                     onClick={() => window.open('https://cal.com/lakshaygoel/work-with-me', '_blank')}>
-                    <FaSquarePhone /> GET STARTED
+                    GET STARTED
                 </button>
             </div>
 
