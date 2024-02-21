@@ -47,7 +47,7 @@ const Carousel = () => {
                 <div >
                     <iframe width="350" height="450"
                         className='p-6'
-                        src="https://www.youtube.com/embed/8jmHCJmK2JA?si=o5tGcbZoxKvY3O1G?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
+                        src="https://www.youtube.com/embed/CV9g8qV_GtU?si=zccnhlnPbRT3nN42?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
                         title="Shaan khanna"
                         frameborder="0"
                         allowfullscreen>

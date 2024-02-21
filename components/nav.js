@@ -18,7 +18,7 @@ const Nav = () => {
         variants={slideInFromTop}
         style={{background: 'linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8))'}}>
           <div className='flex justify-between items-center py-2'>
-            <Link to='home' smooth={true} duration={500} className='text-white text-xl p-2 mr-10 ml-2' style={{ cursor: 'pointer' }}>
+            <Link to='home' smooth={true} duration={500} className='text-white text-xl p-2 mr-10 ml-4' style={{ cursor: 'pointer' }}>
               Home
             </Link>
 

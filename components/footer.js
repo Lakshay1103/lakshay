@@ -28,7 +28,7 @@ const Footer = () => {
 
                 <h1 className='text-white text-[48px] font-bold text-center leading-[50px]'>To Build Something <br />Worthwhile?</h1>
 
-                <button class="bg-[#32CD32] text-white font-bold border border-white rounded-lg p-4 px-5 mt-5 hover:text-[#32CD32] hover:bg-white transition duration-300 ease-in-out"
+                <button class="bg-[#32CD32] text-white font-bold border border-white rounded-full p-4 px-5 mt-5 hover:text-[#32CD32] hover:bg-white transition duration-300 ease-in-out"
                     onClick={() => window.open('https://cal.com/lakshaygoel/work-with-me', '_blank')}>
                     GET STARTED
                 </button>

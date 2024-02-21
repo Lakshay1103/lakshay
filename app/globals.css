@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-    width: 94vw;
+    width: 100vw;
 }
 
 .default-content-container {
@@ -26,8 +26,7 @@ body {
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    
     padding-top: 4.5rem;
     padding-bottom: 4.5rem;
     width: 100%;

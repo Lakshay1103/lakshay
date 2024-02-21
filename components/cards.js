@@ -3,7 +3,8 @@
 import React, { useEffect, useState } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import { FaInstagram } from "react-icons/fa6";
+import { FaLongArrowAltRight } from "react-icons/fa";
+
 
 
 const Cards = () => {
@@ -55,7 +56,8 @@ const Cards = () => {
                         <p className="text-xl">
                             <span className='font-bold'>Hear What My Clients Have to Say! </span><br /><br />
                             Our clients share their success stories and showcase how our services have transformed their online presence.<br /><br />
-                            <span className=' bg-blue-700 text-white rounded-lg p-3'>Let their testimony inspire you to take that next step!</span>
+                            <span className='bg-blue-700 text-white rounded-full p-3'>Let their testimony inspire you to take that next step → </span> 
+
                         </p>
                     </div>
                 </div>

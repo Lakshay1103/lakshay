@@ -20,7 +20,7 @@ const Steps = () => {
         >
 
             <div
-                className=' text-white text-[52px] text-center font-normal mt-24'
+                className=' text-white text-[52px] text-center font-extrabold mt-24 leading-[60px]'
                 data-aos='fade-up'
                 data-aos-duration="1000"
             >
