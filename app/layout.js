@@ -5,7 +5,7 @@ const league = League_Spartan({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Lakshay Goel",
-  description: "Lakshay's portfolio website",
+  description: "Building Powerful Personal Brands",
 };
 
 export default function RootLayout({ children }) {
