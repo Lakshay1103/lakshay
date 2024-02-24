@@ -20,7 +20,7 @@ const Steps = () => {
         >
 
             <div
-                className=' text-white text-[52px] text-center font-extrabold mt-24 leading-[60px]'
+                className=' text-white text-[52px] sm:text-3xl md:text-4xl lg:text-5xl text-center font-extrabold mt-24 leading-[60px]'
                 data-aos='fade-up'
                 data-aos-duration="1000"
             >
@@ -28,12 +28,12 @@ const Steps = () => {
                 <span className='text-[#32CD32]'> 3-Step System</span> for Seamless <br /> Social Media Growth
             </div>
 
-            <div className='text-white text-xl text-center font-light'>
+            <div className='text-white text-xl sm:text-lg text-center font-light'>
                 Unlock the potential of your social media <br /> journey with our proven system!
             </div>
 
             <div
-                className={`flex justify-between items-start ${window.innerWidth < 1000 ? 'w-4/5' : 'w-3/5'} mt-14 `}
+                className='flex justify-between items-start w-3/5 mt-14'
                 data-aos='fade-right'
                 data-aos-duration="1000"
             >
@@ -41,7 +41,7 @@ const Steps = () => {
                 <div className='text-center flex flex-col justify-center items-center'>
                     <svg
 
-                        className='w-[150px] h-[150px] rounded-full  bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400'
+                        className='lg:w-40 lg:h-40 md:w-32 md:h-32 sm:w-24 sm:h-24 rounded-full  bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400'
                         width="145" height="133" viewBox="0 0 145 133" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <mask id="mask0_303_54" maskUnits="userSpaceOnUse" x="36" y="33" width="73" height="67">
                             <path d="M36.3395 33.4963H108.481V99.6499H36.3395V33.4963Z" fill="white" />
@@ -63,7 +63,7 @@ const Steps = () => {
                 </div>
 
 
-                <div className={`flex justify-center items-center h-1/2 ${window.innerWidth < 700 ? 'hidden' : ''}`}>
+                <div className={'flex justify-center items-center h-1/2 '}>
                     <img className='w-14 h-14' src='/arrow-right.png'></img>
                 </div>
 
@@ -71,7 +71,7 @@ const Steps = () => {
                     <svg
                         data-aos='fade-right'
                         data-aos-duration="1200"
-                        className='w-[150px] h-[150px] rounded-full  bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400'
+                        className='lg:w-40 lg:h-40 md:w-32 md:h-32 sm:w-24 sm:h-24 rounded-full bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400'
 
                         width="147" height="149" viewBox="0 0 147 149" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <mask id="mask0_303_32" maskUnits="userSpaceOnUse" x="35" y="36" width="56" height="37">
@@ -107,7 +107,7 @@ const Steps = () => {
 
 
 
-                <div className={`flex justify-center items-center h-1/2 ${window.innerWidth < 700 ? 'hidden' : ''}`}>
+                <div className={'flex justify-center items-center h-1/2'}>
                     <img className='w-14 h-14' src='/arrow-right.png'></img>
                 </div>
 
@@ -115,7 +115,7 @@ const Steps = () => {
                     <svg
                         data-aos='fade-right'
                         data-aos-duration="1500"
-                        className='w-[150px] h-[150px] rounded-full  bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400'
+                        className='lg:w-40 lg:h-40 md:w-32 md:h-32 sm:w-24 sm:h-24 rounded-full  bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400'
 
                         width="164" height="161" viewBox="0 0 164 161" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <mask id="mask0_303_72" maskUnits="userSpaceOnUse" x="38" y="37" width="88" height="86">

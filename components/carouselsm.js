@@ -353,7 +353,7 @@ const Carouselsm = () => {
                     <button onClick={handlePrevSlide} className='text-white text-5xl'><FaChevronLeft /></button>
                 </div>
 
-                <div className='flex justify-between w-[95%]'>
+                <div className='flex justify-between w-[95%] mx-10'>
                     {slides[currentSlide]}
                 </div>
 
