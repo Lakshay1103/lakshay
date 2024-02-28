@@ -294,6 +294,10 @@ div.marquee>a>img {
 
 @media (max-width: 800px) {
 
+    body{
+        overflow: hidden;
+    }
+
     div.marquee>a>img {
         height: 100px;
     }
@@ -361,6 +365,7 @@ div.marquee>a>img {
     .footer-form {
         width: 90%;
         margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .formkit-field {
@@ -379,6 +384,10 @@ div.marquee>a>img {
 }
 
 @media (max-width: 550px) {
+
+    body{
+        overflow-x: hidden;
+    }
 
     .steps-title{
         margin-top: 20px;
@@ -466,6 +475,10 @@ div.marquee>a>img {
 
 
 @media (max-width: 400px) {
+
+    body{
+        overflow-x: hidden;
+    }
 
     .hero-title {
         font-size: 30px;
@@ -616,6 +629,7 @@ div.marquee>a>img {
     .footer-form {
         width: 90%;
         margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .formkit-field {
