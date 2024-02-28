@@ -2,9 +2,9 @@ import React from 'react'
 
 const Cardssm = () => {
     return (
-        <div className='flex justify-center items-center'>
+        <div className='flex flex-col justify-center items-center'>
             <div
-                className='bg-white flex justify-center items-center h-[500px] w-3/4 rounded-2xl'
+                className='bg-white flex justify-center items-center h-[400px] w-10/12 rounded-2xl'
                 style={{
                     backgroundImage: "linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)),url('/Rectangle.svg')",
                 }}
@@ -19,13 +19,55 @@ const Cardssm = () => {
                         <span className='font-bold'>Hear What My Clients Have to Say! </span><br /><br />
                         Our clients share their success stories and showcase how our services have transformed their online presence.<br /><br />
                     </p>
-                    <div className='border-blue-700 border-2 text-black sm:text-sm md:text-lg rounded-full p-2'>Let their testimony inspire you to take that next step 👇 </div>
+                    <div className='border-blue-700 border-2 text-black sm:text-sm md:text-lg rounded-full py-2 px-4'>Let their testimony inspire you to take that next step 👇 </div>
 
 
                 </div>
             </div>
-        </div>
 
+            <div className='flex justify-center items-center w-8/12 mt-4'>
+
+                <div className='testimonial-container flex flex-col justify-center items-center'>
+
+                    <div className='testimonial-text '>
+                        <iframe
+                            className='mt-5'
+                            src="https://www.youtube.com/embed/J9yD5UF629E?si=bce4DchHJf4aXang?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=1&disablekb=1"
+                            title="Anuj"
+                            frameborder="0"
+                            allowfullscreen>
+                        </iframe>
+
+                        <div className='flex justify-center items-center mt-2'>
+                            <img src="/testimonials/anuj.jpg" alt="Anuj" className='w-[40px] h-[40px] rounded-full mr-2' />
+                            <p className='text-white font-bold text-lg'>Anuj Kumar</p>
+                        </div>
+                    </div>
+
+
+
+                    <div className='testimonial-text'>
+                        <iframe
+                            className='mt-5'
+                            src="https://www.youtube.com/embed/NXiBCsGdHHo?si=UVK7SsIDaGHXnSRY?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=1&disablekb=1"
+                            title="Sneha"
+                            frameborder="0"
+                            allowfullscreen>
+                        </iframe>
+
+                        <div className='flex justify-center items-center mt-2'>
+                            <img src="/testimonials/sneha.jpg" alt="Anuj" className='w-[40px] h-[40px] rounded-full mr-2' />
+                            <p className='text-white font-bold text-lg'>Sneha Arvind</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+        </div>
     )
 }
 
