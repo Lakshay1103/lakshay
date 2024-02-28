@@ -275,6 +275,11 @@ div.marquee>a>img {
         font-size: 18px;
     }
 
+    .about-description {
+        padding: 12px;
+        margin-top: 4px;
+    }
+
     .about-description h1 {
         font-size: 36px;
     }
@@ -299,6 +304,11 @@ div.marquee>a>img {
 
     .about-container {
         flex-direction: column;
+    }
+
+    .about-description {
+        padding: 12px;
+        margin-top: 4px;
     }
 
     .about-icons {
@@ -473,6 +483,11 @@ div.marquee>a>img {
 
     .about-container {
         padding: 5px;
+    }
+
+    .about-description {
+        padding: 12px;
+        margin-top: 4px;
     }
 
     .about-description h1 {
