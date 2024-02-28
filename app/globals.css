@@ -449,5 +449,46 @@ div.marquee>a>img {
         margin-right: 0;
         margin-left: 0;
     }
+
+    .footer-CTA{
+        width: 80%;
+        padding: 25px 15px;
+    }
+
+    .footer-CTA h1{
+        font-size: 36px;
+    }
+
+    .footer-CTA button{
+        font-size: 14px;
+    }
+
+    .footer{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .footer-text{
+        width: 70%;
+        margin-top: 50px;
+        align-items: center;
+    }
+
+    .footer-form{
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .formkit-field{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .formkit-field button{
+        margin-top: 10px;
+        width: 30%;
+    }
     
 }
