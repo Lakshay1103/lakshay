@@ -1,6 +1,13 @@
 import React from 'react'
+import { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Cardssm = () => {
+    useEffect(() => {
+        Aos.init({ duration: 1000 });
+    }, []);
+
     return (
         <div className='flex flex-col justify-center items-center'>
             <div
@@ -8,6 +15,8 @@ const Cardssm = () => {
                 style={{
                     backgroundImage: "linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)),url('/Rectangle.svg')",
                 }}
+                data-aos='fade-right'
+                data-aos-duration="1500"
             >
                 <div className='w-3/4 flex flex-col justify-center items-center text-center'>
 
@@ -27,7 +36,11 @@ const Cardssm = () => {
 
             <div className='flex justify-center items-center w-8/12 mt-4'>
 
-                <div className='testimonial-container flex flex-col justify-center items-center'>
+                <div
+                    className='testimonial-container flex flex-col justify-center items-center'
+                    data-aos='fade-right'
+                    data-aos-duration="1500"
+                >
 
                     <div className='testimonial-text '>
                         <iframe
