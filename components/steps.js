@@ -33,7 +33,7 @@ const Steps = () => {
             </div>
 
             <div
-                className='flex justify-between items-start w-3/5 mt-14'
+                className='steps-icons flex justify-between items-start w-3/5 mt-14'
                 data-aos='fade-right'
                 data-aos-duration="1000"
             >
@@ -57,13 +57,13 @@ const Steps = () => {
                         <path d="M42.163 88.3024L48.7633 82.2438C49.078 81.9551 49.078 81.4869 48.7633 81.1983C48.4487 80.9097 47.9389 80.9097 47.6242 81.1983L41.0238 87.2569C40.7092 87.5455 40.7092 88.0138 41.0238 88.3024C41.1812 88.4467 41.3875 88.5185 41.593 88.5185C41.7993 88.5185 42.0056 88.4467 42.163 88.3024Z" fill="white" />
                     </svg>
 
-                    <p className=' text-white text-[20px] mt-3' >STEP 1</p>
-                    <p className='w-[150px] text-white text-[14px]'>Crafting customised Growth Strategies to get you 10x results</p>
+                    <p className='icon-text text-white text-[20px] mt-3' >STEP 1</p>
+                    <p className='icon-text w-[150px] text-white text-[14px]'>Crafting customised Growth Strategies to get you 10x results</p>
 
                 </div>
 
 
-                <div className={'flex justify-center items-center h-1/2 '}>
+                <div className='arrow flex justify-center items-center h-1/2 '>
                     <img className='w-14 h-14' src='/arrow-right.png'></img>
                 </div>
 
@@ -100,14 +100,14 @@ const Steps = () => {
                         </g>
                     </svg>
 
-                    <p className=' text-white text-[20px] mt-3' >STEP 2</p>
-                    <p className='w-[150px] text-white text-[14px]'>Content curation that makes you stand out</p>
+                    <p className='icon-text text-white text-[20px] mt-3' >STEP 2</p>
+                    <p className='icon-text w-[150px] text-white text-[14px]'>Content curation that makes you stand out</p>
 
                 </div>
 
 
 
-                <div className={'flex justify-center items-center h-1/2'}>
+                <div className='arrow flex justify-center items-center h-1/2'>
                     <img className='w-14 h-14' src='/arrow-right.png'></img>
                 </div>
 
@@ -126,8 +126,8 @@ const Steps = () => {
                         </g>
                     </svg>
 
-                    <p className=' text-white text-[20px] mt-3' >STEP 3</p>
-                    <p className='w-[150px] text-white text-[14px]'>Data-driven analysis to reach new heights</p>
+                    <p className='icon-text text-white text-[20px] mt-3' >STEP 3</p>
+                    <p className='icon-text w-[150px] text-white text-[14px]'>Data-driven analysis to reach new heights</p>
 
                 </div>
             </div>

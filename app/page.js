@@ -12,6 +12,7 @@ import Carousel from "../components/carousel";
 import FAQ from "../components/faq";
 import Footer from "../components/footer";
 import Carouselsm from "../components/carouselsm";
+import Cardssm from "../components/cardssm";
 
 export default function Home() {
   const [screenWidth, setScreenWidth] = useState(0);
@@ -35,7 +36,7 @@ export default function Home() {
       <Logos />
       <About />
       <Steps />
-      <Cards />
+      {screenWidth < 800 ? <Cardssm /> : <Cards />}
       {/* <Reels /> */}
       {screenWidth < 1000 ? <Carouselsm /> : <Carousel />}
       <FAQ />

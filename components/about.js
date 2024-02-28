@@ -14,7 +14,7 @@ const About = () => {
     return (
 
         <div className='flex justify-center items-center'>
-            <div id='about' className='flex justify-center items-center mt-20 w-10/12 bg-white p-8 rounded-md'
+            <div id='about' className='about-container flex justify-center items-center mt-20 w-10/12 bg-white p-8 rounded-md'
                 data-aos='fade-up'
                 data-aos-duration="1000"
             >
@@ -28,7 +28,7 @@ const About = () => {
                 </div>
 
                 <div
-                    className='flex flex-col justify-between items-center mt-4 bg-[#32CD32]'
+                    className='about-icons flex flex-col justify-between items-center mt-4 bg-[#32CD32]'
                     data-aos='fade-right'
                     data-aos-duration="1200"
                 >
@@ -38,14 +38,14 @@ const About = () => {
 
                 </div>
 
-                <div className='p-10'
+                <div className='about-description p-10'
                     data-aos='fade-right'
                     data-aos-duration="1500"
                 >
 
                     <h2 className='font-bold'>ABOUT ME</h2>
                     <h1 className="text-[#32CD32] text-[48px] font-bold">Hello. I&apos;m Lakshay Goel.</h1>
-                    <p className='font-bold  text-xl'>Entrepreneur, Creator, and Social Media Marketer</p>
+                    <h3 className='font-bold text-lg'>Entrepreneur, Creator, and Social Media Marketer</h3>
                     <p className='mt-5 text-lg'>I help people build powerful and impactful personal brands on Instagram and YouTube via Content,
                         Branding & Community Building. With a passion for building powerful personal brands,
                         I lead a team dedicated to pushing the boundaries of marketing and community building.
