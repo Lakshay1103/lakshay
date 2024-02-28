@@ -295,7 +295,7 @@ div.marquee>a>img {
 @media (max-width: 800px) {
 
     body{
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
     div.marquee>a>img {
