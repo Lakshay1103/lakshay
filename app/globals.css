@@ -307,9 +307,9 @@ div.marquee>a>img {
 
     .steps-icons {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: start;
-        width: 70%;
+        width: 90%;
     }
 
     .steps-icons svg {
@@ -407,7 +407,7 @@ div.marquee>a>img {
         display: flex;
         justify-content: center;
         align-items: start;
-        width: 60%;
+        width: 100%;
     }
 
     .steps-icons svg {

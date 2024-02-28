@@ -38,7 +38,7 @@ const Steps = () => {
                 data-aos-duration="1000"
             >
 
-                <div className='text-center flex flex-col justify-center items-center'>
+                <div className='w-1/3 text-center flex flex-col justify-center items-center'>
                     <svg
 
                         className='lg:w-40 lg:h-40 md:w-32 md:h-32 sm:w-24 sm:h-24 rounded-full  bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400'
@@ -67,7 +67,7 @@ const Steps = () => {
                     <img className='w-14 h-14' src='/arrow-right.png'></img>
                 </div>
 
-                <div className='text-center flex flex-col justify-center items-center'>
+                <div className='w-1/3 text-center flex flex-col justify-center items-center'>
                     <svg
                         data-aos='fade-right'
                         data-aos-duration="1200"
@@ -111,7 +111,7 @@ const Steps = () => {
                     <img className='w-14 h-14' src='/arrow-right.png'></img>
                 </div>
 
-                <div className='text-center flex flex-col justify-center items-center'>
+                <div className='w-1/3 text-center flex flex-col justify-center items-center'>
                     <svg
                         data-aos='fade-right'
                         data-aos-duration="1500"
