@@ -14,13 +14,13 @@ const Steps = () => {
 
     return (
         <div
-            className='flex flex-col bg-cover bg-center h-screen justify-center items-center'
+            className='flex flex-col bg-center h-screen justify-center items-center'
             style={{ backgroundImage: "linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('/bg-svg-1.png')" }}
 
         >
 
             <div
-                className=' text-white text-[52px] sm:text-3xl md:text-4xl lg:text-5xl text-center font-extrabold mt-24 leading-[60px]'
+                className='steps-title text-white text-[52px] sm:text-3xl md:text-4xl lg:text-5xl text-center font-extrabold mt-24 leading-[60px]'
                 data-aos='fade-up'
                 data-aos-duration="1000"
             >
