@@ -349,7 +349,7 @@ const Carouselsm = () => {
 
             <div className="flex justify-center items-center">
 
-                <div className=' flex justify-center items-center' data-aos='fade-right' data-aos-duration="1000">
+                <div className=' flex justify-center items-center'>
                     <button onClick={handlePrevSlide} className='reel-btn text-white text-5xl'><FaChevronLeft /></button>
                 </div>
 
@@ -357,7 +357,7 @@ const Carouselsm = () => {
                     {slides[currentSlide]}
                 </div>
 
-                <div className='flex justify-center items-center' data-aos='fade-left' data-aos-duration="1000">
+                <div className='flex justify-center items-center'>
                     <button onClick={handleNextSlide} className='reel-btn text-white text-5xl'><FaChevronRight /></button>
                 </div>
             </div>
