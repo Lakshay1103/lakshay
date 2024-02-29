@@ -18,7 +18,7 @@ const Cardssm = () => {
                 data-aos='fade-right'
                 data-aos-duration="1500"
             >
-                <div className='w-3/4 flex flex-col justify-center items-center text-center'>
+                <div className='testimonial-section w-3/4 flex flex-col justify-center items-center text-center'>
 
                     <h2 className="font-bold">TESTIMONIALS</h2>
 

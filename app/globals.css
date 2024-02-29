@@ -645,3 +645,28 @@ div.marquee>a>img {
     }
 
 }
+
+
+@media (max-width: 375px){
+
+    .steps-title{
+        font-size: 32px;
+        line-height: normal;
+    }
+
+    .icon-text {
+        width: 110px;
+        font-size: 10px;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    .testimonial-section h1{
+        font-size: 30px;
+    }
+
+    .testimonial-section p{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
