@@ -13,6 +13,7 @@ import FAQ from "../components/faq";
 import Footer from "../components/footer";
 import Carouselsm from "../components/carouselsm";
 import Cardssm from "../components/cardssm";
+import Navsm from "../components/navsm";
 
 export default function Home() {
   const [screenWidth, setScreenWidth] = useState(0);
@@ -30,7 +31,7 @@ export default function Home() {
 
   return (
     <div>
-      {screenWidth >= 750 && <Nav />}
+      {screenWidth >= 750 ? <Nav /> : <Navsm />}
       {/* <Hero /> */}
       <HeroNew />
       <Logos />
