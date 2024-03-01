@@ -274,12 +274,16 @@ div.marquee>a>img {
     }
 
     .about-description {
-        padding: 12px;
+        padding: 8px;
         margin-top: 4px;
     }
 
     .about-description h1 {
-        font-size: 36px;
+        font-size: 24px;
+    }
+
+    .about-description h3 {
+        font-size: 13px;
     }
 
     .about-description p {
@@ -309,7 +313,7 @@ div.marquee>a>img {
     }
 
     .about-description {
-        padding: 12px;
+        padding: 10px;
         margin-top: 4px;
     }
 
@@ -354,7 +358,12 @@ div.marquee>a>img {
         width: 90%;
     }
 
-    .footer-text {
+    .footer-icons{
+        width: 120px;
+        margin-top: 10px;
+    }
+
+    .text {
         width: 70%;
         margin-top: 50px;
         align-items: center;
@@ -599,7 +608,7 @@ div.marquee>a>img {
     }
 
     .about-description {
-        padding: 12px;
+        padding: 8px;
         margin-top: 4px;
     }
 
@@ -607,9 +616,8 @@ div.marquee>a>img {
         font-size: 24px;
     }
 
-    .about-description p {
-        font-size: 14px;
-        line-height: 1.3;
+    .about-description h3 {
+        font-size: 13px;
     }
 
     .steps-title {
@@ -787,7 +795,7 @@ div.marquee>a>img {
 
     .steps-title {
         font-size: 32px;
-        line-height: normal;
+        line-height: 1.1;
     }
 
     .icon-text {
@@ -851,5 +859,18 @@ div.marquee>a>img {
     .slide {
         margin-right: 0;
         margin-left: 0;
+    }
+
+    .about-description {
+        padding: 10px;
+        margin-top: 4px;
+    }
+
+    .about-description h1 {
+        font-size: 24px;
+    }
+
+    .about-description h3 {
+        font-size: 13px;
     }
 }

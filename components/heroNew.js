@@ -47,8 +47,8 @@ const HeroNew = () => {
                     </div>
                 </div>
 
-                <div className='hero-description text-white text-2xl text-center font-normal sm:w-full md:w-2/3 lg:w-2/3 mt-10'>Elevate your brand with our dynamic strategies in<br />
-                    <span className='font-bold'> Instagram marketing, A2Z YouTube management, and Tested Email Funnels.</span>
+                <div className='hero-description text-white text-2xl text-center font-normal sm:w-full md:w-2/3 lg:w-2/3 mt-10'>Elevate your brand with our dynamic strategies- <br />
+                    <span className='font-bold'> Instagram Marketing, YouTube Management, and Email Marketing.</span>
                 </div>
 
                 <button

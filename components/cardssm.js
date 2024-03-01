@@ -2,6 +2,8 @@ import React from 'react'
 import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { FaChevronCircleDown } from "react-icons/fa";
+
 
 const Cardssm = () => {
     useEffect(() => {
@@ -24,11 +26,15 @@ const Cardssm = () => {
 
                     <h1 className="text-black text-[48px] sm:text-[30px] md:text-[36px]  text-center font-bold">Real People,</h1>
                     <h1 className="text-[#32CD32] text-[48px] sm:text-[30px] md:text-[36px] font-bold -mt-4">Real Feedback!</h1>
-                    <p className="text-lg sm:text-sm md:text-md">
-                        <span className='font-bold'>Hear What My Clients Have to Say! </span><br /><br />
-                        Our clients share their success stories and showcase how our services have transformed their online presence.<br /><br />
+                    <p className="text-2xl sm:text-sm md:text-md font-bold mt-1">
+                        1.5 Million+ reach for 15+ Clients<br />
                     </p>
-                    <div className='border-blue-700 border-2 text-black sm:text-sm md:text-lg rounded-full py-2 px-4'>Let their testimony inspire you to take that next step 👇 </div>
+                    <p className='font-normal text-sm leading-4'>Our clients share their success stories and showcase how our services have transformed their online presence.</p><br />
+
+
+                    <div className='bg-blue-700 border-2 text-white sm:text-sm md:text-lg rounded-full py-2 px-4'>Have a look  </div>
+                    <div className='text-xl text-blue-700 mt-2'><FaChevronCircleDown /></div>
+
 
 
                 </div>

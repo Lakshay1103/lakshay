@@ -44,9 +44,9 @@ const About = () => {
                 >
 
                     <h2 className='font-bold'>ABOUT ME</h2>
-                    <h1 className="text-[#32CD32] text-[48px] font-bold">Hello. I&apos;m Lakshay Goel.</h1>
-                    <h3 className='font-bold text-lg'>Entrepreneur, Creator, and Social Media Marketer</h3>
-                    <p className='mt-5 text-lg'>I help people build powerful and impactful personal brands on Instagram and YouTube via Content,
+                    <h1 className="text-[#32CD32] text-[48px] font-bold">Hello! I&apos;m Lakshay Goel.</h1>
+                    <h3 className='font-bold text-lg -mt-2'>Entrepreneur, Creator & Social Media Marketer</h3>
+                    <p className='mt-3 text-lg'>I help people build powerful and impactful personal brands on Instagram and YouTube via Content,
                         Branding & Community Building. With a passion for building powerful personal brands,
                         I lead a team dedicated to pushing the boundaries of marketing and community building.
                     </p>
@@ -57,8 +57,8 @@ const About = () => {
                         </p>
                     </div>
 
-                    <div className='bg-[#0000ff] text-white rounded-full px-5 py-2 mt-5 w-36 flex justify-center items-center hover:text-[#0000ff] hover:bg-white border-2 border-[#0000ff]'>
-                        <a href='https://cal.com/lakshaygoel/work-with-me'>LET&apos;S TALK</a>
+                    <div className='bg-[#0000ff] text-white text-xl font-bold rounded-full px-2 py-2 mt-5 w-36 flex justify-center items-center hover:text-[#0000ff] hover:bg-white border-2 border-[#0000ff]'>
+                        <a href='https://cal.com/lakshaygoel/work-with-me'>Let&apos;s Talk</a>
                     </div>
 
 

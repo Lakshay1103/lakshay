@@ -25,7 +25,7 @@ const Steps = () => {
                 data-aos-duration="1000"
             >
                 Our
-                <span className='text-[#32CD32]'> 3-Step System</span> for Seamless <br /> Social Media Growth
+                <span className='text-[#32CD32]'> 3-Step System</span> <br /> for Seamless Social Media Growth
             </div>
 
             <div className='text-white text-xl sm:text-lg text-center font-light'>
@@ -57,7 +57,7 @@ const Steps = () => {
                         <path d="M42.163 88.3024L48.7633 82.2438C49.078 81.9551 49.078 81.4869 48.7633 81.1983C48.4487 80.9097 47.9389 80.9097 47.6242 81.1983L41.0238 87.2569C40.7092 87.5455 40.7092 88.0138 41.0238 88.3024C41.1812 88.4467 41.3875 88.5185 41.593 88.5185C41.7993 88.5185 42.0056 88.4467 42.163 88.3024Z" fill="white" />
                     </svg>
 
-                    <p className='icon-text text-white text-[20px] mt-3' >STEP 1</p>
+                    <p className='icon-text text-white text-[20px] mt-3 font-bold' >STEP 1</p>
                     <p className='icon-text w-[150px] text-white text-[14px]'>Crafting customised Growth Strategies to get you 10x results</p>
 
                 </div>
@@ -100,7 +100,7 @@ const Steps = () => {
                         </g>
                     </svg>
 
-                    <p className='icon-text text-white text-[20px] mt-3' >STEP 2</p>
+                    <p className='icon-text text-white text-[20px] mt-3 font-bold' >STEP 2</p>
                     <p className='icon-text w-[150px] text-white text-[14px]'>Content curation that makes you stand out</p>
 
                 </div>
@@ -126,7 +126,7 @@ const Steps = () => {
                         </g>
                     </svg>
 
-                    <p className='icon-text text-white text-[20px] mt-3' >STEP 3</p>
+                    <p className='icon-text text-white text-[20px] mt-3 font-bold' >STEP 3</p>
                     <p className='icon-text w-[150px] text-white text-[14px]'>Data-driven analysis to reach new heights</p>
 
                 </div>

@@ -22,7 +22,7 @@ const Navsm = () => {
 
     return (
         <div>
-            <nav className="flex justify-between items-center py-4 px-8 bg-black text-white">
+            <nav className={`flex justify-between items-center py-4 px-8 bg-black text-white fixed top-0 left-0 right-0 z-50`}>
                 <div className="flex items-center">
                     <img src="/Logo_white.svg" alt="Logo" className="h-6" />
                 </div>

@@ -345,7 +345,7 @@ const Carousel = () => {
             data-aos-duration="1500"
         >
 
-            <div className='flex justify-center items-center mt-20 mb-10'>
+            <div className='flex justify-center items-center mt-20 mb-5'>
                 <h1 className='text-white text-[48px] font-bold'>Snippets of <span className='text-[#32CD32] text-[48px] font-bold'>Satisfaction</span></h1>
 
             </div>
