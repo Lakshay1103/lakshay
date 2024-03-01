@@ -11,7 +11,7 @@ const Cardssm = () => {
     }, []);
 
     return (
-        <div className='flex flex-col justify-center items-center'>
+        <div id='testimonials' className='flex flex-col justify-center items-center'>
             <div
                 className='bg-white flex justify-center items-center h-[400px] w-10/12 rounded-2xl'
                 style={{

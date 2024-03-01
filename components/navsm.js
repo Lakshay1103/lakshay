@@ -37,7 +37,7 @@ const Navsm = () => {
                         <div className="cursor-pointer mb-4" onClick={() => handleMenuItemClick('home')}>Home</div>
                         <div className="cursor-pointer mb-4" onClick={() => handleMenuItemClick('testimonials')}>Testimonials</div>
                         <div className="cursor-pointer mb-4" onClick={() => handleMenuItemClick('about')}>About</div>
-                        <div className="cursor-pointer" onClick={() => handleMenuItemClick('contact')}>Contact</div>
+                        <div className="cursor-pointer"><a href='https://cal.com/lakshaygoel/work-with-me'>Contact</a></div>
                     </div>
                 </div>
             )}
