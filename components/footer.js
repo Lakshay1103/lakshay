@@ -16,7 +16,7 @@ const Footer = () => {
         <div className='mt-20 flex flex-col justify-center items-center'>
 
             <div
-                className='w-3/4 rounded-lg p-20 flex flex-col justify-center items-center'
+                className='footer-CTA w-3/4 rounded-lg p-20 flex flex-col justify-center items-center'
                 style={{
                     backgroundImage: "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),url('/CTAbg.png')",
                 }}
@@ -41,15 +41,15 @@ const Footer = () => {
                 data-aos-duration="1000"
             >
 
-                <div className='w-8/12 flex justify-center items-center mt-10'>
-                    <div className='w-1/2 flex flex-col justify-center items-start'>
+                <div className='footer w-8/12 flex justify-center items-center mt-10'>
+                    <div className='footer-text w-1/2 flex flex-col justify-center items-start'>
                         {/* Logo */}
                         <img src="/Logo_whiteblue.svg" alt="Logo" className='w-64' />
 
                         <p className='text-lg text-bold text-white'>letsgolakshay@gmail.com</p>
 
                         {/* Social Icons */}
-                        <div className='flex justify-between items-center w-40 mt-5 '>
+                        <div className='footer-icons flex justify-between items-center w-40 mt-5 '>
                             <a href="https://www.instagram.com/lakshaygoellll/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white hover:text-[#32CD32]'><FaInstagram /></a>
                             <a href="https://www.linkedin.com/in/lakshaygoellll/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white hover:text-[#32CD32]'><FaLinkedin /></a>
                             <a href="https://www.youtube.com/channel/UCDvg7NV5ikI0KxikCWdmX9A" target="_blank" rel="noopener noreferrer" className='text-4xl text-white hover:text-[#32CD32]'><FaYoutube /></a>
@@ -57,7 +57,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className='w-1/2 flex flex-col justify-center items-center'>
+                    <div className='footer-form w-1/2 flex flex-col justify-center items-center'>
                         <p className="text-center text-xl mt-2 font-semibold text-white">Subscribe to my newsletter for regular updates!</p>
 
                         {/* 
