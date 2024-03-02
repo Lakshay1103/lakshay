@@ -358,9 +358,15 @@ div.marquee>a>img {
         width: 90%;
     }
 
-    .footer-icons{
+    .footer-icons {
         width: 120px;
         margin-top: 10px;
+    }
+
+    .footer-text {
+        width: 70%;
+        margin-top: 50px;
+        align-items: center;
     }
 
     .text {
@@ -520,6 +526,17 @@ div.marquee>a>img {
     .slide {
         margin-right: 0;
         margin-left: 0;
+    }
+
+    .footer {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .footer-text {
+        width: 70%;
+        margin-top: 50px;
+        align-items: center;
     }
 
 
