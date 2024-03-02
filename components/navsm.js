@@ -1,7 +1,15 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 
 const Navsm = () => {
+
+    React.useEffect(() => {
+        Aos.init({ duration: 1000 });
+    }, []);
+
     const [showMenu, setShowMenu] = useState(false);
 
     const handleMenuToggle = () => {
@@ -22,7 +30,11 @@ const Navsm = () => {
 
     return (
         <div>
-            <nav className={`flex justify-between items-center py-4 px-8 bg-black text-white fixed top-0 left-0 right-0 z-50`}>
+            <nav
+                className={`flex justify-between items-center py-4 px-8 bg-black text-white fixed top-0 left-0 right-0 z-50`}
+                data-aos="slide-down" data-aos-duration="1500"
+            >
+
                 <div className="flex items-center">
                     <img src="/Logo_white.svg" alt="Logo" className="h-6" />
                 </div>
