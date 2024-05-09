@@ -24,7 +24,7 @@ const About = () => {
                     data-aos='fade-right'
                     data-aos-duration="1000"
                 >
-                    <img src="/lakshay1.jpg" alt="About" width={1080} height={1920} />
+                    <img src="/lakshay2.png" alt="About" width={1080} height={1920} />
                 </div>
 
                 <div
