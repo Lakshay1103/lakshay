@@ -20,14 +20,14 @@ const HeroNew = () => {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.5, ease: "easeIn" }}
-            data-aos="fade-up"  data-aos-duration="1000"
+            data-aos="fade-up" data-aos-duration="1000"
             id='home'
         >
 
             <div className='flex flex-col items-center justify-center h-[500px]'>
 
-                <div className='hero-title text-white text-[48px] text-center font-extrabold' data-aos="fade-up"  data-aos-duration="2000">Unleash The Power Of Marketing For</div>
-                
+                <div className='hero-title text-white text-[48px] text-center font-extrabold' data-aos="fade-up" data-aos-duration="2000">Transforming Health and Wellness space for</div>
+
                 <div className="text-rotate-wrap mt-5">
                     <div
                         style={{
@@ -38,32 +38,32 @@ const HeroNew = () => {
                         }}
                         className="text-rotate"
                     >
-                        <div className="rotate-text">Personal Brands</div>
-                        <div className="rotate-text">Founders</div>
-                        <div className="rotate-text">Creators</div>
-                        <div className="rotate-text">Agency Owners</div>
-                        <div className="rotate-text">Coaches</div>
-                        <div className="rotate-text">Consultants</div>
+                        <div className="rotate-text">Coaches and Educators</div>
+                        <div className="rotate-text">Wellness brands</div>
+                        <div className="rotate-text">Wellness Tourism</div>
+                        <div className="rotate-text">Personal Care & Beauty</div>
+                        <div className="rotate-text">Nutrition & Health</div>
+                        {/* <div className="rotate-text">Consultants</div> */}
                     </div>
                 </div>
 
-                <div className='hero-description text-white text-2xl text-center font-normal sm:w-full md:w-2/3 lg:w-2/3 mt-10'>Elevate your brand with our dynamic strategies- <br />
-                    <span className='font-bold'> Instagram Marketing, YouTube Management, and Email Marketing.</span>
+                <div className='hero-description text-white text-2xl text-center font-normal sm:w-full md:w-2/3 lg:w-2/3 mt-10'>We&apos;re The Go-To Agency for<br />
+                    <span className='font-bold'>Health and Wellness Marketing.</span>
                 </div>
 
                 <button
                     className="hero-btn mt-6 bg-gradient-to-r from-transparent via-blue-700 via-blue-600 via-blue-500 to-blue-400 text-white text-lg rounded-full py-2 px-10 shadow-md border-2 border-white bg-opacity-50 text-center"
-                    data-aos="fade-down"  data-aos-duration="1000"
+                    data-aos="fade-down" data-aos-duration="1000"
                     onClick={() => {
                         const reelsElement = document.getElementById('reels');
                         reelsElement.scrollIntoView({ behavior: 'smooth' });
                     }}
                 >
-                    EMBRACE THE EXTRAORDINARY
+                    WATCH OUR IMPACT
                 </button>
 
             </div>
-            
+
         </motion.div>
 
     )

@@ -45,9 +45,9 @@ export default function AccordionExpandIcon() {
                     </AccordionSummary>
                     <AccordionDetails>
                         <Typography className='text-white'>
-                            - I create customized dashboards for each client to meet their specific needs<br />
-                            - I work with a limited number of clients to ensure personalized attention<br />
-                            - I use royalty-free elements to protect your accounts from any copyrights
+                            <li>In-depth understanding of the industry</li>
+                            <li>Team composed of highly passionate and creative individuals</li>
+                            <li>Unique approach that is fuelled by extensive insights in the industry and passion for the space.</li>
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
@@ -56,7 +56,7 @@ export default function AccordionExpandIcon() {
 
 
 
-                <Accordion
+                {/* <Accordion
                     className='bg-gradient-to-r from-black to-gray-900 mb-4'
                 >
                     <AccordionSummary
@@ -74,7 +74,7 @@ export default function AccordionExpandIcon() {
                             insights to ensure that your content stands out in the competitive Instagram landscape.
                         </Typography>
                     </AccordionDetails>
-                </Accordion>
+                </Accordion> */}
 
                 <Accordion
                     className='bg-gradient-to-r from-black to-gray-900 mb-4'
@@ -88,14 +88,11 @@ export default function AccordionExpandIcon() {
                         id="panel1-header"
 
                     >
-                        <Typography className='text-white'>How can I determine if I am the right fit for you?</Typography>
+                        <Typography className='text-white'>How can I determine if we&apos;re the right for you?</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                         <Typography className='text-white'>
-                            I offer a complimentary one-on-one discovery call to understand your objectives.
-                            If I believe that my team and I can deliver results for you, we will proceed from there.
-                            Otherwise, I will do my best to connect you with someone from my network who can assist you.
-                            Transparency is highly important to us.
+                            We offer a complimentary one-on-one strategy call to determine if we're the right fit for you.
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
@@ -112,12 +109,11 @@ export default function AccordionExpandIcon() {
                         aria-controls="panel2-content"
                         id="panel2-header"
                     >
-                        <Typography className='text-white'>Is there a guarantee for my growth?</Typography>
+                        <Typography className='text-white'>Is there a guarantee for the results?</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                         <Typography className='text-white'>
-                            While I do not provide a guarantee, based on our track record,
-                            we are confident in exceeding your current results by a significant margin.
+                            While we do not provide a guarantee, based on our track record, we are confident in exceeding your current results by a significant margin.
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
