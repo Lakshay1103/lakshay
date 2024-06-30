@@ -44,7 +44,7 @@ const Footer = () => {
                 <div className='footer w-8/12 flex justify-center items-center mt-10'>
                     <div className='footer-text w-1/2 flex flex-col justify-center items-start'>
                         {/* Logo */}
-                        <img src="/Logo_whiteblue.svg" alt="Logo" className='w-64' />
+                        <img src="/logo/Sociowell-2.png" alt="Logo" className='w-64' />
 
                         <p className='text-lg text-bold text-white'>letsgolakshay@gmail.com</p>
 

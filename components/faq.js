@@ -45,9 +45,9 @@ export default function AccordionExpandIcon() {
                     </AccordionSummary>
                     <AccordionDetails>
                         <Typography className='text-white'>
-                            <li>In-depth understanding of the industry</li>
-                            <li>Team composed of highly passionate and creative individuals</li>
-                            <li>Unique approach that is fuelled by extensive insights in the industry and passion for the space.</li>
+                            • In-depth understanding of the industry <br />
+                            • Team composed of highly passionate and creative individuals <br />
+                            • Unique approach that is fuelled by extensive insights in the industry and passion for the space.
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
