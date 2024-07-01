@@ -45,7 +45,7 @@ const Nav = () => {
               Testimonials
             </Link>
             <Link to='lg' smooth={true} duration={500} className='text-white text-4xl mx-10' style={{ cursor: 'pointer' }}>
-              <img src="/Logo_white.svg" alt="Image" />
+              <img src="/logo/Sociowell-1.png" alt="Image" className='w-14 h-14 p-0 m-0' />
             </Link>
             <Link
               to='about'

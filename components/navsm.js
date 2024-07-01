@@ -31,12 +31,12 @@ const Navsm = () => {
     return (
         <div>
             <nav
-                className={`flex justify-between items-center py-4 px-8 bg-black text-white fixed top-0 left-0 right-0 z-50`}
+                className={`flex justify-between items-center py-4 px-6 bg-black text-white fixed top-0 left-0 right-0 z-50`}
                 data-aos="slide-down" data-aos-duration="1500"
             >
 
                 <div className="flex items-center">
-                    <img src="/Logo_white.svg" alt="Logo" className="h-6" />
+                    <img src="/logo/Sociowell-1.png" alt="Image" className='w-14 h-14' />
                 </div>
                 <div className="flex items-center">
                     <FaBars className="h-6 w-6 cursor-pointer" onClick={handleMenuToggle} />

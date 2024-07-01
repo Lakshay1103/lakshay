@@ -131,7 +131,7 @@ div.marquee>a>img {
 }
 
 .text-rotate {
-    animation: rotateAnimation 10s linear infinite;
+    animation: rotateAnimation 7s linear infinite;
 }
 
 @keyframes rotateAnimation {
@@ -142,27 +142,27 @@ div.marquee>a>img {
     }
 
     14.285% {
-        transform: translateY(-120px);
+        transform: translateY(-90px);
         /* Adjust translateY value */
     }
 
     28.571% {
-        transform: translateY(-240px);
+        transform: translateY(-180px);
         /* Adjust translateY value */
     }
 
     42.856% {
-        transform: translateY(-360px);
+        transform: translateY(-270px);
         /* Adjust translateY value */
     }
 
     57.142% {
-        transform: translateY(-480px);
+        transform: translateY(-360px);
         /* Adjust translateY value */
     }
 
     71.428% {
-        transform: translateY(-600px);
+        transform: translateY(-450px);
         /* Adjust translateY value */
     }
 

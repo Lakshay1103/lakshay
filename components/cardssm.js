@@ -51,6 +51,21 @@ const Cardssm = () => {
                     <div className='testimonial-text '>
                         <iframe
                             className='mt-5'
+                            src="https://www.youtube-nocookie.com/embed/6397x3Mvdhk?si=Z0nIH2zfX8EpLY47"
+                            title="Pooja"
+                            frameborder="0"
+                            allowfullscreen>
+                        </iframe>
+
+                        <div className='flex justify-center items-center mt-2'>
+                            <img src="/testimonials/PoojaDiwedi.jpeg" alt="Pooja" className='w-[40px] h-[40px] rounded-full mr-2' />
+                            <p className='text-white font-bold text-lg'>Pooja Diwedi</p>
+                        </div>
+                    </div>
+
+                    <div className='testimonial-text '>
+                        <iframe
+                            className='mt-5'
                             src="https://www.youtube.com/embed/J9yD5UF629E?si=bce4DchHJf4aXang?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=1&disablekb=1"
                             title="Anuj"
                             frameborder="0"

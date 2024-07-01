@@ -43,12 +43,13 @@ const About = () => {
                     data-aos-duration="1500"
                 >
 
-                    <h2 className='font-bold'>ABOUT ME</h2>
+                    <h2 className='font-bold'>The Heart behind Sociowell</h2>
                     <h1 className="text-[#32CD32] text-[48px] font-bold">Hello! I&apos;m Lakshay Goel.</h1>
-                    <h3 className='font-bold text-lg -mt-2'>Entrepreneur, Creator & Social Media Marketer</h3>
-                    <p className='mt-3 text-lg'>I help people build powerful and impactful personal brands on Instagram and YouTube via Content,
-                        Branding & Community Building. With a passion for building powerful personal brands,
-                        I lead a team dedicated to pushing the boundaries of marketing and community building.
+                    <h3 className='font-bold text-lg -mt-2'>Marketer & Content Creator</h3>
+                    <p className='mt-3 text-lg'>I help people make an impact in the health and wellness space with Content, Branding & Community Building.
+                        After having seen major changes in my life due to mindfuness, meditation, fitness and nutrition,
+                        this space interests me a lot. With a passion for bringing change in the lives of people,
+                        I started Sociowell- The Go-To Agency for Health and Wellness Marketing.
                     </p>
 
                     <div className='border-l-4 border-black mt-4 px-4'>
