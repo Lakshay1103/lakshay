@@ -92,7 +92,7 @@ export default function AccordionExpandIcon() {
                     </AccordionSummary>
                     <AccordionDetails>
                         <Typography className='text-white'>
-                            We offer a complimentary one-on-one strategy call to determine if we're the right fit for you.
+                            We offer a complimentary one-on-one strategy call to determine if we&apos;re the right fit for you.
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
