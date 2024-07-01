@@ -63,11 +63,11 @@ const Cards = () => {
                     </div>
                 </div>
 
-                <div id="Anuj" className={`panel ${activePanel === 'Anuj' ? 'active' : ''}`} onClick={() => setActivePanel('Anuj')}>
-                    {activePanel === 'Anuj' && (
+                <div id="Anuj" className={`panel ${activePanel === 'Pooja' ? 'active' : ''}`} onClick={() => setActivePanel('Pooja')}>
+                    {activePanel === 'Pooja' && (
                         <iframe className="h-full w-full p-10 pb-20"
-                            src="https://www.youtube.com/embed/6397x3Mvdhk?si=Z0nIH2zfX8EpLY47"
-                            title="Plant a word"
+                            src="https://www.youtube-nocookie.com/embed/6397x3Mvdhk?si=Z0nIH2zfX8EpLY47"
+                            title="Pooja Diwedi"
                             frameborder="0"
                             allowfullscreen>
                         </iframe>
@@ -85,10 +85,10 @@ const Cards = () => {
 
 
 
-                <div id="Pooja" className={`panel ${activePanel === 'Pooja' ? 'active' : ''}`} onClick={() => setActivePanel('Pooja')}>
-                    {activePanel === 'Pooja' && (
+                <div id="Pooja" className={`panel ${activePanel === 'Anuj' ? 'active' : ''}`} onClick={() => setActivePanel('Anuj')}>
+                    {activePanel === 'Anuj' && (
                         <iframe className="h-full w-full p-10 pb-20"
-                            src="https://www.youtube.com/embed/J9yD5UF629E?si=bce4DchHJf4aXang?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=1&disablekb=1"
+                            src="https://www.youtube-nocookie.com/embed/J9yD5UF629E?si=bce4DchHJf4aXang?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=1&disablekb=1"
                             title="Plant a word"
                             frameborder="0"
                             allowfullscreen>
@@ -108,7 +108,7 @@ const Cards = () => {
                 <div id="Sneha" className={`panel ${activePanel === 'Sneha' ? 'active' : ''}`} onClick={() => setActivePanel('Sneha')}>
                     {activePanel === 'Sneha' && (
                         <iframe className="h-full w-full p-10 pb-20"
-                            src="https://www.youtube.com/embed/NXiBCsGdHHo?si=UVK7SsIDaGHXnSRY?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=1&disablekb=1"
+                            src="https://www.youtube-nocookie.com/embed/NXiBCsGdHHo?si=UVK7SsIDaGHXnSRY?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=1&disablekb=1"
                             title="Plant a word"
                             frameborder="0"
                             allowfullscreen>

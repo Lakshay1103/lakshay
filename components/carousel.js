@@ -53,7 +53,7 @@ const Carousel = () => {
                 <div>
                     <iframe width="350" height="450"
                         className='p-6'
-                        src="https://www.youtube.com/embed/-OTj-I9FW3g?si=VgFMw1wZGOkJd2Oe?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
+                        src="https://www.youtube-nocookie.com/embed/-OTj-I9FW3g?si=VgFMw1wZGOkJd2Oe?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
                         title="Mindfulsome"
                         frameborder="0"
                         allowfullscreen>
@@ -86,7 +86,7 @@ const Carousel = () => {
                 <div>
                     <iframe width="350" height="450"
                         className='p-6'
-                        src="https://www.youtube.com/embed/FBS8pGZjZsE?si=jukrFshGqOSx4OCV?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
+                        src="https://www.youtube-nocookie.com/embed/FBS8pGZjZsE?si=jukrFshGqOSx4OCV?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
                         title="Sneha"
                         frameborder="0"
                         allowfullscreen>
@@ -118,7 +118,7 @@ const Carousel = () => {
                 <div>
                     <iframe width="350" height="450"
                         className='p-6'
-                        src="https://www.youtube.com/embed/greGPnmnZtM?si=lVqbBrXtF5Fxon0k"
+                        src="https://www.youtube-nocookie.com/embed/greGPnmnZtM?si=lVqbBrXtF5Fxon0k"
                         title="Sneha"
                         frameborder="0"
                         allowfullscreen>
@@ -156,7 +156,7 @@ const Carousel = () => {
                 <div>
                     <iframe width="350" height="450"
                         className='p-6'
-                        src="https://www.youtube.com/embed/tqlR4awNDyM?si=4L2HZceVi07b4Xmn?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
+                        src="https://www.youtube-nocookie.com/embed/tqlR4awNDyM?si=4L2HZceVi07b4Xmn?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
                         title="Vaitika"
                         frameborder="0"
                         allowfullscreen>
@@ -187,7 +187,7 @@ const Carousel = () => {
                 <div >
                     <iframe width="350" height="450"
                         className='p-6'
-                        src="https://www.youtube.com/embed/CV9g8qV_GtU?si=zccnhlnPbRT3nN42?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
+                        src="https://www.youtube-nocookie.com/embed/CV9g8qV_GtU?si=zccnhlnPbRT3nN42?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
                         title="Shaan khanna"
                         frameborder="0"
                         allowfullscreen>
@@ -220,7 +220,7 @@ const Carousel = () => {
                 <div>
                     <iframe width="350" height="450"
                         className='p-6'
-                        src="https://www.youtube.com/embed/SxVNnqx9TZs?si=v6nPzzeVx8aNfYhk?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
+                        src="https://www.youtube-nocookie.com/embed/SxVNnqx9TZs?si=v6nPzzeVx8aNfYhk?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
                         title="Jenna V Krishnan"
                         frameborder="0"
                         allowfullscreen>
@@ -259,7 +259,7 @@ const Carousel = () => {
 
                     <iframe width="350" height="450"
                         className='p-6'
-                        src="https://www.youtube.com/embed/y4zC8dbD_Cw?si=cpz429Xqm8PCebHa?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
+                        src="https://www.youtube-nocookie.com/embed/y4zC8dbD_Cw?si=cpz429Xqm8PCebHa?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
                         title="Anuj Kumar"
                         frameborder="0"
                         allowfullscreen>
@@ -298,7 +298,7 @@ const Carousel = () => {
                 <div>
                     <iframe width="350" height="450"
                         className='p-6'
-                        src="https://www.youtube.com/embed/qQnO1hjunq4?si=aDgJSE43LE_4UAn_?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
+                        src="https://www.youtube-nocookie.com/embed/qQnO1hjunq4?si=aDgJSE43LE_4UAn_?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
                         title="Sneha"
                         frameborder="0"
                         allowfullscreen>
@@ -334,7 +334,7 @@ const Carousel = () => {
 
                     <iframe width="350" height="450"
                         className='p-6'
-                        src="https://www.youtube.com/embed/ZiflBujWPhA?si=9WB7aURk2sL1rB8X?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
+                        src="https://www.youtube-nocookie.com/embed/ZiflBujWPhA?si=9WB7aURk2sL1rB8X?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
                         title="FLJ"
                         frameborder="0"
                         allowfullscreen>
