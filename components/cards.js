@@ -85,6 +85,26 @@ const Cards = () => {
 
 
 
+
+                <div id="Sneha" className={`panel ${activePanel === 'Sneha' ? 'active' : ''}`} onClick={() => setActivePanel('Sneha')}>
+                    {activePanel === 'Sneha' && (
+                        <iframe className="h-full w-full p-10 pb-20"
+                            src="https://www.youtube-nocookie.com/embed/NXiBCsGdHHo?si=UVK7SsIDaGHXnSRY?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=1&disablekb=1"
+                            title="Plant a word"
+                            frameborder="0"
+                            allowfullscreen>
+                        </iframe>
+                    )}
+                    <span className='flex justify-center items-center'>
+                        <img src="/testimonials/sneha.jpg" alt="Anuj" className='w-[50px] h-[50px] rounded-full m-4' />
+                    </span>
+
+                    <div className="avatar flex items-center">
+                        <img src="/testimonials/sneha.jpg" alt="Anuj" className='w-[50px] rounded-full mr-2' />
+                        <h3 className='panel-heading'>Sneha Arvind</h3>
+                    </div>
+                </div>
+
                 <div id="Pooja" className={`panel ${activePanel === 'Anuj' ? 'active' : ''}`} onClick={() => setActivePanel('Anuj')}>
                     {activePanel === 'Anuj' && (
                         <iframe className="h-full w-full p-10 pb-20"
@@ -105,24 +125,6 @@ const Cards = () => {
                     </div>
                 </div>
 
-                <div id="Sneha" className={`panel ${activePanel === 'Sneha' ? 'active' : ''}`} onClick={() => setActivePanel('Sneha')}>
-                    {activePanel === 'Sneha' && (
-                        <iframe className="h-full w-full p-10 pb-20"
-                            src="https://www.youtube-nocookie.com/embed/NXiBCsGdHHo?si=UVK7SsIDaGHXnSRY?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=1&disablekb=1"
-                            title="Plant a word"
-                            frameborder="0"
-                            allowfullscreen>
-                        </iframe>
-                    )}
-                    <span className='flex justify-center items-center'>
-                        <img src="/testimonials/sneha.jpg" alt="Anuj" className='w-[50px] h-[50px] rounded-full m-4' />
-                    </span>
-
-                    <div className="avatar flex items-center">
-                        <img src="/testimonials/sneha.jpg" alt="Anuj" className='w-[50px] rounded-full mr-2' />
-                        <h3 className='panel-heading'>Sneha Arvind</h3>
-                    </div>
-                </div>
 
             </div>
         </div>

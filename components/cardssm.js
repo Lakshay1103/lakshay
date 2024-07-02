@@ -22,14 +22,15 @@ const Cardssm = () => {
             >
                 <div className='testimonial-section w-3/4 flex flex-col justify-center items-center text-center'>
 
-                    <h2 className="font-bold">TESTIMONIALS</h2>
+                    <h2 className="font-bold">OUR TESTIMONIALS</h2>
 
                     <h1 className="text-black text-[48px] sm:text-[30px] md:text-[36px]  text-center font-bold">Real People,</h1>
                     <h1 className="text-[#32CD32] text-[48px] sm:text-[30px] md:text-[36px] font-bold -mt-4">Real Feedback!</h1>
                     <p className="text-2xl sm:text-sm md:text-md font-bold mt-1">
-                        1.5 Million+ reach for 15+ Clients<br />
+                        Hear What Our Clients Have to Say!
+                        <br />
                     </p>
-                    <p className='font-normal text-sm leading-4'>Our clients share their success stories and showcase how our services have transformed their online presence.</p><br />
+                    <p className='font-normal text-sm leading-4'>Our clients share their success stories and showcase how our services have helped them make an impact.</p><br />
 
 
                     <div className='bg-blue-700 border-2 text-white sm:text-sm md:text-lg rounded-full py-2 px-4'>Have a look  </div>
@@ -63,20 +64,6 @@ const Cardssm = () => {
                         </div>
                     </div>
 
-                    <div className='testimonial-text '>
-                        <iframe
-                            className='mt-5'
-                            src="https://www.youtube.com/embed/J9yD5UF629E?si=bce4DchHJf4aXang?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=1&disablekb=1"
-                            title="Anuj"
-                            frameborder="0"
-                            allowfullscreen>
-                        </iframe>
-
-                        <div className='flex justify-center items-center mt-2'>
-                            <img src="/testimonials/anuj.jpg" alt="Anuj" className='w-[40px] h-[40px] rounded-full mr-2' />
-                            <p className='text-white font-bold text-lg'>Anuj Kumar</p>
-                        </div>
-                    </div>
 
 
 
@@ -94,6 +81,22 @@ const Cardssm = () => {
                             <p className='text-white font-bold text-lg'>Sneha Arvind</p>
                         </div>
                     </div>
+
+                    <div className='testimonial-text '>
+                        <iframe
+                            className='mt-5'
+                            src="https://www.youtube.com/embed/J9yD5UF629E?si=bce4DchHJf4aXang?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=1&disablekb=1"
+                            title="Anuj"
+                            frameborder="0"
+                            allowfullscreen>
+                        </iframe>
+
+                        <div className='flex justify-center items-center mt-2'>
+                            <img src="/testimonials/anuj.jpg" alt="Anuj" className='w-[40px] h-[40px] rounded-full mr-2' />
+                            <p className='text-white font-bold text-lg'>Anuj Kumar</p>
+                        </div>
+                    </div>
+
 
 
                 </div>
