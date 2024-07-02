@@ -41,7 +41,7 @@ export default function AccordionExpandIcon() {
                         aria-controls="panel2-content"
                         id="panel2-header"
                     >
-                        <Typography className='text-white'>What is my USP?</Typography>
+                        <Typography className='text-white'>What is our USP?</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                         <Typography className='text-white'>
