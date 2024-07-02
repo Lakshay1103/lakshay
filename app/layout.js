@@ -4,8 +4,8 @@ import "./globals.css";
 const league = League_Spartan({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Lakshay Goel",
-  description: "Building Powerful Personal Brands",
+  title: "Sociowell",
+  description: "The Go-To Agency for Health and Wellness Marketing",
 };
 
 export default function RootLayout({ children }) {
