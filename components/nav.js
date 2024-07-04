@@ -22,7 +22,7 @@ const Nav = () => {
         <motion.nav
           className='flex justify-between items-center rounded-full'
           variants={slideInFromTop}
-          style={{ background: 'linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8))' }}
+          // style={{ background: 'linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8))' }}
         >
           <div className='flex justify-between items-center py-2'>
             <Link
@@ -58,9 +58,9 @@ const Nav = () => {
             </Link>
 
             <a
-              href='https://cal.com/lakshaygoel/work-with-me'
+              href='https://calendly.com/sociowell/work-with-us'
               target='_blank'
-              className='text-white text-xl px-3 py-2 ml-10 mr-2 bg-[#32CD32] rounded-full'
+              className='text-white text-xl px-3 py-2 ml-10 mr-2 bg-[#249349] rounded-full'
               style={{ cursor: 'pointer' }}
             >
               Contact

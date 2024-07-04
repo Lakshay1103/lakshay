@@ -15,8 +15,8 @@ const HeroNew = () => {
     return (
 
         <motion.div
-            className="bg-cover bg-center h-[500px] mt-20"
-            style={{ backgroundImage: "linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('/hero-bg.jpg')" }}
+            className="bg-cover bg-center h-screen"
+            style={{ backgroundImage: "linear-gradient(rgba(14,47,49,0.75), rgba(0,0,0,0.75)), url('/bg-1-1.jpeg')" }}
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.5, ease: "easeIn" }}
@@ -24,9 +24,9 @@ const HeroNew = () => {
             id='home'
         >
 
-            <div className='flex flex-col items-center justify-center h-[500px]'>
+            <div className='flex flex-col items-center justify-center h-screen'>
 
-                <div className='hero-title text-white text-[48px] text-center font-extrabold' data-aos="fade-up" data-aos-duration="2000">Transforming Health and Wellness space for</div>
+                <div className='hero-title text-white text-[70px] text-center font-extrabold' data-aos="fade-up" data-aos-duration="2000">Transforming Health and Wellness space for</div>
 
                 <div className="text-rotate-wrap mt-5">
                     <div
@@ -36,23 +36,23 @@ const HeroNew = () => {
                             transformStyle: "preserve-3d",
                             // marginTop:"60px;"
                         }}
-                        className="text-rotate"
+                        className="text-rotate "
                     >
-                        <div className="rotate-text">Coaches and Educators</div>
-                        <div className="rotate-text">Wellness brands</div>
-                        <div className="rotate-text">Wellness Tourism</div>
-                        <div className="rotate-text">Personal Care & Beauty</div>
-                        <div className="rotate-text">Nutrition & Health</div>
+                        <div className="rotate-text ">Coaches and Educators</div>
+                        <div className="rotate-text ">Wellness brands</div>
+                        <div className="rotate-text ">Wellness Tourism</div>
+                        <div className="rotate-text ">Personal Care & Beauty</div>
+                        <div className="rotate-text ">Nutrition & Health</div>
                         {/* <div className="rotate-text">Consultants</div> */}
                     </div>
                 </div>
 
-                <div className='hero-description text-white text-2xl text-center font-normal sm:w-full md:w-2/3 lg:w-2/3 mt-10'>We&apos;re The Go-To Agency for<br />
+                <div className='hero-description text-white text-2xl text-center font-normal sm:w-full md:w-2/3 lg:w-2/3 mt-10 leading-10'>We&apos;re The <span className='bg-[#F16D25] p-2 rounded-full'>Go-To Agency</span> for<br />
                     <span className='font-bold'>Health and Wellness Marketing.</span>
                 </div>
 
                 <button
-                    className="hero-btn mt-6 bg-gradient-to-r from-transparent via-blue-700 via-blue-600 via-blue-500 to-blue-400 text-white text-lg rounded-full py-2 px-10 shadow-md border-2 border-white bg-opacity-50 text-center"
+                    className="hero-btn mt-6 bg-[#249349] text-white text-lg rounded-full py-2 px-10 shadow-md border-2 border-white text-center"
                     data-aos="fade-down" data-aos-duration="1000"
                     onClick={() => {
                         const reelsElement = document.getElementById('reels');

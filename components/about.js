@@ -43,7 +43,7 @@ const About = () => {
                     data-aos-duration="1500"
                 >
 
-                    <h2 className='font-bold'>The Heart behind Sociowell</h2>
+                    <h2 className='font-bold text-[#F16D25] uppercase'>The Heart behind Sociowell</h2>
                     <h1 className="text-[#32CD32] text-[48px] font-bold">Hello! I&apos;m Lakshay Goel.</h1>
                     <h3 className='font-bold text-lg -mt-2'>Marketer & Content Creator</h3>
                     <p className='mt-3 text-lg'>I help people make an impact in the health and wellness space with Content, Branding & Community Building.
@@ -58,7 +58,7 @@ const About = () => {
                         </p>
                     </div>
 
-                    <div className='bg-[#0000ff] text-white text-xl font-bold rounded-full px-2 py-2 mt-5 w-36 flex justify-center items-center hover:text-[#0000ff] hover:bg-white border-2 border-[#0000ff]'>
+                    <div className='bg-[#249349] text-white text-xl font-bold rounded-full px-2 py-2 mt-5 w-36 flex justify-center items-center hover:text-[#249349] hover:bg-white border-2 border-[#249349]'>
                         <a href='https://cal.com/lakshaygoel/work-with-me'>Let&apos;s Talk</a>
                     </div>
 

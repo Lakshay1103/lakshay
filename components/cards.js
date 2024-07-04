@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import { FaLongArrowAltRight } from "react-icons/fa";
 
 
 
@@ -33,7 +32,11 @@ const Cards = () => {
     }, []);
 
     return (
-        <div id='testimonials' className='cards-container'>
+        <div id='testimonials' 
+        className='cards-container'
+        style={{ backgroundImage: "linear-gradient(rgba(14,47,49,0.75), rgba(0,0,0,0.75)), url('/1.svg')" }}
+
+        >
             <div
                 className="container-testimonials"
                 data-aos='fade-right'
@@ -50,14 +53,14 @@ const Cards = () => {
                 >
 
                     <div className="first-slide text-black flex flex-col justify-centre items-start w-3/4">
-                        <h2 className="font-bold">OUR TESTIMONIALS</h2>
+                        <h2 className="font-bold text-[#F16D25]">OUR TESTIMONIALS</h2>
                         <h1 className="text-black text-[48px] text-center font-bold">Real People,</h1>
-                        <h1 className="text-[#32CD32] text-[48px] font-bold -mt-4">Real Feedback!</h1>
+                        <h1 className="text-[#249349] text-[48px] font-bold -mt-4">Real Feedback!</h1>
                         <p className="text-xl">
                             <span className='font-bold'>Hear What Our Clients Have to Say! </span><br /><br />
                             Our clients share their success stories and showcase how our services have helped them make an impact.<br /><br />
 
-                            <div className='bg-blue-700 text-white rounded-full p-4 w-[170px]'>Have a look →</div>
+                            <div className='flex justify-start items-center bg-[#249349] text-white rounded-full p-4 w-[250px]'><span className='mr-5'>Have a look</span> <img src='/arr-long.png' width={30} height={30}></img></div>
 
                         </p>
                     </div>

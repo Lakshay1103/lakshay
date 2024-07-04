@@ -346,14 +346,15 @@ const Carousel = () => {
     ];
 
     return (
+        <div style={{ backgroundImage: "linear-gradient(rgba(14,47,49,0.75), rgba(0,0,0,0.75)), url('/1.svg')" }}>
         <div
-            style={{ width: '95%', margin: '0 auto', marginTop: '20px' }}
+            style={{ width: '95%', margin: '0 auto' }}
             data-aos='fade-up'
             data-aos-duration="1500"
         >
 
-            <div id="reels" className='flex justify-center items-center mt-20 mb-5'>
-                <h1 className='text-white text-[48px] font-bold'>Snippets of <span className='text-[#32CD32] text-[48px] font-bold'>Satisfaction</span></h1>
+            <div id="reels" className='flex justify-center items-center mb-5'>
+                <h1 className='text-white text-[48px] font-bold mt-28'>Snippets of <span className='text-[#32CD32] text-[48px] font-bold'>Satisfaction</span></h1>
 
             </div>
 
@@ -375,6 +376,7 @@ const Carousel = () => {
                 </div>
             </div>
         </div >
+        </div>
     );
 };
 
