@@ -15,8 +15,9 @@ export default function AccordionExpandIcon() {
     }, []);
     return (
         <div
-            className='flex flex-col justify-center items-center mt-20'
+            className='flex flex-col justify-center items-center py-20'
             data-aos='fade-up'
+            style={{ backgroundImage: "linear-gradient(rgba(14,47,49,0.75), rgba(14,47,49,0.75)), url('/2.jpg')" }}
             data-aos-duration="1000"
         >
 
@@ -77,7 +78,7 @@ export default function AccordionExpandIcon() {
                 </Accordion> */}
 
                 <Accordion
-                     className='bg-[#384B59] mb-4'
+                    className='bg-[#384B59] mb-4'
 
                 >
                     <AccordionSummary
@@ -100,7 +101,7 @@ export default function AccordionExpandIcon() {
 
 
                 <Accordion
-                     className='bg-[#384B59] mb-4'
+                    className='bg-[#384B59] mb-4'
                 >
                     <AccordionSummary
                         className=' rounded-lg p-3'

@@ -19,32 +19,35 @@ const About = () => {
                 data-aos-duration="1000"
             >
 
-                <div
-                    className='flex justify-center items-center'
-                    data-aos='fade-right'
-                    data-aos-duration="1000"
-                >
-                    <img src="/lakshay2.png" alt="About" width={1080} height={1920} />
+                <div className='w-2/5 flex justify-center items-center'>
+
+                    <div
+                        className='flex justify-center items-center'
+                        data-aos='fade-right'
+                        data-aos-duration="1000"
+                    >
+                        <img src="/lakshay2.png" alt="About" width={1080} height={1920} />
+                    </div>
+
+                    <div
+                        className='about-icons flex flex-col justify-between items-center mt-4 bg-[#249349] h-52'
+                        data-aos='fade-right'
+                        data-aos-duration="1200"
+                    >
+                        <a href="https://www.instagram.com/lakshaygoellll/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white m-4'><FaInstagram /></a>
+                        <a href="https://www.linkedin.com/in/lakshaygoellll/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white m-4'><FaLinkedin /></a>
+                        <a href="https://www.youtube.com/channel/UCDvg7NV5ikI0KxikCWdmX9A" target="_blank" rel="noopener noreferrer" className='text-4xl text-white m-4'><FaYoutube /></a>
+
+                    </div>
                 </div>
 
-                <div
-                    className='about-icons flex flex-col justify-between items-center mt-4 bg-[#32CD32]'
-                    data-aos='fade-right'
-                    data-aos-duration="1200"
-                >
-                    <a href="https://www.instagram.com/lakshaygoellll/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white m-4'><FaInstagram /></a>
-                    <a href="https://www.linkedin.com/in/lakshaygoellll/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white m-4'><FaLinkedin /></a>
-                    <a href="https://www.youtube.com/channel/UCDvg7NV5ikI0KxikCWdmX9A" target="_blank" rel="noopener noreferrer" className='text-4xl text-white m-4'><FaYoutube /></a>
-
-                </div>
-
-                <div className='about-description p-10'
+                <div className='about-description p-10 pr-0 w-3/5'
                     data-aos='fade-right'
                     data-aos-duration="1500"
                 >
 
                     <h2 className='font-bold text-[#F16D25] uppercase'>The Heart behind Sociowell</h2>
-                    <h1 className="text-[#32CD32] text-[48px] font-bold">Hello! I&apos;m Lakshay Goel.</h1>
+                    <h1 className="text-[#249349] text-[48px] font-bold">Hello! I&apos;m Lakshay Goel.</h1>
                     <h3 className='font-bold text-lg -mt-2'>Marketer & Content Creator</h3>
                     <p className='mt-3 text-lg'>I help people make an impact in the health and wellness space with Content, Branding & Community Building.
                         After having seen major changes in my life due to mindfuness, meditation, fitness and nutrition,
@@ -59,7 +62,7 @@ const About = () => {
                     </div>
 
                     <div className='bg-[#249349] text-white text-xl font-bold rounded-full px-2 py-2 mt-5 w-36 flex justify-center items-center hover:text-[#249349] hover:bg-white border-2 border-[#249349]'>
-                        <a href='https://cal.com/lakshaygoel/work-with-me'>Let&apos;s Talk</a>
+                        <a href='https://calendly.com/sociowell/work-with-us'>Let&apos;s Talk</a>
                     </div>
 
 

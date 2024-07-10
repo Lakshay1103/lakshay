@@ -13,30 +13,30 @@ const Footer = () => {
     }, []);
 
     return (
-        <div className='mt-20 flex flex-col justify-center items-center'>
+        <div className='flex flex-col justify-center items-center'>
 
             <div
-                className='footer-CTA w-3/4 rounded-lg p-20 flex flex-col justify-center items-center'
-                style={{
-                    backgroundImage: "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),url('/CTAbg.png')",
-                }}
+                className='footer-CTA w-full h-[600px] bg-center bg-cover flex flex-col justify-center items-center py-20'
+
+                style={{ backgroundImage: "linear-gradient(rgba(14,47,49,0.75), rgba(14,47,49,0.75)), url('/bg-2-1.jpeg')" }}
+
                 data-aos='fade-up'
                 data-aos-duration="1000"
             >
 
-                <p className='text-white font-bold my-4'>ARE YOU READY</p>
+                <p className='text-[#F16D25] font-bold my-4'>ARE YOU READY</p>
 
-                <h1 className='text-white text-[48px] font-bold text-center leading-[50px]'>To Build Something <br />Worthwhile?</h1>
+                <h1 className='text-white text-[70px] font-bold text-center leading-[70px]'>To Build Something <br />Worthwhile?</h1>
 
-                <button class="bg-[#32CD32] text-white font-bold border border-white rounded-full p-4 px-5 mt-5 hover:text-[#32CD32] hover:bg-white transition duration-300 ease-in-out"
-                    onClick={() => window.open('https://cal.com/lakshaygoel/work-with-me', '_blank')}>
+                <button class="bg-[#249349] text-white font-bold border border-white rounded-full p-4 px-5 mt-5 hover:text-[#249349] hover:bg-white transition duration-300 ease-in-out"
+                    onClick={() => window.open('https://calendly.com/sociowell/work-with-us', '_blank')}>
                     GET STARTED
                 </button>
             </div>
 
 
             <div
-                className='w-full h-[300px] mt-28 bg-cover bg-center bg-no-repeat flex justify-center items-center border-t-2 border-white'
+                className='w-full h-[300px] bg-cover bg-center bg-no-repeat flex justify-center items-center border-t-2 border-white'
                 data-aos='fade-up'
                 data-aos-duration="1000"
             >
@@ -44,15 +44,17 @@ const Footer = () => {
                 <div className='footer w-8/12 flex justify-center items-center mt-10'>
                     <div className='footer-text w-1/2 flex flex-col justify-center items-start'>
                         {/* Logo */}
-                        <img src="/logo/Sociowell-2.png" alt="Logo" className='w-64' />
+                        <img src="/logo/Sociowell-2.png" alt="Logo" className='w-56' />
 
-                        <p className='text-lg text-bold text-white'>letsgolakshay@gmail.com</p>
+                        <a href="mailto:letsgolakshay@gmail.com" className='text-lg text-bold text-white underline-animation'>
+                            letsgolakshay@gmail.com
+                        </a>
 
                         {/* Social Icons */}
                         <div className='footer-icons flex justify-between items-center w-40 mt-5 '>
-                            <a href="https://www.instagram.com/lakshaygoellll/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white hover:text-[#32CD32]'><FaInstagram /></a>
-                            <a href="https://www.linkedin.com/in/lakshaygoellll/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white hover:text-[#32CD32]'><FaLinkedin /></a>
-                            <a href="https://www.youtube.com/channel/UCDvg7NV5ikI0KxikCWdmX9A" target="_blank" rel="noopener noreferrer" className='text-4xl text-white hover:text-[#32CD32]'><FaYoutube /></a>
+                            <a href="https://www.instagram.com/lakshaygoellll/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white hover:text-[#249349]'><FaInstagram /></a>
+                            <a href="https://www.linkedin.com/in/lakshaygoellll/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white hover:text-[#249349]'><FaLinkedin /></a>
+                            <a href="https://www.youtube.com/channel/UCDvg7NV5ikI0KxikCWdmX9A" target="_blank" rel="noopener noreferrer" className='text-4xl text-white hover:text-[#249349]'><FaYoutube /></a>
 
                         </div>
                     </div>
@@ -80,7 +82,7 @@ const Footer = () => {
                                     <div data-element="fields" className="seva-fields formkit-fields">
                                         <div className="formkit-field">
                                             <input className="formkit-input p-3 rounded-md w-80 mt-4" name="email_address" aria-label="Email Address" placeholder="Enter Your Email Address" required="" type="email" data-gtm-form-interact-field-id="0" />
-                                            <button data-element="submit" className="formkit-submit formkit-submit p-3 rounded-md text-white bg-[#32CD32]">
+                                            <button data-element="submit" className="formkit-submit formkit-submit p-3 rounded-md text-white bg-[#249349]">
                                                 {/* <div className="formkit-spinner"></div> */}
                                                 <span className="">Subscribe</span>
                                             </button>

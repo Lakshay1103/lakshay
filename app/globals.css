@@ -891,3 +891,30 @@ div.marquee>a>img {
         font-size: 13px;
     }
 }
+
+
+/*------------------UNDERLINE ANIMATION --------------------------*/
+
+.underline-animation {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  .underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }

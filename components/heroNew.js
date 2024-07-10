@@ -26,7 +26,7 @@ const HeroNew = () => {
 
             <div className='flex flex-col items-center justify-center h-screen'>
 
-                <div className='hero-title text-white text-[70px] text-center font-extrabold' data-aos="fade-up" data-aos-duration="2000">Transforming Health and Wellness space for</div>
+                <div className='hero-title text-white xl:text-[70px] sm:text-[55px] text-center font-extrabold' data-aos="fade-up" data-aos-duration="2000">Transforming Health and Wellness space for</div>
 
                 <div className="text-rotate-wrap mt-5">
                     <div

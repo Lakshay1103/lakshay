@@ -25,9 +25,9 @@ const Carousel = () => {
 
     const slides = [
         [
-            <div key="slide1" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
+            <div key="slide1" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-[#249349]">
 
-                <div className='border-2 border-[#32CD32] text-white rounded-lg mt-2'>
+                <div className='border-2 border-[#F16D25] text-white rounded-lg mt-2'>
 
                     <div className='w-[300px] text-white font-normal flex flex-col justify-center items-start'>
 
@@ -63,9 +63,9 @@ const Carousel = () => {
             </div>
             ,
 
-            <div key="slide2" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
+            <div key="slide2" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-[#249349]">
 
-                <div className='border-2 border-[#32CD32] text-white rounded-lg mt-2'>
+                <div className='border-2 border-[#F16D25] text-white rounded-lg mt-2'>
                     <div className='w-[300px] text-white font-normal flex flex-col items-start'>
 
                         <div className='p-2 flex justify-start items-start'>
@@ -95,8 +95,8 @@ const Carousel = () => {
 
             </div>,
 
-            <div key="slide3" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
-                <div className='border-2 border-[#32CD32] text-white rounded-lg mt-2'>
+            <div key="slide3" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-[#249349]">
+                <div className='border-2 border-[#F16D25] text-white rounded-lg mt-2'>
                     <div className='w-[300px] text-white font-normal flex flex-col items-start'>
 
                         <div className='p-4 flex justify-start items-center'>
@@ -131,9 +131,9 @@ const Carousel = () => {
         ],
         [
 
-            <div key="slide4" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
+            <div key="slide4" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-[#249349]">
 
-                <div className='border-2 border-[#32CD32] text-white rounded-lg mt-2'>
+                <div className='border-2 border-[#F16D25] text-white rounded-lg mt-2'>
 
                     <div className='w-[300px] text-white font-normal flex flex-col items-start'>
 
@@ -165,9 +165,9 @@ const Carousel = () => {
 
             </div>,
 
-            <div key="slide5" id='reels' className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
+            <div key="slide5" id='reels' className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-[#249349]">
 
-                <div className='border-2 border-[#32CD32] text-white rounded-lg mt-2'>
+                <div className='border-2 border-[#F16D25] text-white rounded-lg mt-2'>
                     <div className='w-[300px]  font-normal flex flex-col items-start'>
 
                         <div className='p-2 flex justify-start items-start'>
@@ -196,9 +196,9 @@ const Carousel = () => {
 
             </div>,
 
-            <div key="slide6" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 border-blue-600 rounded-lg">
+            <div key="slide6" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 border-[#249349] rounded-lg">
 
-                <div className='border-2 border-[#32CD32] text-white rounded-lg mt-2'>
+                <div className='border-2 border-[#F16D25] text-white rounded-lg mt-2'>
 
                     <div className='w-[300px] text-white font-normal flex flex-col items-start'>
 
@@ -234,9 +234,9 @@ const Carousel = () => {
         ],
         [
 
-            <div key="slide7" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
+            <div key="slide7" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-[#249349]">
 
-                <div className='border-2 border-[#32CD32] text-white rounded-lg mt-2'>
+                <div className='border-2 border-[#F16D25] text-white rounded-lg mt-2'>
                     <div className='w-[300px] text-white font-normal flex flex-col items-start'>
 
                         <div className='p-2 flex justify-start items-start'>
@@ -271,9 +271,9 @@ const Carousel = () => {
 
 
 
-            <div key="slide8" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
+            <div key="slide8" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-[#249349]">
 
-                <div className='border-2 border-[#32CD32] text-white rounded-lg mt-2'>
+                <div className='border-2 border-[#F16D25] text-white rounded-lg mt-2'>
 
                     <div className='w-[300px] text-white font-normal flex flex-col items-start'>
 
@@ -308,9 +308,9 @@ const Carousel = () => {
             </div>,
 
 
-            <div key="slide9" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
+            <div key="slide9" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-[#249349]">
 
-                <div className='border-2 border-[#32CD32] text-white rounded-lg mt-2'>
+                <div className='border-2 border-[#F16D25] text-white rounded-lg mt-2'>
 
                     <div className='w-[300px] text-white font-normal flex flex-col items-start'>
 
@@ -346,36 +346,38 @@ const Carousel = () => {
     ];
 
     return (
-        <div style={{ backgroundImage: "linear-gradient(rgba(14,47,49,0.75), rgba(0,0,0,0.75)), url('/1.svg')" }}>
-        <div
-            style={{ width: '95%', margin: '0 auto' }}
-            data-aos='fade-up'
-            data-aos-duration="1500"
+        <div className='pb-20'
+            style={{ backgroundImage: "linear-gradient(rgba(14,47,49,0.75), rgba(14,47,49,0.75)), url('/2.jpg')" }}
         >
+            <div
+                style={{ width: '95%', margin: '0 auto' }}
+                data-aos='fade-up'
+                data-aos-duration="1500"
+            >
 
-            <div id="reels" className='flex justify-center items-center mb-5'>
-                <h1 className='text-white text-[48px] font-bold mt-28'>Snippets of <span className='text-[#32CD32] text-[48px] font-bold'>Satisfaction</span></h1>
+                <div id="reels" className='flex justify-center items-center mb-5'>
+                    <h1 className='text-white text-[48px] font-bold mt-28'>Snippets of <span className='text-[#32CD32] text-[48px] font-bold'>Satisfaction</span></h1>
 
-            </div>
+                </div>
 
-            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                <div className='flex justify-center items-center'
-                    data-aos='fade-right'
-                    data-aos-duration="1000"
-                >
-                    <button onClick={handlePrevSlide} className='text-white text-5xl'><FaChevronLeft /></button>
+                <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                    <div className='flex justify-center items-center'
+                        data-aos='fade-right'
+                        data-aos-duration="1000"
+                    >
+                        <button onClick={handlePrevSlide} className='text-white text-5xl'><FaChevronLeft /></button>
+                    </div>
+                    <div className='flex justify-between w-[95%]'>
+                        {slides[currentSlide]}
+                    </div>
+                    <div className='flex justify-center items-center'
+                        data-aos='fade-left'
+                        data-aos-duration="1000"
+                    >
+                        <button onClick={handleNextSlide} className='text-white text-5xl'><FaChevronRight /></button>
+                    </div>
                 </div>
-                <div className='flex justify-between w-[95%]'>
-                    {slides[currentSlide]}
-                </div>
-                <div className='flex justify-center items-center'
-                    data-aos='fade-left'
-                    data-aos-duration="1000"
-                >
-                    <button onClick={handleNextSlide} className='text-white text-5xl'><FaChevronRight /></button>
-                </div>
-            </div>
-        </div >
+            </div >
         </div>
     );
 };
