@@ -14,21 +14,21 @@ const Steps = () => {
 
     return (
         <div
-            className='flex flex-col bg-center h-screen justify-center items-center'
-            style={{ backgroundImage: "linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('/bg-svg-1.png')" }}
+            className='flex flex-col h-[750px] justify-center items-center mt-20 '
+            style={{ backgroundImage: "linear-gradient(rgba(14,47,49,0.75), rgba(14,47,49,0.75)), url('/2.jpg')" }}
 
         >
 
             <div
-                className='steps-title text-white text-[52px] sm:text-3xl md:text-4xl lg:text-5xl text-center font-extrabold mt-24 leading-[60px]'
+                className='steps-title text-white text-[52px] sm:text-3xl md:text-4xl lg:text-5xl text-center font-extrabold  leading-[60px]'
                 data-aos='fade-up'
                 data-aos-duration="1000"
             >
                 Our
-                <span className='text-[#32CD32]'> 3-Step System</span> <br /> for Seamless Social Media Growth
+                <span className='text-[#F16D25]'> 3-Step System</span> <br /> for Seamless Social Media Growth
             </div>
 
-            <div className='text-white text-xl sm:text-lg text-center font-light'>
+            <div className='text-white text-xl sm:text-lg text-center font-light mt-10'>
                 Unlock the potential of your social media <br /> journey with our proven system!
             </div>
 
@@ -41,7 +41,7 @@ const Steps = () => {
                 <div className='w-1/3 text-center flex flex-col justify-center items-center'>
                     <svg
 
-                        className='lg:w-40 lg:h-40 md:w-32 md:h-32 sm:w-24 sm:h-24 rounded-full  bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400'
+                        className='lg:w-40 lg:h-40 md:w-32 md:h-32 sm:w-24 sm:h-24 rounded-full  bg-[#249349]'
                         width="145" height="133" viewBox="0 0 145 133" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <mask id="mask0_303_54" maskUnits="userSpaceOnUse" x="36" y="33" width="73" height="67">
                             <path d="M36.3395 33.4963H108.481V99.6499H36.3395V33.4963Z" fill="white" />
@@ -71,7 +71,7 @@ const Steps = () => {
                     <svg
                         data-aos='fade-right'
                         data-aos-duration="1200"
-                        className='lg:w-40 lg:h-40 md:w-32 md:h-32 sm:w-24 sm:h-24 rounded-full bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400'
+                        className='lg:w-40 lg:h-40 md:w-32 md:h-32 sm:w-24 sm:h-24 rounded-full bg-[#249349]'
 
                         width="147" height="149" viewBox="0 0 147 149" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <mask id="mask0_303_32" maskUnits="userSpaceOnUse" x="35" y="36" width="56" height="37">
@@ -115,7 +115,7 @@ const Steps = () => {
                     <svg
                         data-aos='fade-right'
                         data-aos-duration="1500"
-                        className='lg:w-40 lg:h-40 md:w-32 md:h-32 sm:w-24 sm:h-24 rounded-full  bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400'
+                        className='lg:w-40 lg:h-40 md:w-32 md:h-32 sm:w-24 sm:h-24 rounded-full bg-[#249349]'
 
                         width="164" height="161" viewBox="0 0 164 161" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <mask id="mask0_303_72" maskUnits="userSpaceOnUse" x="38" y="37" width="88" height="86">

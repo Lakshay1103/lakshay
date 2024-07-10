@@ -15,13 +15,14 @@ export default function AccordionExpandIcon() {
     }, []);
     return (
         <div
-            className='flex flex-col justify-center items-center mt-20'
+            className='flex flex-col justify-center items-center py-20'
             data-aos='fade-up'
+            style={{ backgroundImage: "linear-gradient(rgba(14,47,49,0.75), rgba(14,47,49,0.75)), url('/2.jpg')" }}
             data-aos-duration="1000"
         >
 
             <div className='text-center'>
-                <h1 className='text-white text-[48px] font-bold m-0 p-0'>FAQs</h1>
+                <h1 className='text-white text-[48px] font-bold m-0 p-0'>Frequently Asked <span className='text-[#F16D25]'>Questions</span></h1>
                 <p className='text-white text-sm m-0 p-0'>Your burning questions answered!</p>
             </div>
 
@@ -32,7 +33,7 @@ export default function AccordionExpandIcon() {
             >
 
                 <Accordion
-                    className='bg-gradient-to-r from-black to-gray-900  mb-4'
+                    className='bg-[#384B59] mb-4'
                 >
                     <AccordionSummary
                         className=' rounded-lg p-3'
@@ -77,7 +78,7 @@ export default function AccordionExpandIcon() {
                 </Accordion> */}
 
                 <Accordion
-                    className='bg-gradient-to-r from-black to-gray-900 mb-4'
+                    className='bg-[#384B59] mb-4'
 
                 >
                     <AccordionSummary
@@ -100,7 +101,7 @@ export default function AccordionExpandIcon() {
 
 
                 <Accordion
-                    className='bg-gradient-to-r from-black to-gray-900 mb-4'
+                    className='bg-[#384B59] mb-4'
                 >
                     <AccordionSummary
                         className=' rounded-lg p-3'

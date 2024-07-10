@@ -1,7 +1,20 @@
-import { League_Spartan } from "next/font/google";
 import "./globals.css";
+import localFont from 'next/font/local'
 
-const league = League_Spartan({ subsets: ["latin"] });
+const cygroteskkey = localFont({
+  src: [
+    {
+      path: '../public/fonts/cy-grotesk-key-regular.ttf',
+      weight: '400'
+    },
+    {
+      path: '../public/fonts/cy-grotesk-key-bold.ttf',
+      weight: '700'
+    },
+  ],
+  variable: '--font-cygroteskkey'
+})
+
 
 export const metadata = {
   title: "Sociowell",
@@ -11,7 +24,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={league.className}>{children}</body>
+      <body className={cygroteskkey.className}>{children}</body>
     </html>
   );
 }
