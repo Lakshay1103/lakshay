@@ -33,7 +33,7 @@ export default function AccordionExpandIcon() {
             >
 
                 <Accordion
-                    className='bg-[#384B59] mb-4'
+                    className='bg-gray-600 mb-4'
                 >
                     <AccordionSummary
                         className=' rounded-lg p-3'
@@ -78,7 +78,7 @@ export default function AccordionExpandIcon() {
                 </Accordion> */}
 
                 <Accordion
-                    className='bg-[#384B59] mb-4'
+                    className='bg-gray-600 mb-4'
 
                 >
                     <AccordionSummary
@@ -101,7 +101,7 @@ export default function AccordionExpandIcon() {
 
 
                 <Accordion
-                    className='bg-[#384B59] mb-4'
+                    className='bg-gray-600 mb-4'
                 >
                     <AccordionSummary
                         className=' rounded-lg p-3'
