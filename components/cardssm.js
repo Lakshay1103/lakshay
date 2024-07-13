@@ -11,9 +11,11 @@ const Cardssm = () => {
     }, []);
 
     return (
-        <div id='testimonials' className='flex flex-col justify-center items-center'>
+        <div id='testimonials' className='flex flex-col justify-center items-center'
+            style={{ backgroundImage: "linear-gradient(rgba(14,47,49,0.75), rgba(14,47,49,0.75)), url('/2.jpg')" }}
+        >
             <div
-                className='bg-white flex justify-center items-center h-[400px] w-10/12 rounded-2xl'
+                className='bg-white flex justify-center items-center h-[450px] w-10/12 rounded-2xl'
                 style={{
                     backgroundImage: "linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)),url('/Rectangle.svg')",
                 }}
@@ -25,7 +27,7 @@ const Cardssm = () => {
                     <h2 className="font-bold">OUR TESTIMONIALS</h2>
 
                     <h1 className="text-black text-[48px] sm:text-[30px] md:text-[36px]  text-center font-bold">Real People,</h1>
-                    <h1 className="text-[#32CD32] text-[48px] sm:text-[30px] md:text-[36px] font-bold -mt-4">Real Feedback!</h1>
+                    <h1 className="text-[#32CD32] text-[48px] sm:text-[30px] md:text-[36px] font-bold -mt-4 text-nowrap">Real Feedback!</h1>
                     <p className="text-2xl sm:text-sm md:text-md font-bold mt-1">
                         Hear What Our Clients Have to Say!
                         <br />

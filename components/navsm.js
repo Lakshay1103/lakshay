@@ -31,7 +31,7 @@ const Navsm = () => {
     return (
         <div>
             <nav
-                className={`flex justify-between items-center py-4 px-6 bg-black text-white fixed top-0 left-0 right-0 z-50`}
+                className={`flex justify-between items-center py-4 px-6 bg-[#0E2F31] text-white fixed top-0 left-0 right-0 z-50`}
                 data-aos="slide-down" data-aos-duration="1500"
             >
 

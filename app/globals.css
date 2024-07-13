@@ -412,7 +412,7 @@ div.marquee>a>img {
         font-weight: 700;
         line-height: 1.2;
         display: flex;
-        font-size: 60px;
+        font-size: 40px;
         /* Updated font size */
     }
 
@@ -768,18 +768,18 @@ div.marquee>a>img {
         text-align: center;
         box-sizing: border-box;
         min-height: 60px;
-        color: #fff;
+        color: #F16D25;
         justify-content: center;
         align-items: center;
         font-weight: 700;
         line-height: 1.2;
         display: flex;
-        font-size: 45px;
+        font-size: 30px;
         /* Updated font size */
     }
 
     .text-rotate {
-        animation: rotateAnimation 9s linear infinite;
+        animation: rotateAnimation 8s linear infinite;
     }
 
     @keyframes rotateAnimation {
@@ -790,23 +790,23 @@ div.marquee>a>img {
         }
 
         16.66% {
-            transform: translateY(-60px);
+            transform: translateY(-50px);
         }
 
         33.33% {
-            transform: translateY(-120px);
+            transform: translateY(-100px);
         }
 
         50% {
-            transform: translateY(-180px);
+            transform: translateY(-150px);
         }
 
         66.66% {
-            transform: translateY(-240px);
+            transform: translateY(-200px);
         }
 
         83.33% {
-            transform: translateY(-360px);
+            transform: translateY(-250px);
         }
     }
 

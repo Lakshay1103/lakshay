@@ -19,10 +19,10 @@ const About = () => {
                 data-aos-duration="1000"
             >
 
-                <div className='w-2/5 flex justify-center items-center'>
+                <div className='w-2/5 flex justify-center items-center flex-col md:flex-row'>
 
                     <div
-                        className='flex justify-center items-center'
+                        className='flex justify-center items-center w-[300px] h-[300px]'
                         data-aos='fade-right'
                         data-aos-duration="1000"
                     >
@@ -30,7 +30,7 @@ const About = () => {
                     </div>
 
                     <div
-                        className='about-icons flex flex-col justify-between items-center mt-4 bg-[#249349] h-52'
+                        className='about-icons flex flex-col justify-between items-center mt-4 bg-[#249349] md:h-52'
                         data-aos='fade-right'
                         data-aos-duration="1200"
                     >
@@ -41,7 +41,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className='about-description p-10 pr-0 w-3/5'
+                <div className='about-description p-10 pr-0 md:w-3/5 w-10/12'
                     data-aos='fade-right'
                     data-aos-duration="1500"
                 >
