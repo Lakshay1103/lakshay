@@ -338,8 +338,8 @@ const Carouselsm = () => {
 
     return (
         <div
-            style={{ width: '95%', margin: '0 auto', marginTop: '20px' }}
-            className='flex flex-col justify-center items-center'
+            style={{ width: '100%', margin: '0 auto', backgroundImage: "linear-gradient(rgba(14,47,49,0.75), rgba(14,47,49,0.75)), url('/2.jpg')" }}
+            className='flex flex-col justify-center items-center '
             data-aos='fade-up'
             data-aos-duration="1500"
             id="reels"

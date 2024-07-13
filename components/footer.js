@@ -16,24 +16,26 @@ const Footer = () => {
         <div className='flex flex-col justify-center items-center'>
 
             <div
-                className='footer-CTA w-full h-[600px] bg-center bg-cover flex flex-col justify-center items-center py-20'
-
                 style={{ backgroundImage: "linear-gradient(rgba(14,47,49,0.75), rgba(14,47,49,0.75)), url('/bg-2-1.jpeg')" }}
-
-                data-aos='fade-up'
-                data-aos-duration="1000"
+                className='bg-center bg-cover flex justify-center items-center'
             >
 
-                <p className='text-[#F16D25] font-bold my-4'>ARE YOU READY</p>
+                <div
+                    className='footer-CTA w-full h-[600px] bg-center bg-cover flex flex-col justify-center items-center py-20'
+                    data-aos='fade-up'
+                    data-aos-duration="1000"
+                >
 
-                <h1 className='text-white text-[70px] font-bold text-center leading-[70px]'>To Build Something <br />Worthwhile?</h1>
+                    <p className='text-[#F16D25] font-bold my-4'>ARE YOU READY</p>
 
-                <button class="bg-[#249349] text-white font-bold border border-white rounded-full p-4 px-5 mt-5 hover:text-[#249349] hover:bg-white transition duration-300 ease-in-out"
-                    onClick={() => window.open('https://calendly.com/sociowell/work-with-us', '_blank')}>
-                    GET STARTED
-                </button>
+                    <h1 className='text-white text-[70px] font-bold text-center leading-[70px]'>To Build Something <br />Worthwhile?</h1>
+
+                    <button class="bg-[#249349] text-white font-bold border border-white rounded-full p-4 px-5 mt-5 hover:text-[#249349] hover:bg-white transition duration-300 ease-in-out"
+                        onClick={() => window.open('https://calendly.com/sociowell/work-with-us', '_blank')}>
+                        GET STARTED
+                    </button>
+                </div>
             </div>
-
 
             <div
                 className='w-full h-[300px] bg-cover bg-center bg-no-repeat flex justify-center items-center border-t-2 border-white'
