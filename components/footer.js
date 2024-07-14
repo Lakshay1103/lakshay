@@ -5,6 +5,7 @@ import { FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa6";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import Link from 'next/link';
 
 
 const Footer = () => {
@@ -38,22 +39,22 @@ const Footer = () => {
             </div>
 
             <div
-                className='w-full h-[300px] bg-cover bg-center bg-no-repeat flex justify-center items-center border-t-2 border-white'
+                className='w-full bg-cover bg-center bg-no-repeat flex justify-center items-center border-t-2 border-white'
                 data-aos='fade-up'
                 data-aos-duration="1000"
             >
 
-                <div className='footer w-8/12 flex justify-center items-center mt-10'>
+                <div className='footer w-9/12 flex justify-center items-center mt-10'>
                     <div className='footer-text w-1/2 flex flex-col justify-center items-start'>
                         {/* Logo */}
-                        <img src="/logo/Sociowell-2.png" alt="Logo" className='w-56 bg-white p-2 rounded-full mt-5' />
+                        <img src="/logo/Sociowell-2.png" alt="Logo" className='w-60 bg-white px-4 rounded-full mt-5' />
 
-                        <a href="mailto:info@sociowell.com" className='text-lg text-bold text-white underline-animation'>
+                        <a href="mailto:info@sociowell.com" className='text-lg text-bold text-white underline-animation ml-4'>
                             info@sociowell.com
                         </a>
 
                         {/* Social Icons */}
-                        <div className='footer-icons flex justify-between items-center w-40 mt-5 '>
+                        <div className='footer-icons flex justify-between items-center w-40 mt-5 ml-4'>
                             <a href="https://www.instagram.com/sociowell/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white hover:text-[#249349]'><FaInstagram /></a>
                             <a href="https://www.linkedin.com/company/sociowell/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white hover:text-[#249349]'><FaLinkedin /></a>
                             <a href="https://www.youtube.com/channel/UCDvg7NV5ikI0KxikCWdmX9A" target="_blank" rel="noopener noreferrer" className='text-4xl text-white hover:text-[#249349]'><FaYoutube /></a>
@@ -62,6 +63,7 @@ const Footer = () => {
                     </div>
 
                     <div className='footer-form w-1/2 flex flex-col justify-center items-center'>
+
                         <p className="text-center text-xl mt-2 font-semibold text-white">Stay Inspired – Sign up for regular updates!</p>
 
                         {/* 
@@ -95,15 +97,21 @@ const Footer = () => {
                             </div>
                         </form>
 
+                        <div className='flex flex-col sm:flex-row justify-center items-center mt-5 text-white text-nowrap text-sm md:text-lg'>
+
+                            <Link className='border-r-2 border-white px-4' href="/privacy"><span className='underline-animation'>Privacy Policy</span></Link>
+                            <Link className='border-r-2 border-white px-4 ' href="/refund"><span className='underline-animation'>Refund Policy</span></Link>
+                            <Link className='p-2' href="/terms"><span className='underline-animation'>Terms of Use</span></Link>
+
+                        </div>
+
                     </div>
                 </div>
-
-
 
             </div>
 
 
-        </div>
+        </div >
     )
 }
 
