@@ -17,7 +17,7 @@ const Footer = () => {
 
             <div
                 style={{ backgroundImage: "linear-gradient(rgba(14,47,49,0.75), rgba(14,47,49,0.75)), url('/bg-2-1.jpeg')" }}
-                className='bg-center bg-cover flex justify-center items-center'
+                className='bg-center bg-cover flex justify-center items-center w-full'
             >
 
                 <div
@@ -28,7 +28,7 @@ const Footer = () => {
 
                     <p className='text-[#F16D25] font-bold my-4'>ARE YOU READY</p>
 
-                    <h1 className='text-white text-[70px] font-bold text-center leading-[70px]'>To Build Something <br />Worthwhile?</h1>
+                    <h1 className='text-white text-4xl md:text-[70px] font-bold text-center md:leading-[70px]'>To Build Something <br />Worthwhile?</h1>
 
                     <button class="bg-[#249349] text-white font-bold border border-white rounded-full p-4 px-5 mt-5 hover:text-[#249349] hover:bg-white transition duration-300 ease-in-out"
                         onClick={() => window.open('https://calendly.com/sociowell/work-with-us', '_blank')}>
@@ -46,23 +46,23 @@ const Footer = () => {
                 <div className='footer w-8/12 flex justify-center items-center mt-10'>
                     <div className='footer-text w-1/2 flex flex-col justify-center items-start'>
                         {/* Logo */}
-                        <img src="/logo/Sociowell-2.png" alt="Logo" className='w-56' />
+                        <img src="/logo/Sociowell-2.png" alt="Logo" className='w-56 bg-white p-2 rounded-full mt-5' />
 
-                        <a href="mailto:letsgolakshay@gmail.com" className='text-lg text-bold text-white underline-animation'>
-                            letsgolakshay@gmail.com
+                        <a href="mailto:info@sociowell.com" className='text-lg text-bold text-white underline-animation'>
+                            info@sociowell.com
                         </a>
 
                         {/* Social Icons */}
                         <div className='footer-icons flex justify-between items-center w-40 mt-5 '>
-                            <a href="https://www.instagram.com/lakshaygoellll/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white hover:text-[#249349]'><FaInstagram /></a>
-                            <a href="https://www.linkedin.com/in/lakshaygoellll/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white hover:text-[#249349]'><FaLinkedin /></a>
+                            <a href="https://www.instagram.com/sociowell/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white hover:text-[#249349]'><FaInstagram /></a>
+                            <a href="https://www.linkedin.com/company/sociowell/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white hover:text-[#249349]'><FaLinkedin /></a>
                             <a href="https://www.youtube.com/channel/UCDvg7NV5ikI0KxikCWdmX9A" target="_blank" rel="noopener noreferrer" className='text-4xl text-white hover:text-[#249349]'><FaYoutube /></a>
 
                         </div>
                     </div>
 
                     <div className='footer-form w-1/2 flex flex-col justify-center items-center'>
-                        <p className="text-center text-xl mt-2 font-semibold text-white">Subscribe to my newsletter for regular updates!</p>
+                        <p className="text-center text-xl mt-2 font-semibold text-white">Stay Inspired – Sign up for regular updates!</p>
 
                         {/* 
                         <div className='flex justify-between items-center'>

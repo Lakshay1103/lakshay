@@ -22,7 +22,7 @@ export default function AccordionExpandIcon() {
         >
 
             <div className='text-center'>
-                <h1 className='text-white text-[48px] font-bold m-0 p-0'>Frequently Asked <span className='text-[#F16D25]'>Questions</span></h1>
+                <h1 className='text-white leading-tight md:leading-normal text-[30px] md:text-[48px] font-bold m-0 p-0'>Frequently Asked <span className='text-[#F16D25]'>Questions</span></h1>
                 <p className='text-white text-sm m-0 p-0'>Your burning questions answered!</p>
             </div>
 
@@ -47,8 +47,8 @@ export default function AccordionExpandIcon() {
                     </AccordionSummary>
                     <AccordionDetails>
                         <Typography className='text-white'>
-                            • In-depth understanding of the industry <br />
-                            • Team composed of highly passionate and creative individuals <br />
+                            • In-depth understanding of the industry. <br />
+                            • Team composed of highly passionate and creative individuals. <br />
                             • Unique approach that is fuelled by extensive insights in the industry and passion for the space.
                         </Typography>
                     </AccordionDetails>
