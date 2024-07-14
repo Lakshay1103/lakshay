@@ -13,16 +13,17 @@ const About = () => {
 
     return (
 
-        <div className='flex justify-center items-center'>
-            <div id='about' className='about-container flex justify-center items-center mt-20 w-10/12 bg-white p-8 rounded-md'
-                data-aos='fade-up'
-                data-aos-duration="1000"
-            >
+        <div
+            className='flex justify-center items-center pt-24'
+            data-aos='fade-up'
+            data-aos-duration="1000"
+        >
+            <div id='about' className='about-container flex justify-center items-center mt-20 w-10/12 bg-white p-8 rounded-md'            >
 
-                <div className='w-2/5 flex justify-center items-center flex-col md:flex-row'>
+                <div className='image-icons-about w-2/5 flex justify-center items-center flex-col'>
 
                     <div
-                        className='flex justify-center items-center w-[300px] h-[300px]'
+                        className='about-img flex justify-center items-center w-[300px] h-[300px]'
                         data-aos='fade-right'
                         data-aos-duration="1000"
                     >
@@ -30,18 +31,18 @@ const About = () => {
                     </div>
 
                     <div
-                        className='about-icons flex flex-col justify-between items-center mt-4 bg-[#249349] md:h-52'
+                        className='about-icons flex flex-col md:flex-row justify-center items-center md:mt-4 bg-[#249349]'
                         data-aos='fade-right'
                         data-aos-duration="1200"
                     >
-                        <a href="https://www.instagram.com/lakshaygoellll/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white m-4'><FaInstagram /></a>
-                        <a href="https://www.linkedin.com/in/lakshaygoellll/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white m-4'><FaLinkedin /></a>
-                        <a href="https://www.youtube.com/channel/UCDvg7NV5ikI0KxikCWdmX9A" target="_blank" rel="noopener noreferrer" className='text-4xl text-white m-4'><FaYoutube /></a>
+                        <a href="https://www.instagram.com/lakshaygoellll/" target="_blank" rel="noopener noreferrer" className='text-xl md:text-2xl text-white m-2 md:m-4 '><FaInstagram /></a>
+                        <a href="https://www.linkedin.com/in/lakshaygoellll/" target="_blank" rel="noopener noreferrer" className='text-xl md:text-2xl text-white m-2 md:m-4'><FaLinkedin /></a>
+                        <a href="https://www.youtube.com/channel/UCDvg7NV5ikI0KxikCWdmX9A" target="_blank" rel="noopener noreferrer" className='text-xl md:text-3xl text-white m-2 md:m-4'><FaYoutube /></a>
 
                     </div>
                 </div>
 
-                <div className='about-description p-10 pr-0 md:w-3/5 w-10/12'
+                <div className='about-description p-10 pr-0 md:w-3/5 w-full'
                     data-aos='fade-right'
                     data-aos-duration="1500"
                 >

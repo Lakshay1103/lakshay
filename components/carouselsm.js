@@ -22,7 +22,39 @@ const Carouselsm = () => {
     };
 
     const slides = [
+
         <div key="slide1" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
+
+            <div className='reels-text border-2 border-[#32CD32] text-white rounded-lg mt-2'>
+                <div className='w-[300px] text-white font-normal flex flex-col items-start'>
+
+                    <div className='p-2 flex justify-start items-start'>
+                        <img className="w-16 rounded-full" src="/testimonials/sneha.jpg"></img>
+
+                        <div className='reel-title flex flex-col p-2'>
+                            <h1 className='font-extrabold'>Sneha</h1>
+                            <p className='text-sm'>Founder - Arvinda by Sneha</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div className='reels-desc flex justify-center items-center w-[300px]'>
+                    <p className='text-normal leading-5 px-2 py-1 italic '>“I have seen tremendous patience, eye for detail and growth in his work.“</p>
+                </div>
+            </div>
+
+            <div>
+                <iframe width="350" height="450"
+                    className='p-6'
+                    src="https://www.youtube.com/embed/FBS8pGZjZsE?si=jukrFshGqOSx4OCV?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
+                    title="Sneha"
+                    frameborder="0"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+        </div>,
+        <div key="slide2" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
 
             <div className='reels-text border-2 border-[#32CD32] text-white rounded-lg mt-2'>
 
@@ -60,37 +92,6 @@ const Carouselsm = () => {
         </div>,
 
 
-        <div key="slide2" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
-
-            <div className='reels-text border-2 border-[#32CD32] text-white rounded-lg mt-2'>
-                <div className='w-[300px] text-white font-normal flex flex-col items-start'>
-
-                    <div className='p-2 flex justify-start items-start'>
-                        <img className="w-16 rounded-full" src="/testimonials/sneha.jpg"></img>
-
-                        <div className='reel-title flex flex-col p-2'>
-                            <h1 className='font-extrabold'>Sneha</h1>
-                            <p className='text-sm'>Founder - Arvinda by Sneha</p>
-                        </div>
-                    </div>
-
-                </div>
-                <div className='reels-desc flex justify-center items-center w-[300px]'>
-                    <p className='text-normal leading-5 px-2 py-1 italic '>“I have seen tremendous patience, eye for detail and growth in his work.“</p>
-                </div>
-            </div>
-
-            <div>
-                <iframe width="350" height="450"
-                    className='p-6'
-                    src="https://www.youtube.com/embed/FBS8pGZjZsE?si=jukrFshGqOSx4OCV?vq=hd1080&modestbranding=1&rel=0&iv_load_policy=3&controls=0&disablekb=1"
-                    title="Sneha"
-                    frameborder="0"
-                    allowfullscreen>
-                </iframe>
-            </div>
-
-        </div>,
 
         <div key="slide3" className="reel flex flex-col justify-between items-center bg-[#252323] border-gradient border-2 rounded-lg border-blue-600">
 
@@ -344,8 +345,8 @@ const Carouselsm = () => {
             data-aos-duration="1500"
             id="reels"
         >
-            <div className='reels-title flex justify-center items-center mt-20 mb-5'>
-                <h1 className='text-white text-[48px] font-bold'>Snippets of <span className='text-[#32CD32] text-[48px] font-bold'>Satisfaction</span></h1>
+            <div className='reels-title flex justify-center items-center mt-20 mb-5 text-center'>
+                <h1 className='text-white text-[48px] font-bold'>Snippets of <span className='text-[#F16D25] text-[48px] font-bold'>Satisfaction</span></h1>
             </div>
 
             <div className="flex justify-center items-center">

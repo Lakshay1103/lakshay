@@ -32,7 +32,7 @@ const Cardssm = () => {
                         Hear What Our Clients Have to Say!
                         <br />
                     </p>
-                    <p className='font-normal text-sm leading-4'>Our clients share their success stories and showcase how our services have helped them make an impact.</p><br />
+                    <p className='font-normal text-sm leading-4 p-4'>Our clients share their success stories and showcase how our services have helped them make an impact.</p><br />
 
 
                     <div className='bg-blue-700 border-2 text-white sm:text-sm md:text-lg rounded-full py-2 px-4'>Have a look  </div>

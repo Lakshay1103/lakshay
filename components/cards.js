@@ -33,7 +33,7 @@ const Cards = () => {
 
     return (
         <div id='testimonials'
-            className='cards-container'
+            className='cards-container pt-24'
             style={{ backgroundImage: "linear-gradient(rgba(14,47,49,0.75), rgba(14,47,49,0.75)), url('/2.jpg')" }}
 
         >
