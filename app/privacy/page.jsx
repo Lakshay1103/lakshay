@@ -36,7 +36,7 @@ const page = () => {
                 </p>
 
                 <p className='text-[#F16D25] mt-5'>3. Information Sharing & Disclosure</p>
-                <p>a. Client's Ownership: Content produced and published for clients belongs to the clients, and they have full discretion over its distribution.<br />
+                <p>a. Client&apos;s Ownership: Content produced and published for clients belongs to the clients, and they have full discretion over its distribution.<br />
                     b. Service Providers: We may share your information with third-party vendors or service providers who help us provide our services.<br />
                     c. Legal Requirements: We may disclose your information when required by law or when we believe that such action is necessary to comply with the law or legal processes.
                 </p>
@@ -54,7 +54,7 @@ const page = () => {
 
 
                 <p className='text-[#F16D25] mt-5'>7. Changes to This Policy</p>
-                <p>We reserve the right to modify this privacy policy at any time. Any changes made will be reflected here, and the "last updated" date at the top will indicate when the latest changes were made.
+                <p>We reserve the right to modify this privacy policy at any time. Any changes made will be reflected here, and the &quot;last updated&quot; date at the top will indicate when the latest changes were made.
                 </p>
 
                 <p className='text-[#F16D25] mt-5'>8. Contact Us</p>
