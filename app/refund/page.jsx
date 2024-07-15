@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const page = () => {
     return (
@@ -12,6 +13,9 @@ const page = () => {
             </div>
 
             <div className='mx-6 md:mx-32 text-justify text-white text-lg mb-10'>
+
+                <Link className='text-[#F16D25] text-2xl underline-animation my-4 underline font-semibold' href='/'> &larr; Go to home</Link>
+
 
                 <p>Thank you for choosing Sociowell. We appreciate your business and trust. This document outlines our policy regarding refunds.
                 </p>

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const page = () => {
@@ -9,9 +10,12 @@ const page = () => {
                 <h1 className="relative text-white text-3xl font-semibold md:text-5xl">
                     Sociowell - <span className="text-[#F16D25]">Privacy Policy</span>
                 </h1>
+
             </div>
 
             <div className='mx-6 md:mx-32 text-justify text-white text-lg mb-10'>
+
+                <Link className='text-[#F16D25] text-2xl underline-animation my-4 underline font-semibold' href='/'> &larr; Go to home</Link>
 
                 <p>At Sociowell, we value your privacy and are committed to protecting your personal
                     information. This privacy policy outlines our practices concerning the collection,
