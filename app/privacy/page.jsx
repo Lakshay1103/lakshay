@@ -5,8 +5,8 @@ const page = () => {
         <div className='mt-5 flex flex-col justify-center items-center'>
 
             <div className="relative flex justify-center items-center w-full p-10 bg-center my-5">
-                <div className="absolute inset-0 bg-[url('/privacy-bg.jpg')] bg-cover bg-center opacity-50"></div>
-                <h1 className="relative text-white text-xl font-semibold md:text-5xl">
+                <div className="absolute inset-0 bg-[url('/privacy-bg.jpg')] bg-cover bg-center opacity-30"></div>
+                <h1 className="relative text-white text-3xl font-semibold md:text-5xl">
                     Sociowell - <span className="text-[#F16D25]">Privacy Policy</span>
                 </h1>
             </div>
