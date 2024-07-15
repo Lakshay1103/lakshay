@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const page = () => {
     return (
@@ -12,6 +13,9 @@ const page = () => {
             </div>
 
             <div className='mx-6 md:mx-32 text-justify text-white text-lg mb-10'>
+
+                <Link className='text-[#F16D25] text-2xl underline-animation my-4 underline font-semibold' href='/'> &larr; Go to home</Link>
+
 
                 <p>Welcome to Sociowell. This document outlines the terms of use governing the use of our social media management services. By using our services, you agree to be bound by these terms.</p>
 
