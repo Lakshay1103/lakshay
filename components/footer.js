@@ -14,7 +14,7 @@ const Footer = () => {
     }, []);
 
     return (
-        <div className='flex flex-col justify-center items-center'>
+        <div className='flex flex-col justify-center items-center pb-10'>
 
             <div
                 style={{ backgroundImage: "linear-gradient(rgba(14,47,49,0.75), rgba(14,47,49,0.75)), url('/bg-2-1.jpeg')" }}
@@ -27,7 +27,7 @@ const Footer = () => {
                     data-aos-duration="1000"
                 >
 
-                    <p className='text-[#F16D25] font-bold my-4'>ARE YOU READY</p>
+                    <p className='text-[#F16D25] text-xl md:text-2xl font-bold my-4'>ARE YOU READY</p>
 
                     <h1 className='text-white text-4xl md:text-[70px] font-bold text-center md:leading-[70px]'>To Build Something <br />Worthwhile?</h1>
 
@@ -47,7 +47,7 @@ const Footer = () => {
                 <div className='footer w-9/12 flex justify-center items-center mt-10'>
                     <div className='footer-text w-1/2 flex flex-col justify-center items-start'>
                         {/* Logo */}
-                        <img src="/logo/Sociowell-2.png" alt="Logo" className='w-60 bg-white px-4 rounded-full mt-5' />
+                        <img src="/logo/sociowell-4.png" alt="Logo" className='w-60 mt-5' />
 
                         <a href="mailto:info@sociowell.com" className='text-lg text-bold text-white underline-animation ml-4'>
                             info@sociowell.com

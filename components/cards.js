@@ -60,7 +60,7 @@ const Cards = () => {
                             <span className='font-bold'>Hear What Our Clients Have to Say! </span><br /><br />
                             Our clients share their success stories and showcase how our services have helped them make an impact.<br /><br />
 
-                            <div className='flex justify-start items-center bg-[#249349] text-white rounded-full p-4 w-[250px]'><span className='mr-5'>Have a look</span> <img src='/arr-long.png' width={30} height={30}></img></div>
+                            <div className='flex justify-start items-center bg-[#249349] text-white rounded-full p-4 w-[230px]'><span className='mr-5'>Have a look</span> <img src='/arr-long.png' width={30} height={30}></img></div>
 
                         </p>
                     </div>
@@ -82,7 +82,7 @@ const Cards = () => {
 
                     <div className="avatar flex items-center">
                         <img src="/testimonials/PoojaDiwedi.jpeg" alt="Pooja" className='w-[50px] h-[50px] rounded-full mr-2' />
-                        <h3 className='panel-heading'>Pooja Diwedi</h3>
+                        <h3 className='panel-heading'>Pooja Diwedi, Founder - Sundarvanam</h3>
                     </div>
                 </div>
 
@@ -104,7 +104,7 @@ const Cards = () => {
 
                     <div className="avatar flex items-center">
                         <img src="/testimonials/sneha.jpg" alt="Anuj" className='w-[50px] rounded-full mr-2' />
-                        <h3 className='panel-heading'>Sneha Arvind</h3>
+                        <h3 className='panel-heading'>Sneha, Founder- Arvinda by Sneha</h3>
                     </div>
                 </div>
 
@@ -124,7 +124,7 @@ const Cards = () => {
 
                     <div className="avatar flex items-center">
                         <img src="/testimonials/anuj.jpg" alt="Anuj" className='w-[50px] h-[50px] rounded-full mr-2' />
-                        <h3 className='panel-heading'>Anuj Kumar</h3>
+                        <h3 className='panel-heading'>Anuj Kumar, Founder - Public and Policy Media</h3>
                     </div>
                 </div>
 

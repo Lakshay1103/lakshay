@@ -34,6 +34,7 @@ const Carouselsm = () => {
                         <div className='reel-title flex flex-col p-2'>
                             <h1 className='font-extrabold'>Sneha</h1>
                             <p className='text-sm'>Founder - Arvinda by Sneha</p>
+                            <p className='text-sm'>Mindfulness Coach</p>
                         </div>
                     </div>
 
