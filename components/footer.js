@@ -54,7 +54,7 @@ const Footer = () => {
                         </a>
 
                         {/* Social Icons */}
-                        <div className='footer-icons flex justify-between items-center w-40 mt-5 ml-4'>
+                        <div className='footer-icons flex justify-between items-center w-36 mt-5 ml-4'>
                             <a href="https://www.instagram.com/sociowell/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white hover:text-[#249349]'><FaInstagram /></a>
                             <a href="https://www.linkedin.com/company/sociowell/" target="_blank" rel="noopener noreferrer" className='text-3xl text-white hover:text-[#249349]'><FaLinkedin /></a>
                             <a href="https://www.youtube.com/channel/UCDvg7NV5ikI0KxikCWdmX9A" target="_blank" rel="noopener noreferrer" className='text-4xl text-white hover:text-[#249349]'><FaYoutube /></a>
