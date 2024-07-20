@@ -85,10 +85,10 @@ const Footer = () => {
                                     <ul className="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
                                     <div data-element="fields" className="seva-fields formkit-fields">
                                         <div className="formkit-field">
-                                            <input className="formkit-input p-3 rounded-md w-80 mt-4" name="email_address" aria-label="Email Address" placeholder="Enter Your Email Address" required="" type="email" data-gtm-form-interact-field-id="0" />
-                                            <button data-element="submit" className="formkit-submit formkit-submit p-3 rounded-md text-white bg-[#249349]">
+                                            <input className="formkit-input p-3 rounded-md w-96 mt-4" name="email_address" aria-label="Email Address" placeholder="Enter Your Email Address" required="" type="email" data-gtm-form-interact-field-id="0" />
+                                            <button data-element="submit" className="formkit-submit formkit-submit p-3 rounded-md text-white bg-[#249349] text-center">
                                                 {/* <div className="formkit-spinner"></div> */}
-                                                <span className="">Subscribe</span>
+                                                <span className="text-center ">Subscribe</span>
                                             </button>
                                         </div>
 
