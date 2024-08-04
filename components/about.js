@@ -18,7 +18,7 @@ const About = () => {
             data-aos='fade-up'
             data-aos-duration="1000"
         >
-            <div id='about' className='about-container flex justify-center items-center mt-20 w-10/12 bg-white p-8 rounded-md'            >
+            <div id='about' className='about-container flex justify-center items-center mt-20 w-10/12 bg-white md:p-8 p-0 py-8 rounded-md'            >
 
                 <div className='image-icons-about w-2/5 flex justify-center items-center flex-col'>
 
@@ -49,7 +49,7 @@ const About = () => {
                     <h2 className='font-bold text-[#F16D25] uppercase'>The Heart behind Sociowell</h2>
                     <h1 className="text-[#249349] text-[48px] font-bold">Hello! I&apos;m Lakshay Goel.</h1>
                     <h3 className='font-bold text-lg -mt-2'>Marketer & Content Creator</h3>
-                    <p className='mt-3 text-lg'>I help people make an impact in the health and wellness space with Content, Branding & Community Building.<br />
+                    <p className='mt-3 text-lg'>I help people make an impact in the health and wellness space with Content, Branding & Community Building.<br /> <br />
                         After having seen major changes in my life due to mindfuness, meditation, fitness and nutrition,
                         this space interests me a lot.<br /> With a passion for bringing change in the lives of people,
                         I started Sociowell- The Go-To Agency for Health and Wellness Marketing.
